@@ -1,16 +1,24 @@
+<link rel="website icon" href="assets/img/logo.png">
 <header>
   <nav>
     <div class="logo">
-      <img src="../res/img/logo.png" alt="Logo">
+      <img src="assets/img/logo.png" alt="Logo">
     </div> 
     <div class="search-bar">
       <input type="text" placeholder="Want to learn?">
-      <button class="explore-btn">Explore &#9662;</button>
+      <div class="dropdown">
+            <button class="dropbtn">Explore &#9662;</button>
+            <div class="dropdown-content">
+                <a href="cybersecurity.php">Cyber Security</a>
+                <a href="#">Web Development</a>
+                <a href="#">Data Science</a>
+            </div>
+       </div> 
     </div>
     <ul class="nav-menu">
       <li><a href="home.php">Home</a></li>
-      <li><a href="aboutus.php">About us</a></li>
-      <li><a href="contact.php">Contact us</a></li>
+      <li><a href="about.php">About us</a></li>
+      <li><a href="contactus.php">Contact us</a></li>
       <li><a href="faq.php">FAQ's</a></li>
       <li><a href="courses.php">Courses</a></li>
     </ul>
@@ -19,8 +27,9 @@
     </div>
   </nav>
 </header>
+
 <style>
-/* Reset default styles */
+
 * {
   margin: 0;
   padding: 0;
@@ -45,6 +54,8 @@ nav {
   height: 40px;
 }
 
+/*Search bar*/
+
 .search-bar {
   display: flex;
   align-items: center;
@@ -60,21 +71,57 @@ nav {
   flex-grow: 1;
 }
 
-.explore-btn {
-  background-color: #4caf50;
-  color: white;
-  padding: 8px 12px;
-  font-size: 14px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  margin-left: 8px;
-  position: relative;
+/*Explore button*/
+
+.dropdown {
+  float: left;
+  overflow: hidden;
 }
 
-.explore-btn.selected {
-  background-color: #1A906B;
+.dropdown .dropbtn {
+  font-size: 16px;  
+  color: #008a60;
+  cursor: pointer;
+  background-color: #baffea;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-family: inherit;
+  margin: 0;
 }
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #fff;
+  border: 3px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #baffae;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/**Menu Items */
 
 .nav-menu {
   display: flex;
@@ -91,6 +138,8 @@ nav {
   font-weight: 500;
 }
 
+/**Signin button */
+
 .auth-button button {
   background-color: #4caf50;
   color: #fff;
@@ -100,15 +149,23 @@ nav {
   font-size: 14px;
   cursor: pointer;
 }
+
 </style>
+
 <script>
+
 const exploreBtn = document.querySelector('.explore-btn');
+const dropdownMenu = document.querySelector('.dropdown-menu');
 const dropdownOptions = document.querySelectorAll('.dropdown-option');
+
+exploreBtn.addEventListener('click', () => {
+  dropdownMenu.style.display = dropdownMenu.style.display === 'block' ? 'none' : 'block';
+});
 
 dropdownOptions.forEach(option => {
   option.addEventListener('click', () => {
-    exploreBtn.classList.add('selected');
-    exploreBtn.textContent = option.textContent;
+    const url = option.dataset.url;
+    window.location.href = url;
   });
 });
 function redirectToSignIn() {
