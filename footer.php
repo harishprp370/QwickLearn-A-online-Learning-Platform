@@ -66,6 +66,7 @@
 
 .logoname img {
     margin-right: 10px; /* Adjust as needed to add space between image and text */
+    padding-bottom: 15px;
 }
 
 .footer {
@@ -86,6 +87,8 @@
     font-size: 18px;
     margin-bottom: 10px;
     padding-bottom: 15px;
+    padding-top: 15px;
+    border-bottom: 3px solid #6c757d;
 }
 
 .footer-section ul {

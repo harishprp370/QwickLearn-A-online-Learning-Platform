@@ -62,6 +62,7 @@ nav {
   border: 1px solid #ddd;
   border-radius: 4px;
   padding: 4px;
+  width: 500px;
 }
 
 .search-bar input {
@@ -141,7 +142,7 @@ nav {
 /**Signin button */
 
 .auth-button button {
-  background-color: #4caf50;
+  background-color: #20B486;
   color: #fff;
   border: none;
   padding: 8px 16px;
@@ -153,7 +154,6 @@ nav {
 </style>
 
 <script>
-
 const exploreBtn = document.querySelector('.explore-btn');
 const dropdownMenu = document.querySelector('.dropdown-menu');
 const dropdownOptions = document.querySelectorAll('.dropdown-option');
