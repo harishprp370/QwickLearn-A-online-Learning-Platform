@@ -6,30 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
-    <link rel="stylesheet" href="css/contact.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../css/contact.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
 
 </head>
 <body>
 <!-- Header -->
-<link rel="website icon" href="assets/img/logo.png">
+
 <header class="mheader">
   <nav class="navi">
     <div class="logo">
-      <img src="assets/img/logo.png" alt="Logo">
+      <img src="../assets/img/logo.png" alt="Logo">
     </div>
     <div class="search-bar">
       <input type="text" placeholder="Want to learn?">
       <div class="dropdown">
-        <button class="btn btn-secondary dropdown-toggle" type="button" id="exploreDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Explore
-        </button>
-        <div class="dropdown-menu" aria-labelledby="exploreDropdown">
-          <a class="dropdown-item" href="cybersecurity.html">Cyber Security</a>
-          <a class="dropdown-item" href="#">Web Development</a>
-          <a class="dropdown-item" href="#">Data Science</a>
+        <button class="dropbtn">Explore &#9662;</button>
+        <div class="dropdown-content">
+            <a href="cybersecurity.php">Cyber Security</a>
+            <a href="#">Web Development</a>
+            <a href="#">Data Science</a>
         </div>
-      </div>
+   </div> 
     </div>
     <ul class="nav-menu">
       <li><a href="home.html">Home</a></li>
@@ -144,7 +144,7 @@
 <footer style="background-color: #023748; padding: 20px; ">
   <div class="foo-container">
       <div class="logoname">
-          <img src="assets/img/logo.png" alt="logo">
+          <img src="../assets/img/logo.png" alt="logo">
           <h2 style="color: white;">Qwicklearn</h2>
       </div>
       <hr>   
@@ -194,7 +194,7 @@
 </body>
 </html>
 
-<script src="js/script.js"></script>
+<script src="../js/script.js"></script>
 <script>
   const inputs = document.querySelectorAll(".input");
 

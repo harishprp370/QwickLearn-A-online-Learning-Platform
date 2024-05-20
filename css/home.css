@@ -1,11 +1,10 @@
-/*Header Styles*/
-
-header {
+ /*Header*/
+ .mheader {
   background-color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-nav {
+.navi {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -89,16 +88,16 @@ nav {
 
 /**Menu Items */
 
-.nav-menu {
+.nav-menus {
   display: flex;
   list-style: none;
 }
 
-.nav-menu li {
+.nav-menus li {
   margin-left: 20px;
 }
 
-.nav-menu li a {
+.nav-menus li a {
   text-decoration: none;
   color: #333;
   font-weight: 500;
@@ -116,11 +115,13 @@ nav {
   cursor: pointer;
 }
 
+/*Hero Section*/
+
 .hero {
     position: relative;
     text-align: left;
     color: #000000;
-    padding: 50px 0;
+    padding: 60px 0;
 }
 .hero img {
     width: 100%;
@@ -131,7 +132,7 @@ nav {
 .hero-content {
     position: absolute;
     top: 30%;
-    left: 45%;
+    left: 50%;
     transform: translate(-50%, -50%);
     color: #000000;
 }
@@ -140,22 +141,6 @@ nav {
     line-height: 90px;
     font-weight: bold;
     margin-bottom: 20px;
-}
-.typing-text {
-  font-size: 2rem;
-  font-weight: bold;
-  white-space: pre;
-}
-
-.cursor {
-  font-weight: bold;
-  animation: blink 0.8s infinite;
-}
-
-@keyframes blink {
-  50% {
-    opacity: 0;
-  }
 }
 .hero-content p {
     font-size: 1.2em;
@@ -192,11 +177,11 @@ span{
 
 /*About Section*/
 .about-section {
-    padding: 60px 60px;
+    padding: 60px 0;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     width: 90%;
-    margin: auto;
+    margin: 5%;
   }
   
   .about-content h2 {
@@ -223,7 +208,7 @@ span{
   .about-image img {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin-left: 30%;
+    margin-left: auto;
   }
 
   .btn-learn-more {
@@ -243,7 +228,7 @@ span{
   border-radius: 10px;
   width: 90%;
   height: auto;
-  margin: 70px;
+  margin: 5%;
   
 }
 .card {
