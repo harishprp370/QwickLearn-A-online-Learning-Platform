@@ -451,7 +451,9 @@ inputs.forEach((input) => {
   input.addEventListener("focus", focusFunc);
   input.addEventListener("blur", blurFunc);
 });
-
+function redirectToSignIn() {
+  window.location.href = 'signin.html';
+}
 
 </script>
 

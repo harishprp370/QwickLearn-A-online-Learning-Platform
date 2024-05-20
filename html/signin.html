@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qwuick Learn - A online Learning Platform</title>
+    <link rel="stylesheet" href="css/signin.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  </head>
+<body> 
+      <!-- Header -->
+      <link rel="website icon" href="assets/img/logo.png">
+      <header class="mheader">
+        <nav class="navi">
+          <div class="logo">
+            <img src="assets/img/logo.png" alt="Logo">
+          </div>
+          <div class="search-bar">
+            <input type="text" placeholder="Want to learn?">
+            <div class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="exploreDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Explore
+              </button>
+              <div class="dropdown-menu" aria-labelledby="exploreDropdown">
+                <a class="dropdown-item" href="cybersecurity.html">Cyber Security</a>
+                <a class="dropdown-item" href="#">Web Development</a>
+                <a class="dropdown-item" href="#">Data Science</a>
+              </div>
+            </div>
+          </div>
+          <ul class="nav-menu">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About us</a></li>
+            <li><a href="contactus.html">Contact us</a></li>
+            <li><a href="faq.html">FAQ's</a></li>
+            <li><a href="courses.html">Courses</a></li>
+          </ul>
+          <div class="auth-button">
+            <button onclick="redirectToSignIn()">Sign up or Sign in</button>
+          </div>
+        </nav>
+      </header>
+
+      
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <div class="card mt-5">
+          <div class="card-body">
+            <h3 class="card-title text-center">Login to your account</h3>
+            <form>
+              <div class="form-group">
+                <label for="email">E-Mail Id or Mobile Number</label>
+                <input type="text" class="form-control" id="email" placeholder="Enter email or mobile number">
+              </div>
+              <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" class="form-control" id="password" placeholder="Enter password">
+              </div>
+              <button style="width:200px; margin-left:130px;" type="submit" class="btn btn-primary btn-block">Submit</button>
+            </form>
+            <div class="text-center mt-3">
+              <p>Don't have an account? <a href="signup.html">Click Here to Sign Up</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Link to Bootstrap JS -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
