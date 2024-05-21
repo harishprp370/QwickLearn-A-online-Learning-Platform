@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qwuick Learn - A online Learning Platform</title>
+    <link rel="stylesheet" href="../css/signin.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+  </head>
+<body> 
+      <!-- Header -->
+
+<header class="mheader">
+  <nav class="navi">
+    <div class="logo">
+      <img src="../assets/img/logo.png" alt="Logo">
+    </div>
+    <div class="search-bar">
+      <input type="text" placeholder="Want to learn?">
+      <div class="dropdown">
+        <button class="dropbtn">Explore &#9662;</button>
+        <div class="dropdown-content">
+            <a href="#">Cyber Security</a>
+            <a href="#">Web Development</a>
+            <a href="#">Data Science</a>
+        </div>
+   </div> 
+    </div>
+    <ul class="nav-menu">
+      <li><a href="home.html">Home</a></li>
+      <li><a href="about.html">About us</a></li>
+      <li><a href="contactus.html">Contact us</a></li>
+      <li><a href="faq.html">FAQ's</a></li>
+      <li><a href="courses.html">Courses</a></li>
+    </ul>
+    <div class="auth-button">
+      <button onclick="redirectToSignIn()">Sign up or Sign in</button>
+    </div>
+  </nav>
+</header>
+
+      
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <div class="card mt-5">
+          <div class="card-body">
+            <h3 class="card-title text-center">Login to your account</h3>
+            <form>
+              
+                <div class="radio-btn">
+                  <input type="radio" name="role" value="learner">
+                  <label for="role">Learner</label>
+                  
+                  <input type="radio" name="role" value="Instruct">
+                  <label for="role">Instructor</label>
+              </div>
+              
+              <div class="form-group">
+                <label for="email">E-Mail Id or Mobile Number</label>
+                <input type="text" class="form-control" id="email" placeholder="Enter email or mobile number">
+              </div>
+              <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" class="form-control" id="password" placeholder="Enter password">
+              </div>
+              <button style="width:150px; margin-left:35%;" type="submit" class="btn btn-primary">Submit</button>
+            </form>
+            <div class="text-center mt-3">
+              <p>Don't have an account? <a href="signup.html">Click Here to Sign Up</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Link to Bootstrap JS -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
