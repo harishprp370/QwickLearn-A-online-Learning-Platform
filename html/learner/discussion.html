@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QwickLearn - Student Dashboard</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="../../css/home.css">
+    <link rel="stylesheet" href="../../css/learner/dashboard.css">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+     
+<!-- Header -->
+<header class="mheader">
+    <nav class="navi">
+      <div class="logo"> 
+        <img src="../../assets/img/logo.png" alt="Logo">
+      </div>
+      <div class="search-bar">
+        <input type="text" placeholder="Want to learn?">
+        <div class="dropdown">
+          <button class="dropbtn">Explore &#9662;</button>
+          <div class="dropdown-content">
+              <a href="#">Cyber Security</a>
+              <a href="#">Web Development</a>
+              <a href="#">Data Science</a>
+          </div>
+     </div> 
+      </div>
+      <ul class="nav-menus">
+        <li><a href="home.html">Home</a></li>
+        <li><a href="about.html">About us</a></li>
+        <li><a href="contactus.html">Contact us</a></li>
+        <li><a href="faq.html">FAQ's</a></li>
+        <li><a href="courses.html">Courses</a></li>
+      </ul>
+
+    </nav>
+  </header>
+
+<main>
+    <aside>
+      <div class="sidebar">
+        <div class="logo-details">
+          <img src="../../assets/img/logo.png" alt="" height="30px" width="30px">
+            <div class="logo_name">Quick Learn</div>
+            <i class='bx bx-menu' id="btn" ></i>
+        </div>
+        <ul class="nav-list">
+          <li>
+              <i class='bx bx-search' ></i>
+             <input type="text" placeholder="Search...">
+             <span class="tooltip">Search</span>
+          </li>
+          <li>
+            <a href="dashboard.html">
+                <i class="fas fa-tachometer-alt"></i> 
+              <span class="links_name">Dashboard</span>
+            </a>
+             <span class="tooltip">Dashboard</span>
+          </li>
+          <li>
+           <a href="myLearning.html">
+            <i class="fas fa-book"></i>
+             <span class="links_name">My Learning</span>
+           </a>
+           <span class="tooltip">My Learning</span>
+         </li>
+         <li>
+           <a href="achivements.html">
+            <i class="fas fa-trophy"></i>
+             <span class="links_name">Achivements</span>
+           </a>
+           <span class="tooltip">Achivements</span>
+         </li>
+         <li>
+           <a href="discussion.html">
+            <i class="fas fa-comments"></i>
+             <span class="links_name">Discussion Forum</span>
+           </a>
+           <span class="tooltip">Discussion Forum</span>
+         </li>
+         <li>
+           <a href="feedback.html">
+            <i class="fas fa-comment-alt"></i>
+             <span class="links_name">Feedback</span>
+           </a>
+           <span class="tooltip">Feedback</span>
+        </li>
+         <li>
+           <a href="profile.html">
+             <i class='bx bx-cog'></i>
+             <span class="links_name">Setting</span>
+           </a>
+           <span class="tooltip">Setting</span>
+         </li>
+        </ul>
+      </div>
+</aside>
+
+
+<section class="home-section">
+      <h1>Make your content Here</h1>
+
+
+    <div class="text">Discussion</div>
+</section>
+</main>
+
+
+
+<!--Footer-->
+<footer style="background-color: #023748; padding: 20px; ">
+    <div class="foo-container">
+        <div class="logoname">
+            <img src="../assets/img/logo.png" alt="logo">
+            <h2 style="color: white;">Qwicklearn</h2>
+        </div>
+        <hr>   
+        <div class="footer" style="color: white;">
+            <div class="footer-section reach">
+                <h1>Reach Us</h1>
+                <p><i class="fas fa-phone"></i> +1012 3456 789</p>
+                <p><i class="fas fa-envelope"></i> demo@gmail.com</p>
+                <p><i class="fas fa-map-marker-alt"></i> Bits Hi Tech College, Chitradurga</p>
+            </div>
+            <div class="footer-section company">
+                <h1>Company</h1>
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section Legal">
+                <h1>Legal</h1>
+                <ul>
+                    <li><a href="#">Terms of Use</a></li>
+                    <li><a href="#">Refund Policy</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="footer-section Qlinks">
+                <h1>Quick links</h1>
+                <ul>
+                    <li><a href="#">Techlabz Keybox</a></li>
+                    <li><a href="#">Downloads</a></li>
+                    <li><a href="#">Forum</a></li>
+                </ul>
+            </div>
+            <div class="footer-section newsletter">
+                <h1>Join Our Newsletter</h1>
+                <div class="newsletter-form">
+                    <input type="email" placeholder="Your email address">
+                    <button>Subscribe</button>
+                  </div>
+                  <p class="newsletter-description">Will send you weekly updates for your better tool management.</p>
+            </div>
+        </div>
+        <center><p style="color: white;">Copyright &copy; 2024 QwickLearn | All rights reserved.</p></center>
+    </div>
+</footer>
+
+</body>
+</html>
+
+<script src="../../js/learner/script.js"></script>
