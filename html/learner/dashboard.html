@@ -6,8 +6,8 @@
     <title>QwickLearn - Student Dashboard</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
-    <link rel="stylesheet" href="../../css/home.css">
     <link rel="stylesheet" href="../../css/learner/dashboard.css">
+    <link rel="stylesheet" href="../../css/defaultstyles.css">
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
@@ -20,9 +20,9 @@
       </div>
       <div class="search-bar">
         <input type="text" placeholder="Want to learn?">
-        <div class="dropdown">
-          <button class="dropbtn">Explore &#9662;</button>
-          <div class="dropdown-content">
+        <div class="dropdown1" style="z-index: 999;">
+          <button class="dropbtn2">Explore &#9662;</button>
+          <div class="dropdown-content3">
               <a href="#">Cyber Security</a>
               <a href="#">Web Development</a>
               <a href="#">Data Science</a>
@@ -30,11 +30,11 @@
      </div> 
       </div>
       <ul class="nav-menus">
-        <li><a href="home.html">Home</a></li>
-        <li><a href="about.html">About us</a></li>
-        <li><a href="contactus.html">Contact us</a></li>
-        <li><a href="faq.html">FAQ's</a></li>
-        <li><a href="courses.html">Courses</a></li>
+        <li><a href="../home.html">Home</a></li>
+        <li><a href="../about.html">About us</a></li>
+        <li><a href="../contactus.html">Contact us</a></li>
+        <li><a href="../faq.html">FAQ's</a></li>
+        <li><a href="../courses.html">Courses</a></li>
       </ul>
 
     </nav>
@@ -103,7 +103,146 @@
 
     
 <section class="home-section">
-    <div class="text">Dashboard</div>
+  <main class="main-content flex-fill p-3">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-lg-8">
+                <h2>Hello Deepika <span class="wave">👋</span></h2>
+                <p>Let's learn something new today!</p>
+
+                <div class="search-bar">
+                    <input type="text" class="form-control" placeholder="Search from courses...">
+                </div>
+
+                <div class="row mt-4">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 mb-4">
+                            <div class="card course-card h-100">
+                                <div class="card-body">
+                                    <div class="card-icon"><i class="fas fa-code icon"></i></div>
+                                   <a href="myLearning.html" style="display: block;"><h5 class="card-title">Basic HTML and CSS</h5></a>
+                                    <div class="card-info">
+                                        <div class="info-block">
+                                            <i class="fas fa-book"></i> 24 hrs
+                                        </div>
+                                        <div class="info-block">
+                                            <i class="fas fa-clipboard"></i> 8
+                                        </div>
+                                        <div class="info-block">
+                                            <i class="fas fa-users"></i> 99
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mb-4">
+                            <div class="card course-card h-100">
+                                <div class="card-body">
+                                    <div class="card-icon"><i class="fas fa-paint-brush icon"></i></div>
+                                    <h5 class="card-title">Branding Design</h5>
+                                    <div class="card-info">
+                                        <div class="info-block">
+                                            <i class="fas fa-book"></i> 24 hrs
+                                        </div>
+                                        <div class="info-block">
+                                            <i class="fas fa-clipboard"></i> 8
+                                        </div>
+                                        <div class="info-block">
+                                            <i class="fas fa-users"></i> 99
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mb-4">
+                            <div class="card course-card h-100">
+                                <div class="card-body">
+                                    <div class="card-icon"><i class="fas fa-film icon"></i></div>
+                                    <h5 class="card-title">Motion Design</h5>
+                                    <div class="card-info">
+                                        <div class="info-block">
+                                            <i class="fas fa-book"></i> 24 hrs
+                                        </div>
+                                        <div class="info-block">
+                                            <i class="fas fa-clipboard"></i> 8
+                                        </div>
+                                        <div class="info-block">
+                                            <i class="fas fa-users"></i> 99
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mt-4">
+                    <div class="col-md-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Hours Spent</h5>
+                                <canvas id="hoursSpentChart"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Performance</h5>
+                                <canvas id="performanceChart"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-lg-4">
+                <div class="card profile">
+                    <div class="card-body">
+                        <h5 class="card-title">Profile</h5>
+                        <div class="profile-pic">
+                            <img src="../../assets/img/DeepikaBaiN.png" alt="Profile Picture" class="img-fluid rounded-circle">
+                        </div>
+                        <h6 class="mt-3">Deepika Bai N</h6>
+                        <p>College Student</p>
+                        <div class="calendar">
+                            <p>May 2024</p>
+                            <!-- Calendar widget -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card mt-4">
+                    <div class="card-body">
+                        <h5 class="card-title">To Do List</h5>
+                        <ul class="list-group">
+                            <li class="list-group-item">
+                                <input type="checkbox" id="task1"> Developing Restaurant Apps
+                                <span class="badge badge-primary float-right">05:00 AM</span>
+                            </li>
+                            <li class="list-group-item">
+                                <input type="checkbox" id="task2"> Integrate API
+                                <span class="badge badge-primary float-right">08:00 AM</span>
+                            </li>
+                            <li class="list-group-item">
+                                <input type="checkbox" id="task3"> Slicing Home Screen
+                                <span class="badge badge-primary float-right">10:00 AM</span>
+                            </li>
+                            <li class="list-group-item">
+                                <input type="checkbox" id="task4"> Research Objective User
+                                <span class="badge badge-primary float-right">02:00 PM</span>
+                            </li>
+                            <li class="list-group-item">
+                                <input type="checkbox" id="task5"> Report Analysis PJP Business
+                                <span class="badge badge-primary float-right">04:00 PM</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
 </section>
 </main>
 
@@ -113,7 +252,7 @@
 <footer style="background-color: #023748; padding: 20px; ">
     <div class="foo-container">
         <div class="logoname">
-            <img src="../assets/img/logo.png" alt="logo">
+            <img src="../../assets/img/logo.png" alt="logo">
             <h2 style="color: white;">Qwicklearn</h2>
         </div>
         <hr>   
@@ -165,3 +304,7 @@
 </html>
 
 <script src="../../js/learner/script.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
