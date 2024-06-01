@@ -1,0 +1,147 @@
+{
+    "courses": {
+      "course1": {
+        "name": "Web Development Full Course - 10 Hours | Web Development Course Roadmap 2024 | Edureka",
+        "overview": "This course covers various ethical hacking techniques using Hak5 devices.",
+        "topics": [
+          {
+            "title": "Introduction",
+            "video": "https://www.youtube.com/embed/Q33KBiDriJY?si=XB4EwuxV7heyXZRH",
+            "duration": "8 min"
+          },
+          {
+            "title": "What is HTMl",
+            "video": "https://www.youtube.com/embed/a2L8ra2TOMg?si=3feXaSdo_F4XsMvD",
+            "duration": "20 min"
+          },
+          {
+            "title": "Udemy tips and tricks",
+            "video": "https://www.youtube.com/embed/hoNb6HuNmU0?start=240",
+            "duration": "3 min"
+          },
+          {
+            "title": "Do you trust your USB cable?",
+            "video": "https://www.youtube.com/embed/hoNb6HuNmU0?start=240",
+            "duration": "8 min"
+          },
+          {
+            "title": "O.MG cable configuration: Zero to attack",
+            "video": "https://www.youtube.com/embed/hoNb6HuNmU0?start=240",
+            "duration": "23 min"
+          },
+          {
+            "title": "Rubber Ducky setup",
+            "video": "https://www.youtube.com/embed/hoNb6HuNmU0?start=240",
+            "duration": "22 min"
+          },
+          {
+            "title": "Bash Bunny",
+            "video": "https://www.youtube.com/embed/hoNb6HuNmU0?start=240",
+            "duration": "17 min"
+          },
+          {
+            "title": "Bonus Content",
+            "video": "https://www.youtube.com/embed/hoNb6HuNmU0?start=240",
+            "duration": "1 min"
+          }
+        ],
+        "completed": true
+      },
+      "course2": {
+        "name": " - 10 Hours | Web Development Course Roadmap 2024 | Edureka",
+        "overview": "This course covers various ethical hacking techniques using Hak5 devices.",
+        "topics": [
+          {
+            "title": "Introduction",
+            "video": "https://www.youtube.com/embed/Q33KBiDriJY?si=XB4EwuxV7heyXZRH",
+            "duration": "8 min"
+          },
+          {
+            "title": "What is HTMl",
+            "video": "https://www.youtube.com/embed/a2L8ra2TOMg?si=3feXaSdo_F4XsMvD",
+            "duration": "20 min"
+          },
+          {
+            "title": "Udemy tips and tricks",
+            "video": "https://www.youtube.com/embed/hoNb6HuNmU0?start=240",
+            "duration": "3 min"
+          },
+          {
+            "title": "Do you trust your USB cable?",
+            "video": "https://www.youtube.com/embed/hoNb6HuNmU0?start=240",
+            "duration": "8 min"
+          },
+          {
+            "title": "O.MG cable configuration: Zero to attack",
+            "video": "https://www.youtube.com/embed/hoNb6HuNmU0?start=240",
+            "duration": "23 min"
+          },
+          {
+            "title": "Rubber Ducky setup",
+            "video": "https://www.youtube.com/embed/hoNb6HuNmU0?start=240",
+            "duration": "22 min"
+          },
+          {
+            "title": "Bash Bunny",
+            "video": "https://www.youtube.com/embed/hoNb6HuNmU0?start=240",
+            "duration": "17 min"
+          },
+          {
+            "title": "Bonus Content",
+            "video": "https://www.youtube.com/embed/hoNb6HuNmU0?start=240",
+            "duration": "1 min"
+          }
+        ],
+        "completed": true
+      },
+      "course3": {
+        "name": "Web Development Full Coursereka",
+        "overview": "This course covers various ethical hacking techniques using Hak5 devices.",
+        "topics": [
+          {
+            "title": "Introduction",
+            "video": "https://www.youtube.com/embed/Q33KBiDriJY?si=XB4EwuxV7heyXZRH",
+            "duration": "8 min"
+          },
+          {
+            "title": "What is HTMl",
+            "video": "https://www.youtube.com/embed/a2L8ra2TOMg?si=3feXaSdo_F4XsMvD",
+            "duration": "20 min"
+          },
+          {
+            "title": "Udemy tips and tricks",
+            "video": "https://www.youtube.com/embed/hoNb6HuNmU0?start=240",
+            "duration": "3 min"
+          },
+          {
+            "title": "Do you trust your USB cable?",
+            "video": "https://www.youtube.com/embed/hoNb6HuNmU0?start=240",
+            "duration": "8 min"
+          },
+          {
+            "title": "O.MG cable configuration: Zero to attack",
+            "video": "https://www.youtube.com/embed/hoNb6HuNmU0?start=240",
+            "duration": "23 min"
+          },
+          {
+            "title": "Rubber Ducky setup",
+            "video": "https://www.youtube.com/embed/hoNb6HuNmU0?start=240",
+            "duration": "22 min"
+          },
+          {
+            "title": "Bash Bunny",
+            "video": "https://www.youtube.com/embed/hoNb6HuNmU0?start=240",
+            "duration": "17 min"
+          },
+          {
+            "title": "Bonus Content",
+            "video": "https://www.youtube.com/embed/hoNb6HuNmU0?start=240",
+            "duration": "1 min"
+          }
+        ],
+        "completed": true
+      }
+    }
+    
+  }
+  

@@ -17,5 +17,4 @@ dropdownOptions.forEach(option => {
 function redirectToSignIn() {
   window.location.href = 'signin.html';
 }
-
 /*Contact Page*/

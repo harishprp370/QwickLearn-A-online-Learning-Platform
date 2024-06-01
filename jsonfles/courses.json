@@ -1,0 +1,229 @@
+{
+  "courses": [
+    {
+      "category": "Web Development",
+      "items": [
+        {
+          "title": "HTML & CSS",
+          "description": "Learn the basics of HTML and CSS.",
+          "image": "../assets/img/course1.png",
+          "rating": 4.5,
+          "enrolled": 1500,
+          "instructor": "Harish N",
+          "instructorImage": "../assets/img/harish.png",
+          "enrollLink": "signin.html"
+        },
+        {
+          "title": "HTML & CSS",
+          "description": "Learn the basics of HTML and CSS.",
+          "image": "../assets/img/course1.png",
+          "rating": 4.5,
+          "enrolled": 1500,
+          "instructor": "Harish N",
+          "instructorImage": "../assets/img/harish.png",
+          "enrollLink": "signin.html"
+        },
+        {
+          "title": "HTML & CSS",
+          "description": "Learn the basics of HTML and CSS.",
+          "image": "../assets/img/course1.png",
+          "rating": 4.5,
+          "enrolled": 1500,
+          "instructor": "Harish N",
+          "instructorImage": "../assets/img/harish.png",
+          "enrollLink": "signin.html"
+        },
+        {
+          "title": "HTML & CSS",
+          "description": "Learn the basics of HTML and CSS.",
+          "image": "../assets/img/course1.png",
+          "rating": 4.5,
+          "enrolled": 1500,
+          "instructor": "Harish N",
+          "instructorImage": "../assets/img/harish.png",
+          "enrollLink": "signin.html"
+        }
+      ]
+    },
+    {
+      "category": "Cyber Security",
+      "items": [
+        {
+          "title": "HTML & CSS",
+          "description": "Learn the basics of HTML and CSS.",
+          "image": "../assets/img/course1.png",
+          "rating": 4.5,
+          "enrolled": 1500,
+          "instructor": "Harish N",
+          "instructorImage": "../assets/img/harish.png",
+          "enrollLink": "signin.html"
+        },
+        {
+          "title": "HTML & CSS",
+          "description": "Learn the basics of HTML and CSS.",
+          "image": "../assets/img/course1.png",
+          "rating": 4.5,
+          "enrolled": 1500,
+          "instructor": "Harish N",
+          "instructorImage": "../assets/img/harish.png",
+          "enrollLink": "signin.html"
+        },
+        {
+          "title": "HTML & CSS",
+          "description": "Learn the basics of HTML and CSS.",
+          "image": "../assets/img/course1.png",
+          "rating": 4.5,
+          "enrolled": 1500,
+          "instructor": "Harish N",
+          "instructorImage": "../assets/img/harish.png",
+          "enrollLink": "signin.html"
+        },
+        {
+          "title": "HTML & CSS",
+          "description": "Learn the basics of HTML and CSS.",
+          "image": "../assets/img/course1.png",
+          "rating": 4.5,
+          "enrolled": 1500,
+          "instructor": "Harish N",
+          "instructorImage": "../assets/img/harish.png",
+          "enrollLink": "signin.html"
+        }
+      ]
+    },
+    {
+      "category": "Cloud Computing",
+      "items": [
+        {
+          "title": "HTML & CSS",
+          "description": "Learn the basics of HTML and CSS.",
+          "image": "../assets/img/course1.png",
+          "rating": 4.5,
+          "enrolled": 1500,
+          "instructor": "Harish N",
+          "instructorImage": "../assets/img/harish.png",
+          "enrollLink": "signin.html"
+        },
+        {
+          "title": "HTML & CSS",
+          "description": "Learn the basics of HTML and CSS.",
+          "image": "../assets/img/course1.png",
+          "rating": 4.5,
+          "enrolled": 1500,
+          "instructor": "Harish N",
+          "instructorImage": "../assets/img/harish.png",
+          "enrollLink": "signin.html"
+        },
+        {
+          "title": "HTML & CSS",
+          "description": "Learn the basics of HTML and CSS.",
+          "image": "../assets/img/course1.png",
+          "rating": 4.5,
+          "enrolled": 1500,
+          "instructor": "Harish N",
+          "instructorImage": "../assets/img/harish.png",
+          "enrollLink": "signin.html"
+        },
+        {
+          "title": "HTML & CSS",
+          "description": "Learn the basics of HTML and CSS.",
+          "image": "../assets/img/course1.png",
+          "rating": 4.5,
+          "enrolled": 1500,
+          "instructor": "Harish N",
+          "instructorImage": "../assets/img/harish.png",
+          "enrollLink": "signin.html"
+        }
+      ]
+    },
+    {
+      "category": "Python Programmng",
+      "items": [
+        {
+          "title": "HTML & CSS",
+          "description": "Learn the basics of HTML and CSS.",
+          "image": "../assets/img/course1.png",
+          "rating": 4.5,
+          "enrolled": 1500,
+          "instructor": "Harish N",
+          "instructorImage": "../assets/img/harish.png",
+          "enrollLink": "signin.html"
+        },
+        {
+          "title": "HTML & CSS",
+          "description": "Learn the basics of HTML and CSS.",
+          "image": "../assets/img/course1.png",
+          "rating": 4.5,
+          "enrolled": 1500,
+          "instructor": "Harish N",
+          "instructorImage": "../assets/img/harish.png",
+          "enrollLink": "signin.html"
+        },
+        {
+          "title": "HTML & CSS",
+          "description": "Learn the basics of HTML and CSS.",
+          "image": "../assets/img/course1.png",
+          "rating": 4.5,
+          "enrolled": 1500,
+          "instructor": "Harish N",
+          "instructorImage": "../assets/img/harish.png",
+          "enrollLink": "signin.html"
+        },
+        {
+          "title": "HTML & CSS",
+          "description": "Learn the basics of HTML and CSS.",
+          "image": "../assets/img/course1.png",
+          "rating": 4.5,
+          "enrolled": 1500,
+          "instructor": "Harish N",
+          "instructorImage": "../assets/img/harish.png",
+          "enrollLink": "signin.html"
+        }
+      ]
+    },
+    {
+      "category": "Desiging tools and techniques",
+      "items": [
+        {
+          "title": "HTML & CSS",
+          "description": "Learn the basics oadsefdghjkjhgfewrteytrjhgfdjjhgfdf HTML and CSS.",
+          "image": "../assets/img/course1.png",
+          "rating": 4.5,
+          "enrolled": 1500,
+          "instructor": "Harish N",
+          "instructorImage": "../assets/img/harish.png",
+          "enrollLink": "signin.html"
+        },
+        {
+          "title": "HTML & CSS",
+          "description": "Learn the basics of HTML and CSS.",
+          "image": "../assets/img/course1.png",
+          "rating": 4.5,
+          "enrolled": 1500,
+          "instructor": "Harish N",
+          "instructorImage": "../assets/img/harish.png",
+          "enrollLink": "signin.html"
+        },
+        {
+          "title": "HTML & CSS",
+          "description": "Learn the basics of HTML and CSS.",
+          "image": "../assets/img/course1.png",
+          "rating": 4.5,
+          "enrolled": 1500,
+          "instructor": "Harish N",
+          "instructorImage": "../assets/img/harish.png",
+          "enrollLink": "signin.html"
+        },
+        {
+          "title": "HTML & CSS",
+          "description": "Learn the basics of HTML and CSS.",
+          "image": "../assets/img/course1.png",
+          "rating": 4.5,
+          "enrolled": 1500,
+          "instructor": "Harish N",
+          "instructorImage": "../assets/img/harish.png",
+          "enrollLink": "signin.html"
+        }
+      ]
+    }
+  ]
+}

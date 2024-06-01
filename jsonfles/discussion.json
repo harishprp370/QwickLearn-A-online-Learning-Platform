@@ -1,0 +1,45 @@
+
+
+[
+    {
+      "id": 1,
+      "title": "How do I get started with JavaScript?",
+      "body": "I'm new to programming and want to learn JavaScript. What resources would you recommend for beginners?",
+      "author": "John Doe",
+      "likes": 10,
+      "dislikes": 2,
+      "comments": [
+        {
+          "id": 1,
+          "body": "I would recommend starting with the JavaScript documentation on MDN Web Docs. It's a great resource for beginners.",
+          "author": "Jane Smith",
+          "likes": 5,
+          "dislikes": 1
+        },
+        {
+          "id": 2,
+          "body": "Freecodecamp.org is also an excellent resource for learning JavaScript with interactive tutorials and projects.",
+          "author": "Bob Johnson",
+          "likes": 3,
+          "dislikes": 0
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "What's the difference between let and var in JavaScript?",
+      "body": "I've seen both `let` and `var` being used for variable declaration in JavaScript. What's the difference between them?",
+      "author": "Alice Williams",
+      "likes": 8,
+      "dislikes": 1,
+      "comments": [
+        {
+          "id": 3,
+          "body": "The main difference is that `let` has block-level scope, while `var` has function-level scope. `let` also doesn't allow redeclaration of the same variable within the same scope.",
+          "author": "Tom Brown",
+          "likes": 6,
+          "dislikes": 0
+        }
+      ]
+    }
+  ]
