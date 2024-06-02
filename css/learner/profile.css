@@ -1,0 +1,102 @@
+.header {
+    background-color: green;
+    border-radius: 10px;
+    color: white;
+    padding: 50px;
+    text-align:left;
+    font-size: 24px;
+}
+
+.main-container {
+    width: 800px;
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.profile-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+}
+
+.upload-btn {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.info-section, .about-section {
+    font-weight: bold;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+
+.info {
+    margin-bottom: 10px;
+}
+
+.info label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.info-content {
+    font-style:normal;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.info-value {
+    flex-grow: 1;
+    margin-right: 10px;
+}
+
+.kyc-status {
+    background-color: #b2f5ea;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.edit-btn, .view-btn {
+    background-color:white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.view-btn {
+    padding: 5px 10px;
+}
+
+.upload-input {
+    display: none;
+}
