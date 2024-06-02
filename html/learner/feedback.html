@@ -1,13 +1,14 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>QwickLearn - Student Dashboard</title>
+    <title>QwickLearn - Feedback Form</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
-    <link rel="stylesheet" href="../../css/home.css">
-    <link rel="stylesheet" href="../../css/learner/dashboard.css">
+    <link rel="stylesheet" href="../../css/learner/feedback.css">
+    <link rel="stylesheet" href="../../css/defaultstyles.css">
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
@@ -102,10 +103,28 @@
 
 
 <section class="home-section">
-      <h1>Make your content Here</h1>
+  
 
-
-    <div class="text">Feedback</div>
+  <div class="feedback-form">
+    <h1 class="title">Give us your valuable Feedback</h1>
+      <form id="feedbackForm">
+          <input type="text" id="firstName" name="firstName" placeholder="First Name" required>
+          <input type="text" id="lastName" name="lastName" placeholder="Last Name" required>
+          <input type="gmail" id="gmail" name="gmail" placeholder="E-mail" required>
+          <div class="star-rating">
+              <i class="fas fa-star" data-rating="1"></i>
+              <i class="fas fa-star" data-rating="2"></i>
+              <i class="fas fa-star" data-rating="3"></i>
+              <i class="fas fa-star" data-rating="4"></i>
+              <i class="fas fa-star" data-rating="5"></i>
+          </div>
+          <input type="hidden" id="rating" name="rating" required>
+          <textarea id="feedback" name="feedback" placeholder="Your Feedback" rows="4" required></textarea>
+          <button type="submit">SUBMIT</button>
+      </form>
+      <div class="success-message" id="successMessage">Successfully submitted!</div>
+  </div>
+  
 </section>
 </main>
 
@@ -115,7 +134,7 @@
 <footer style="background-color: #023748; padding: 20px; ">
     <div class="foo-container">
         <div class="logoname">
-            <img src="../assets/img/logo.png" alt="logo">
+            <img src="../../assets/img/logo.png" alt="logo">
             <h2 style="color: white;">Qwicklearn</h2>
         </div>
         <hr>   
@@ -167,3 +186,30 @@
 </html>
 
 <script src="../../js/learner/script.js"></script>
+<script>
+  const stars = document.querySelectorAll('.star-rating i');
+  let ratingInput = document.getElementById('rating');
+
+  stars.forEach(star => {
+      star.addEventListener('click', function() {
+          let rating = this.getAttribute('data-rating');
+          ratingInput.value = rating;
+          stars.forEach(s => s.classList.remove('selected'));
+          for (let i = 0; i < rating; i++) {
+              stars[i].classList.add('selected');
+          }
+      });
+  });
+
+  document.getElementById('feedbackForm').addEventListener('submit', function(event) {
+      event.preventDefault(); // Prevent form from submitting normally
+
+      // Display the success message
+      document.getElementById('successMessage').style.display = 'block';
+
+      // Optionally, you can also reset the form
+      event.target.reset();
+      stars.forEach(s => s.classList.remove('selected')); // Clear star selection
+  });
+</script>
+

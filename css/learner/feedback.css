@@ -1,0 +1,52 @@
+.feedback-form {
+    width: 50rem;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color:white;
+    margin: 0 auto;
+}
+.title{
+    font-size: 2rem;
+    justify-content: center;
+    text-align: center;
+    color: #000;
+    margin-top: 1rem;
+}
+.feedback-form h2 {
+    text-align: center;
+}
+.feedback-form input, .feedback-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.feedback-form .star-rating {
+    text-align: center;
+    margin: 10px 0;
+}
+.feedback-form .star-rating i {
+    font-size: 24px;
+    color: #ccc;
+    cursor: pointer;
+}
+.feedback-form .star-rating i.selected {
+    color: #f39c12;
+}
+.feedback-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+}
+.success-message {
+    display: none;
+    text-align: center;
+    color: green;
+}
