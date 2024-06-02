@@ -5,47 +5,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Qwick Learn - A online Learning Platform</title>
     <link rel="stylesheet" href="../css/signin.css">
+    <link rel="stylesheet" href="../css/defaultstyles.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 <body> 
   <!-- Header -->
-  <header class="mheader">
-    <nav class="navi">
-      <div class="logo">
-        <img src="../assets/img/logo.png" alt="Logo">
-      </div>
-      <div class="search-bar">
-        <input type="text" placeholder="Want to learn?">
-        <div class="dropdown">
-          <button class="btn btn-secondary dropdown-toggle" type="button" id="exploreDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Explore
-          </button>
-          <div class="dropdown-menu" aria-labelledby="exploreDropdown">
-            <a class="dropdown-item" href="cybersecurity.html">Cyber Security</a>
-            <a class="dropdown-item" href="#">Web Development</a>
-            <a class="dropdown-item" href="#">Data Science</a>
-          </div>
+<header class="mheader">
+  <nav class="navi">
+    <div class="logo"> 
+      <img src="../assets/img/logo.png" alt="Logo">
+    </div>
+    <div class="search-bar">
+      <input type="text" placeholder="Want to learn?">
+      <div class="dropdown1">
+        <button class="dropbtn2">Explore &#9662;</button>
+        <div class="dropdown-content3">
+            <a href="#">Cyber Security</a>
+            <a href="#">Web Development</a>
+            <a href="#">Data Science</a>
         </div>
-      </div>
-      <ul class="nav-menu">
-        <li><a href="home.html">Home</a></li>
-        <li><a href="about.html">About us</a></li>
-        <li><a href="contactus.html">Contact us</a></li>
-        <li><a href="faq.html">FAQ's</a></li>
-        <li><a href="courses.html">Courses</a></li>
-      </ul>
-      <div class="auth-button">
-        <button onclick="redirectToSignIn()">Sign up or Sign in</button>
-      </div>
-    </nav>
-  </header>
+   </div> 
+    </div>
+    <ul class="nav-menus">
+      <li><a href="home.html">Home</a></li>
+      <li><a href="about.html">About us</a></li>
+      <li><a href="contactus.html">Contact us</a></li>
+      <li><a href="faq.html">FAQ's</a></li>
+      <li><a href="courses.html">Courses</a></li>
+    </ul>
+    <div class="auth-button">
+      <button onclick="redirectToSignIn()">Sign up or Sign in</button>
+    </div>
+  </nav>
+</header>
+
+
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-md-6">
         <div class="card mt-5">
           <div class="card-body">
             <h3 class="card-title text-center">Create your account</h3>
-            <form>
+            <form id="signupForm">
             <div class="form-group">
                 <label for="fnmae">First Name</label>
                 <input type="text" class="form-control" id="fname" placeholder="Enter your first name">
@@ -84,6 +85,7 @@
 
   <!-- Link to Bootstrap JS -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="../js/signup.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,70 @@
+.myCourseBtn {
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 100px;
+  }
+  .inProgressBtn {
+    margin-left: 90px;
+    border-radius: 25px;
+  }
+  .completedBtn {
+    margin-left: 10px;
+    border-radius: 25px;
+  }
+  .course-container {
+    width: 90%;
+    margin: 25px 180px 75px ;
+    background-color: aliceblue;
+    line-height: 1.6rem;
+  }
+  .course-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  .course-info {
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    align-items: center;
+  }
+  .courseDescription {
+    font-size: 1rem;
+
+  }
+  .course-info img {
+    width: 250px;
+    height: auto;
+    margin-right: 20px;
+    box-shadow: hsl(0,0,0,0.0.5);
+  }
+  .course-details {
+    font-size: 1rem;
+    max-width: 100%;
+  }
+  .go-to-course-button a{
+    text-decoration: none;
+
+  }
+  .go-to-course-button {
+    background-color: #16656A;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-right: 10px;
+    width: 10rem;
+  }
+  .go-to-course-button:hover {
+  background-color: #3b9ca5;
+  }
+
+span{
+  font-size: 16px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #20B486;
+}
