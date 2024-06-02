@@ -6,39 +6,38 @@
     <title>QwickLearn - Student Dashboard</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
-    <link rel="stylesheet" href="../../css/home.css">
-    <link rel="stylesheet" href="../../css/learner/dashboard.css">
+    <link rel="stylesheet" href="../../css/defaultstyles.css">
+    <link rel="stylesheet" href="../../css/learner/discussion.css">
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-     
 <!-- Header -->
 <header class="mheader">
-    <nav class="navi">
-      <div class="logo"> 
-        <img src="../../assets/img/logo.png" alt="Logo">
-      </div>
-      <div class="search-bar">
-        <input type="text" placeholder="Want to learn?">
-        <div class="dropdown">
-          <button class="dropbtn">Explore &#9662;</button>
-          <div class="dropdown-content">
-              <a href="#">Cyber Security</a>
-              <a href="#">Web Development</a>
-              <a href="#">Data Science</a>
-          </div>
-     </div> 
-      </div>
-      <ul class="nav-menus">
-        <li><a href="home.html">Home</a></li>
-        <li><a href="about.html">About us</a></li>
-        <li><a href="contactus.html">Contact us</a></li>
-        <li><a href="faq.html">FAQ's</a></li>
-        <li><a href="courses.html">Courses</a></li>
-      </ul>
+  <nav class="navi">
+    <div class="logo"> 
+      <img src="../../assets/img/logo.png" alt="Logo">
+    </div> 
+    <div class="search-bar">
+      <input type="text" placeholder="Want to learn?">
+      <div class="dropdown1" style="z-index: 999;">
+        <button class="dropbtn2">Explore &#9662;</button>
+        <div class="dropdown-content3">
+            <a href="#">Cyber Security</a>
+            <a href="#">Web Development</a>
+            <a href="#">Data Science</a>
+        </div>
+   </div> 
+    </div>
+    <ul class="nav-menus">
+      <li><a href="../home.html">Home</a></li>
+      <li><a href="../about.html">About us</a></li>
+      <li><a href="../contactus.html">Contact us</a></li>
+      <li><a href="../faq.html">FAQ's</a></li>
+      <li><a href="../courses.html">Courses</a></li>
+    </ul>
 
-    </nav>
-  </header>
+  </nav>
+</header>
 
 <main>
     <aside>
@@ -102,16 +101,76 @@
 
 
 <section class="home-section">
-      <h1>Make your content Here</h1>
-
-
-    <div class="text">Discussion</div>
+  <div class="container">
+    <header>
+        <h1>Discussions</h1>
+    </header>
+    <div class="discussion">
+        <img src="../../assets/img/logo.png" alt="logo">
+        <div class="discussion-info">
+            <h2>Artificial intelligence</h2>
+            <button onclick="goToDiscussion('Artificial Intelligence')" class="go-to-discussion-button">Join Discussion</button>
+        </div>
+    </div>
+</div><br>
+<div class="container">
+  <div class="discussion">
+      <img src="../../assets/img/logo.png" alt="logo">
+      <div class="discussion-info">
+          <h2>Web Development</h2>
+          <button onclick="goToDiscussion('Web Development')" class="go-to-discussion-button">Join Discussion</button>
+      </div>
+  </div>
+</div><br>
+<div class="container">
+  <div class="discussion">
+      <img src="../../assets/img/logo.png" alt="logo">
+      <div class="discussion-info">
+          <h2>Cloud Computing</h2>
+          <button onclick="goToCourse('Cloud Computing')" class="go-to-discussion-button">Join Discussion</button>
+      </div>
+  </div>
+</div><br>
+<div class="container">
+  <div class="discussion">
+      <img src="../../assets/img/logo.png" alt="logo">
+      <div class="discussion-info">
+          <h2>Digital marketing</h2>
+          <button onclick="goToCourse('dm')" class="go-to-discussion-button">Join Discussion</button>
+      </div>
+  </div>
+</div><br>
+<div class="container">
+  <div class="discussion">
+      <img src="../../assets/img/logo.png" alt="logo">
+      <div class="discussion-info">
+          <h2>Cyber Security</h2>
+          <button onclick="goToCourse('CyberSec')" class="go-to-discussion-button">Join Discussion</button>
+      </div>
+  </div>
+</div><br>
+<div class="container">
+  <div class="discussion">
+      <img src="../../assets/img/logo.png" alt="logo">
+      <div class="discussion-info">
+          <h2>Python Programming</h2>
+          <button onclick="goToCourse('Python')" class="go-to-discussion-button">Join Discussion</button>
+      </div>
+  </div>
+</div><br>
+</body>
+</html>
 </section>
 </main>
 
-
-
+<script>
+  
+  function goToDiscussion(topic) {
+    window.location.href = `discussion1.html?topic=${encodeURIComponent(topic)}`;
+  }
+  </script>
 <!--Footer-->
+
 <footer style="background-color: #023748; padding: 20px; ">
     <div class="foo-container">
         <div class="logoname">
@@ -167,3 +226,4 @@
 </html>
 
 <script src="../../js/learner/script.js"></script>
+
