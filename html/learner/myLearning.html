@@ -6,39 +6,41 @@
     <title>QwickLearn - Student Dashboard</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
-    <link rel="stylesheet" href="../../css/home.css">
-    <link rel="stylesheet" href="../../css/learner/dashboard.css">
+    <link rel="stylesheet" href="../../css/defaultstyles.css">
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="../../css/learner/myLearning.css">
+    
 </head>
 <body>
      
 <!-- Header -->
 <header class="mheader">
-    <nav class="navi">
-      <div class="logo"> 
-        <img src="../../assets/img/logo.png" alt="Logo">
-      </div>
-      <div class="search-bar">
-        <input type="text" placeholder="Want to learn?">
-        <div class="dropdown">
-          <button class="dropbtn">Explore &#9662;</button>
-          <div class="dropdown-content">
-              <a href="#">Cyber Security</a>
-              <a href="#">Web Development</a>
-              <a href="#">Data Science</a>
-          </div>
-     </div> 
-      </div>
-      <ul class="nav-menus">
-        <li><a href="home.html">Home</a></li>
-        <li><a href="about.html">About us</a></li>
-        <li><a href="contactus.html">Contact us</a></li>
-        <li><a href="faq.html">FAQ's</a></li>
-        <li><a href="courses.html">Courses</a></li>
-      </ul>
+  <nav class="navi">
+    <div class="logo"> 
+      <img src="../../assets/img/logo.png" alt="Logo">
+    </div>
+    <div class="search-bar">
+      <input type="text" placeholder="Want to learn?">
+      <div class="dropdown1" style="z-index: 999;">
+        <button class="dropbtn2">Explore &#9662;</button>
+        <div class="dropdown-content3">
+            <a href="#">Cyber Security</a>
+            <a href="#">Web Development</a>
+            <a href="#">Data Science</a>
+        </div>
+   </div> 
+    </div>
+    <ul class="nav-menus">
+      <li><a href="../home.html">Home</a></li>
+      <li><a href="../about.html">About us</a></li>
+      <li><a href="../contactus.html">Contact us</a></li>
+      <li><a href="../faq.html">FAQ's</a></li>
+      <li><a href="../courses.html">Courses</a></li>
+    </ul>
 
-    </nav>
-  </header>
+  </nav>
+</header>
+
 
 <main>
     <aside>
@@ -102,10 +104,84 @@
 
 
 <section class="home-section">
-      <h1>Make your content Here</h1>
+  <h1 class="myCourseBtn">My Courses</h1>
+  <button class="inProgressBtn">In Progress</button> <a href="achivements.html"><button class="completedBtn">Completed</button></a>
+  <div class="course-container" style="margin-left:5%; margin-bottom: 10px;">
+    <div class="course-card">
+      <div class="course-info">
+        <img src="../../assets/img/course2.png" alt="">
+        <div class="course-details">
+          <span>QuickLearn</span>
+          <h3>Introduction to Web Development</h3>
+          <div class="courseDescription">
+            <p>The Web Developement course is taught hands-on by experts.Learn about HTML,CSS,Editor and JavaScript.Best for begginers.Start now!</p>
+            <p>1 hr • Beginner • 19.2K+ Learners</p>
+            <span>⭐ 4.44</span>
+          </div>
+        </div>
+      </div>
+      <button onclick="goToCourse('course1')" class="go-to-course-button">Go to Course</button>
+    </div>
+  </div>
+  <div class="course-container" style="margin-left:5%; margin-bottom: 10px;">
+    <div class="course-card">
+      <div class="course-info">
+        <img src="../../assets/img/course2.png" alt="">
+        <div class="course-details">
+          <span>QuickLearn</span>
+          <h3>Introduction to Web Development</h3>
+          <div class="courseDescription">
+            <p>The Web Developement course is taught hands-on by experts.Learn about HTML,CSS,Editor and JavaScript.Best for begginers.Start now!</p>
+            <p>1 hr • Beginner • 19.2K+ Learners</p>
+            <span>⭐ 4.44</span>
+          </div>
+        </div>
+      </div>
+       <button onclick="goToCourse('course2')" class="go-to-course-button">Go to Course</button>
+    </div>
+  </div>
+  <div class="course-container" style="margin-left:5%; margin-bottom: 10px;">
+    <div class="course-card">
+      <div class="course-info">
+        <img src="../../assets/img/course2.png" alt="">
+        <div class="course-details">
+          <span>QuickLearn</span>
+          <h3>Introduction to Web Development</h3>
+          <div class="courseDescription">
+            <p>The Web Developement course is taught hands-on by experts.Learn about HTML,CSS,Editor and JavaScript.Best for begginers.Start now!</p>
+            <p>1 hr • Beginner • 19.2K+ Learners</p>
+            <span>⭐ 4.44</span>
+          </div>
+        </div>
+      </div>
+       <button onclick="goToCourse('course3')" class="go-to-course-button">Go to Course</button>
+    </div>
+  </div>
+  <div class="course-container" style="margin-left:5%; margin-bottom: 10px;">
+    <div class="course-card">
+      <div class="course-info">
+        <img src="../../assets/img/course2.png" alt="">
+        <div class="course-details">
+          <span>QuickLearn</span>
+          <h3>Introduction to Web Development</h3>
+          <div class="courseDescription">
+            <p>The Web Developement course is taught hands-on by experts.Learn about HTML,CSS,Editor and JavaScript.Best for begginers.Start now!</p>
+            <p>1 hr • Beginner • 19.2K+ Learners</p>
+            <span>⭐ 4.44</span>
+          </div>
+        </div>
+      </div>
+       <button onclick="goToCourse('course4')" class="go-to-course-button">Go to Course</button>
+    </div>
+  </div>
+  
+  
+  
+  
 
 
-    <div class="text">my Learning</div>
+
+    
 </section>
 </main>
 
@@ -115,7 +191,7 @@
 <footer style="background-color: #023748; padding: 20px; ">
     <div class="foo-container">
         <div class="logoname">
-            <img src="../assets/img/logo.png" alt="logo">
+            <img src="../../assets/img/logo.png" alt="logo">
             <h2 style="color: white;">Qwicklearn</h2>
         </div>
         <hr>   
