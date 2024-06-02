@@ -3,23 +3,23 @@
 [
     {
       "id": 1,
-      "title": "How do I get started with JavaScript?",
-      "body": "I'm new to programming and want to learn JavaScript. What resources would you recommend for beginners?",
-      "author": "John Doe",
+      "title": "How do you manage your time effectively while taking self-paced online courses?",
+      "body": "I set specific study times and stick to a schedule. Using a planner helps me keep track of my progress and stay committed.",
+      "author": "Hanumantha",
       "likes": 10,
       "dislikes": 2,
       "comments": [
         {
           "id": 1,
-          "body": "I would recommend starting with the JavaScript documentation on MDN Web Docs. It's a great resource for beginners.",
-          "author": "Jane Smith",
+          "body": "I use a digital planner too. Do you prefer any particular apps for planning your study schedule?",
+          "author": "Deepika Bai",
           "likes": 5,
           "dislikes": 1
         },
         {
           "id": 2,
-          "body": "Freecodecamp.org is also an excellent resource for learning JavaScript with interactive tutorials and projects.",
-          "author": "Bob Johnson",
+          "body": "Consistency is key! I study in the mornings because that's when I'm most focused. What time works best for you?",
+          "author": "Chandan B R",
           "likes": 3,
           "dislikes": 0
         }
@@ -27,16 +27,215 @@
     },
     {
       "id": 2,
-      "title": "What's the difference between let and var in JavaScript?",
-      "body": "I've seen both `let` and `var` being used for variable declaration in JavaScript. What's the difference between them?",
-      "author": "Alice Williams",
+      "title": "Can you recommend any additional resources (books, websites, tutorials) that complement this course's material?",
+      "body": "For those learning Python, 'Automate the Boring Stuff with Python' by Al Sweigart is an excellent resource. It's practical and easy to follow.",
+      "author": "Yogesh T",
       "likes": 8,
       "dislikes": 1,
       "comments": [
         {
-          "id": 3,
-          "body": "The main difference is that `let` has block-level scope, while `var` has function-level scope. `let` also doesn't allow redeclaration of the same variable within the same scope.",
-          "author": "Tom Brown",
+          "id": 1,
+          "body": "Great recommendation! I also found 'Python Crash Course' by Eric Matthes to be very helpful.",
+          "author": "Deepika Bai",
+          "likes": 6,
+          "dislikes": 0
+        },
+        {
+          "id": 2,
+          "body": "Thanks for the tip! Have you checked out the YouTube channel 'Corey Schafer'? His tutorials are top-notch.",
+          "author": "Akhilesh K",
+          "likes": 6,
+          "dislikes": 0
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "What challenges have you faced while learning a new programming language like Java or Python, and how did you overcome them?",
+      "body": "Understanding object-oriented programming in Java was tough at first. I overcame this by practicing with small projects and referring to online tutorials.",
+      "author": "Harish N",
+      "likes": 8,
+      "dislikes": 1,
+      "comments": [
+        {
+          "id": 1,
+          "body": "I struggled with OOP too. Small projects definitely help. Which online tutorials did you find most helpful?",
+          "author": "Akhilesh K",
+          "likes": 6,
+          "dislikes": 0
+        },
+        {
+          "id": 2,
+          "body": "I used Codecademy for Java basics. It made a big difference for me. Have you tried it?",
+          "author": "Deepika Bai",
+          "likes": 6,
+          "dislikes": 0
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "How do you apply the concepts learned in this course to your daily work or personal projects?",
+      "body": "I've been able to apply my new Python skills to automate repetitive tasks at work, which has significantly increased my productivity.",
+      "author": "Yogesh T",
+      "likes": 8,
+      "dislikes": 1,
+      "comments": [
+        {
+          "id": 1,
+          "body": "That sounds amazing! Can you share an example of one of the tasks you automated?",
+          "author": "Akhilesh K",
+          "likes": 6,
+          "dislikes": 0
+        },
+        {
+          "id": 2,
+          "body": "I’m doing something similar with Excel macros. Python sounds much more powerful; I might need to switch!",
+          "author": "Deepika Bai",
+          "likes": 6,
+          "dislikes": 0
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "How do you incorporate what you've learned from QuickLearn courses into your resume or LinkedIn profile?",
+      "body": "The live Q&A sessions are incredibly valuable. I get to ask instructors questions in real-time and hear insights from other learners.",
+      "author": "Harish N",
+      "likes": 8,
+      "dislikes": 1,
+      "comments": [
+        {
+          "id": 1,
+          "body": "Great idea! Do you include course details in your resume, or just the certifications?",
+          "author": "Akhilesh K",
+          "likes": 6,
+          "dislikes": 0
+        },
+        {
+          "id": 2,
+          "body": "I’ve been thinking about doing the same. Do you notice any difference in responses from recruiters?",
+          "author": "Deepika Bai",
+          "likes": 6,
+          "dislikes": 0
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "What advice would you give to someone just starting with online learning on QuickLearn?",
+      "body": "Start with a course that aligns closely with your interests or career goals. It makes the learning process more engaging and relevant.",
+      "author": "Yogesh T",
+      "likes": 8,
+      "dislikes": 1,
+      "comments": [
+        {
+          "id": 1,
+          "body": "Good advice. I’d also recommend checking out the course previews before committing.",
+          "author": "Akhilesh K",
+          "likes": 6,
+          "dislikes": 0
+        },
+        {
+          "id": 2,
+          "body": "I found joining study groups really helpful when I first started. Have you tried that?",
+          "author": "Deepika Bai",
+          "likes": 6,
+          "dislikes": 0
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Have you encountered any difficulties using the QuickLearn platform? How did you resolve them?",
+      "body": "I had some issues with video playback initially, but the support team was very responsive and helped me troubleshoot the problem quickly.",
+      "author": "Harish N",
+      "likes": 8,
+      "dislikes": 1,
+      "comments": [
+        {
+          "id": 1,
+          "body": "I had a similar issue, and the support team was super helpful. How long did it take for your issue to get resolved?",
+          "author": "Deepika Bai",
+          "likes": 6,
+          "dislikes": 0
+        },
+        {
+          "id": 2,
+          "body": "I haven’t had any major issues, but it's good to know the support team is reliable. Have you used any of the other support resources?",
+          "author": "Akhilesh K",
+          "likes": 6,
+          "dislikes": 0
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "How has learning about data science (e.g., machine learning, data analysis) changed your perspective on your current job or field?",
+      "body": "Data science has opened my eyes to the power of data-driven decision-making. It's made me more analytical and has improved my problem-solving skills at work.",
+      "author": "Yogesh T",
+      "likes": 8,
+      "dislikes": 1,
+      "comments": [
+        {
+          "id": 1,
+          "body": "Same here! Do you use any specific tools or software for data analysis at your job?",
+          "author": "Akhilesh K",
+          "likes": 6,
+          "dislikes": 0
+        },
+        {
+          "id": 2,
+          "body": "I’m considering a career shift to data science. Any advice on getting started?",
+          "author": "Deepika Bai",
+          "likes": 6,
+          "dislikes": 0
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Have you collaborated with other learners on any projects or assignments? How was your experience?",
+      "body": "I worked with a group on a data analysis project. Collaborating remotely was challenging, but it was a great learning experience, and we produced a solid project.",
+      "author": "Harish N",
+      "likes": 8,
+      "dislikes": 1,
+      "comments": [
+        {
+          "id": 1,
+          "body": "Group projects can be tricky online. How did you manage communication and coordination.",
+          "author": "Akhilesh K",
+          "likes": 6,
+          "dislikes": 0
+        },
+        {
+          "id": 2,
+          "body": "I’ve yet to work on a group project here. Any tips on finding group members willing to collaborate?",
+          "author": "Deepika Bai",
+          "likes": 6,
+          "dislikes": 0
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "What additional courses or topics would you like to see offered on QuickLearn in the future?",
+      "body": "I would love to see more advanced data science courses, particularly in deep learning and AI. It would be great to build on the foundational knowledge I have.",
+      "author": "Yogesh T",
+      "likes": 8,
+      "dislikes": 1,
+      "comments": [
+        {
+          "id": 1,
+          "body": "Advanced AI courses would be amazing! I’d also like to see more courses on cybersecurity.",
+          "author": "Akhilesh K",
+          "likes": 6,
+          "dislikes": 0
+        },
+        {
+          "id": 2,
+          "body":"Agreed! More in-depth courses on blockchain technology would be great too. Any other topics you’re interested in?",
+          "author": "Deepika Bai",
           "likes": 6,
           "dislikes": 0
         }
