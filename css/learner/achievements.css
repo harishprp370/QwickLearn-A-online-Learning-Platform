@@ -1,0 +1,98 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+.achievements {
+    width: 90%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.nav {
+    margin: 20px 0;
+}
+
+.nav button {
+    background-color: #fff;
+    color: black;
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.nav button.active {
+    background-color: green;
+    color: #fff;
+    border: none;
+}
+
+.cards {
+    display: flex;
+    justify-content:left;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card-container {
+    width: 32%;
+    height: auto;
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.card-image {
+    position: relative;
+}
+
+.card-image img {
+    width: 100%;
+    height: auto;
+}
+
+.card-image .time {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: white;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+.card-content {
+    padding: 15px;
+}
+
+.card-content h3 {
+    font-size: 18px;
+    margin: 0 0 15px;
+}
+
+.card-content button {
+    background-color: green;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.card-content button:hover {
+    background-color: lightgreen;
+}
