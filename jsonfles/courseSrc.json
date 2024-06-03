@@ -1,147 +1,189 @@
 {
-    "courses": {
-      "course1": {
-        "name": "Web Development Full Course - 10 Hours | Web Development Course Roadmap 2024 | Edureka",
-        "overview": "This course covers various ethical hacking techniques using Hak5 devices.",
-        "topics": [
-          {
-            "title": "Introduction",
-            "video": "https://www.youtube.com/embed/Q33KBiDriJY?si=XB4EwuxV7heyXZRH",
-            "duration": "8 min"
-          },
-          {
-            "title": "What is HTMl",
-            "video": "https://www.youtube.com/embed/a2L8ra2TOMg?si=3feXaSdo_F4XsMvD",
-            "duration": "20 min"
-          },
-          {
-            "title": "Udemy tips and tricks",
-            "video": "https://www.youtube.com/embed/hoNb6HuNmU0?start=240",
-            "duration": "3 min"
-          },
-          {
-            "title": "Do you trust your USB cable?",
-            "video": "https://www.youtube.com/embed/hoNb6HuNmU0?start=240",
-            "duration": "8 min"
-          },
-          {
-            "title": "O.MG cable configuration: Zero to attack",
-            "video": "https://www.youtube.com/embed/hoNb6HuNmU0?start=240",
-            "duration": "23 min"
-          },
-          {
-            "title": "Rubber Ducky setup",
-            "video": "https://www.youtube.com/embed/hoNb6HuNmU0?start=240",
-            "duration": "22 min"
-          },
-          {
-            "title": "Bash Bunny",
-            "video": "https://www.youtube.com/embed/hoNb6HuNmU0?start=240",
-            "duration": "17 min"
-          },
-          {
-            "title": "Bonus Content",
-            "video": "https://www.youtube.com/embed/hoNb6HuNmU0?start=240",
-            "duration": "1 min"
-          }
-        ],
-        "completed": true
-      },
-      "course2": {
-        "name": " - 10 Hours | Web Development Course Roadmap 2024 | Edureka",
-        "overview": "This course covers various ethical hacking techniques using Hak5 devices.",
-        "topics": [
-          {
-            "title": "Introduction",
-            "video": "https://www.youtube.com/embed/Q33KBiDriJY?si=XB4EwuxV7heyXZRH",
-            "duration": "8 min"
-          },
-          {
-            "title": "What is HTMl",
-            "video": "https://www.youtube.com/embed/a2L8ra2TOMg?si=3feXaSdo_F4XsMvD",
-            "duration": "20 min"
-          },
-          {
-            "title": "Udemy tips and tricks",
-            "video": "https://www.youtube.com/embed/hoNb6HuNmU0?start=240",
-            "duration": "3 min"
-          },
-          {
-            "title": "Do you trust your USB cable?",
-            "video": "https://www.youtube.com/embed/hoNb6HuNmU0?start=240",
-            "duration": "8 min"
-          },
-          {
-            "title": "O.MG cable configuration: Zero to attack",
-            "video": "https://www.youtube.com/embed/hoNb6HuNmU0?start=240",
-            "duration": "23 min"
-          },
-          {
-            "title": "Rubber Ducky setup",
-            "video": "https://www.youtube.com/embed/hoNb6HuNmU0?start=240",
-            "duration": "22 min"
-          },
-          {
-            "title": "Bash Bunny",
-            "video": "https://www.youtube.com/embed/hoNb6HuNmU0?start=240",
-            "duration": "17 min"
-          },
-          {
-            "title": "Bonus Content",
-            "video": "https://www.youtube.com/embed/hoNb6HuNmU0?start=240",
-            "duration": "1 min"
-          }
-        ],
-        "completed": true
-      },
-      "course3": {
-        "name": "Web Development Full Coursereka",
-        "overview": "This course covers various ethical hacking techniques using Hak5 devices.",
-        "topics": [
-          {
-            "title": "Introduction",
-            "video": "https://www.youtube.com/embed/Q33KBiDriJY?si=XB4EwuxV7heyXZRH",
-            "duration": "8 min"
-          },
-          {
-            "title": "What is HTMl",
-            "video": "https://www.youtube.com/embed/a2L8ra2TOMg?si=3feXaSdo_F4XsMvD",
-            "duration": "20 min"
-          },
-          {
-            "title": "Udemy tips and tricks",
-            "video": "https://www.youtube.com/embed/hoNb6HuNmU0?start=240",
-            "duration": "3 min"
-          },
-          {
-            "title": "Do you trust your USB cable?",
-            "video": "https://www.youtube.com/embed/hoNb6HuNmU0?start=240",
-            "duration": "8 min"
-          },
-          {
-            "title": "O.MG cable configuration: Zero to attack",
-            "video": "https://www.youtube.com/embed/hoNb6HuNmU0?start=240",
-            "duration": "23 min"
-          },
-          {
-            "title": "Rubber Ducky setup",
-            "video": "https://www.youtube.com/embed/hoNb6HuNmU0?start=240",
-            "duration": "22 min"
-          },
-          {
-            "title": "Bash Bunny",
-            "video": "https://www.youtube.com/embed/hoNb6HuNmU0?start=240",
-            "duration": "17 min"
-          },
-          {
-            "title": "Bonus Content",
-            "video": "https://www.youtube.com/embed/hoNb6HuNmU0?start=240",
-            "duration": "1 min"
-          }
-        ],
-        "completed": true
-      }
-    }
-    
+  "courses": {
+    "course1": {
+      "name": "Begginer to Master Artificial Intelligence",
+      "overview": "Inovating machine to mimic human Intelligence,shaping the future of technology..",
+      "topics": [
+        {
+          "title": "Introduction ",
+          "video": "https://www.youtube.com/embed/ad79nYk2keg?si=yWXDInJSMwW6E7xI" ,
+          "duration": "5 min"
+        },
+        {
+          "title": "What is artificial Intelligence",
+          "video": "https://www.youtube.com/embed/ukzFI9rgwfU?si=PYqGnIaTvWJoUFA3" ,
+          "duration": "7:51 min"
+        },
+        {
+          "title": "Applications and types of AI",
+          "video": "https://www.youtube.com/embed/6M5VXKLf4D4?si=o5gkMWsHbL_-dhO9",
+          "duration": "5:51 min"
+        },
+        {
+          "title": "What is Machine Learning and their types?",
+          "video": "https://www.youtube.com/embed/bfmFfD2RIcg?si=Io8JVB5SMRPOtARI" ,
+          "duration": "5:44 min"
+        },
+        {
+          "title": "Understanfding Deep Learning",
+          "video":"https://www.youtube.com/embed/4L86D_fU6sQ?si=RyTrMk10q4kHUmZ-" ,
+          "duration": "14:13 min"
+        },
+        {
+          "title": "Natural Language Processing",
+          "video": "https://www.youtube.com/embed/CMrHM8a3hqw?si=8ngSyfV2KbcpcA_f" ,
+          "duration": "4 min"
+        },
+        {
+          "title": "Computer vision",
+          "video": "https://www.youtube.com/embed/puB-4LuRNys?si=QPbwDBxQS7wBlV7r",
+          "duration": "10 min"
+        },
+        {
+          "title": "AI ethics and bias",
+          "video": "https://www.youtube.com/embed/aGwYtUzMQUk?si=aOHOtHtTpppMHS6S",
+          "duration": "1 min"
+        }
+        
+      ],
+      "completed": true
+    },
+    "course2": {
+      "name": " Introduction to HTML and CSS",
+      "overview": "Learn the fundamental building blocks of web development with HTML and CSS, enabling you to create and style web pages effectively",
+      "topics": [
+        {
+          "title": "Understanding HTML Basics",
+          "video": "https://www.youtube.com/embed/salY_Sm6mv4?si=ctbazetzAg55vor9",
+          "duration": "20 min"
+        },
+        {
+          "title": "Introduction to CSS Styling",
+          "video": "https://www.youtube.com/embed/1PnVor36_40?si=xCvqxoDh4-f8bsdi",
+          "duration": "15 min"
+        },
+        {
+          "title": "Exploring HTML Tags",
+          "video": "https://www.youtube.com/embed/uhOyfTkgUYg?si=pr-PuPbAHfE98a-d",
+          "duration": "25 min"
+        },
+        {
+          "title": "Mastering CSS Techniques",
+          "video": "https://www.youtube.com/embed/Qhaz36TZG5Y?si=bubOBE17txbVm1fm",
+          "duration": "30 min"
+        },
+        {
+          "title": "Creating Responsive Designs",
+          "video": "https://www.youtube.com/embed/ZYV6dYtz4HA?si=_5jbHf6J6_14I2j_",
+          "duration": "20 min"
+        },
+        {
+          "title": "Advanced Layout with Flexbox and Grid",
+          "video": "https://www.youtube.com/embed/phWxA89Dy94?si=OWKJKhzWQr8l2Dsw",
+          "duration": "35 min"
+        },
+        {
+          "title": "Utilizing CSS Frameworks",
+          "video": "https://www.youtube.com/embed/ufMqGkXL1Jw?si=1XbTuT_jVkY-FMba",
+          "duration": "25 min"
+        },
+        {
+          "title": "Building a Simple Website Project",
+          "video": "https://www.youtube.com/embed/PlxWf493en4?si=56LNuflGdPeezOoI",
+          "duration": "45 min"
+        }
+      ],
+      "completed": true
+    },
+    "course3": {
+      "name": "Figma UI/UX Design Basics",
+      "overview": "Dive into the world of user interface and user experience design with Figma, a powerful tool for creating stunning and intuitive digital experiences.",
+      "topics": [
+        {
+          "title": "Introduction to Figma",
+          "video": "https://www.youtube.com/embed/jk1T0CdLxwU?si=4lXOp16niIHZEEI0",
+          "duration": "8 min"
+        },
+        {
+          "title": "Understanding UI Design Principles",
+          "video": "https://www.youtube.com/embed/uwNClNmekGU?si=1Ka7Y78BrXmR-pUd",
+          "duration": "20 min"
+        },
+        {
+          "title": "Exploring Figma Features",
+          "video": "https://www.youtube.com/embed/uQsyobT2Rv8?si=YHjrbVD445VxIPFk",
+          "duration": "3 min"
+        },
+        {
+          "title": "Creating Intuitive User Flows",
+          "video": "https://www.youtube.com/embed/DNBIcBdKnQo?si=g_RWIIDYDsaEpQif",
+          "duration": "8 min"
+        },
+        {
+          "title": "Mastering Prototyping in Figma",
+          "video": "https://www.youtube.com/embed/_yVgc34ZejI?si=EFSLL7A3cy32jUtV",
+          "duration": "23 min"
+        },
+        {
+          "title": "Advanced Techniques: Component Design",
+          "video": "https://www.youtube.com/embed/31wzhvz0vsw?si=Vw82PDk-s3wWCoM_",
+          "duration": "22 min"
+        },
+        {
+          "title": "Collaborative Design with Figma",
+          "video": "https://www.youtube.com/embed/v3AkpgApvSI?si=5awY9GKbPXowC-h0",
+          "duration": "17 min"
+        },
+        {
+          "title": "Bonus Figma Tips",
+          "video": "https://www.youtube.com/embed/aAGOO_XiQHo?si=w8X8grOvqbV_yMnc",
+          "duration": "1 min"
+        }
+      ],
+      "completed": true
+    },
+    "course4": {
+      "name": "Cyber Security Essentials",
+      "overview": "Equip yourself with vital knowledge and skills in cybersecurity, focusing on crucial concepts and methods to safeguard systems, networks, and data from digital threats.",
+      "topics": [
+        {
+          "title": "Introduction to Cybersecurity",
+          "video": "https://www.youtube.com/embed/z5nc9MDbvkw?si=pRfLLOC08Zjdjc7C",
+          "duration": "8 min"
+        },
+        {
+          "title": "Understanding Cyber Threats",
+          "video": "https://www.youtube.com/embed/awhqnSskWjU?si=oKpmmzGMUtyFN2pw",
+          "duration": "20 min"
+        },
+        {
+          "title": "Protecting Against Social Engineering",
+          "video": "https://www.youtube.com/embed/ESDEWQXKFaE?si=D2d32JjpieRJYFuF",
+          "duration": "3 min"
+        },
+        {
+          "title": "Securing Physical Access Points",
+          "video": "https://www.youtube.com/embed/POd9c5JI25o?si=h9wsvC9qo2uAzK5g",
+          "duration": "8 min"
+        },
+        {
+          "title": "Network Security Fundamentals",
+          "video": "https://www.youtube.com/embed/NQ1cvwEvh44?si=IN6KvHO4tsy7hGFf",
+          "duration": "23 min"
+        },
+        {
+          "title": "Malware Detection and Prevention",
+          "video": "https://www.youtube.com/embed/tVSRi6gPfeo?si=akpxtuJa-HmP0Dzq",
+          "duration": "22 min"
+        },
+        {
+          "title": "Introduction to Encryption",
+          "video": "https://www.youtube.com/embed/LA3fah6i-4A?si=unieDGc9W67fv1px",
+          "duration": "17 min"
+        }
+      ],
+      "completed": true
+    }    
   }
   
+}
