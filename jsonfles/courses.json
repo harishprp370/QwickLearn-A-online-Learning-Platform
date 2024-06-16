@@ -4,9 +4,10 @@
       "category": "Web Development",
       "items": [
         {
+          "id": 1,
           "title": "Introduction to Web Development",
           "description": "Learn the basics of HTML, CSS, and JavaScript.",
-          "image": "../assets/img/courseImg/wd1.webp",
+          "image": "../assets/img/courseImg/webdev2.jpg",
           "rating": 4.5,
           "enrolled": 1500,
           "instructor": "QwickLearn",
@@ -14,6 +15,7 @@
           "enrollLink": "signin.html"
         },
         {
+          "id": 2,
           "title": "Advanced CSS Techniques",
           "description": "Master complex CSS concepts and build responsive designs.",
           "image": "../assets/img/courseImg/wd2.jpeg",
@@ -24,9 +26,21 @@
           "enrollLink": "signin.html"
         },
         {
+          "id":3,
           "title": "JavaScript Fundamentals",
           "description": "Learn the essentials of JavaScript for dynamic web pages.",
-          "image": "../assets/img/courseImg/wd3.png",
+          "image": "../assets/img/courseImg/js.png",
+          "rating": 4.5,
+          "enrolled": 1500,
+          "instructor": "QwickLearn",
+          "instructorImage": "../../assets/img/logo.png",
+          "enrollLink": "signin.html"
+        },
+        {
+          "id": 4,
+          "title": "React for Beginners",
+          "description": "Get started with React and build interactive user interfaces.",
+          "image": "../assets/img/courseImg/reactjs2.png",
           "rating": 4.5,
           "enrolled": 1500,
           "instructor": "QwickLearn",
@@ -34,9 +48,21 @@
           "enrollLink": "signin.html"
         },
         {
-          "title": "React for Beginners",
-          "description": "Get started with React and build interactive user interfaces.",
-          "image": "../assets/img/courseImg/wd4.jpeg",
+          "id": 5,
+          "title": "Introduction to HTML and CSS",
+          "description": "Start your webdevelopment journey by learning basics of html and css to create dynamic webpages..!",
+          "image": "../assets/img/courseImg/htmlcss.png",
+          "rating": 4.5,
+          "enrolled": 1500,
+          "instructor": "QwickLearn",
+          "instructorImage": "../assets/img/logo.png",
+          "enrollLink": "signin.html"
+        },
+        {
+          "id": 6,
+          "title": "Master React JS by Building Real World Projects",
+          "description": "Learn how to build and deploy a modern developer projects with React JS ",
+          "image": "../assets/img/courseImg/project.webp",
           "rating": 4.5,
           "enrolled": 1500,
           "instructor": "QwickLearn",
@@ -49,9 +75,10 @@
       "category": "Cyber Security",
       "items": [
         {
+          "id": 7,
           "title": "Cyber Security Essentials",
-          "description": "Understand the fundamentals of cyber security and threat prevention.",
-          "image": "../assets/img/courseImg/cy1.jpeg",
+          "description": "Safeguarding digital systems and data from cyber threats through preventive measures and security protocols.",
+          "image": "../assets/img/courseImg/cyberSecurity.jpg",
           "rating": 4.5,
           "enrolled": 1500,
           "instructor": "QwickLearn",
@@ -59,9 +86,10 @@
           "enrollLink": "signin.html"
         },
         {
+          "id":8,
           "title": "Network Security Basics",
           "description": "Learn the basics of securing networks and protecting data.",
-          "image": "../assets/img/courseImg/cy2.jpeg",
+          "image": "../assets/img/courseImg/network.png",
           "rating": 4.5,
           "enrolled": 1500,
           "instructor": "QwickLearn",
@@ -69,9 +97,10 @@
           "enrollLink": "signin.html"
         },
         {
+          "id": 9,
           "title": "Ethical Hacking",
           "description": "Gain skills in ethical hacking to safeguard systems.",
-          "image": "../assets/img/courseImg/cy3.jpeg",
+          "image": "../assets/img/courseImg/ethical.webp",
           "rating": 4.5,
           "enrolled": 1500,
           "instructor": "QwickLearn",
@@ -79,9 +108,32 @@
           "enrollLink": "signin.html"
         },
         {
+          "id": 10,
           "title": "Cyber Threat Analysis",
           "description": "Learn how to analyze and respond to cyber threats effectively.",
-          "image": "../assets/img/courseImg/cy4.jpeg",
+          "image": "../assets/img/courseImg/cybersecurity-threats.jpg",
+          "rating": 4.5,
+          "enrolled": 1500,
+          "instructor": "QwickLearn",
+          "instructorImage": "../assets/img/logo.png",
+          "enrollLink": "signin.html"
+        },
+        {
+          "id": 11,
+          "title": "Linux Tutotial for Beginers",
+          "description": "Learn the fundamentals of Linux.",
+          "image": "../assets/img/courseImg/linux.webp",
+          "rating": 4.5,
+          "enrolled": 1500,
+          "instructor": "QwickLearn",
+          "instructorImage": "../assets/img/logo.png",
+          "enrollLink": "signin.html"
+        },
+        {
+          "id": 12,
+          "title": "Python for Hackers",
+          "description": "Learn the fundamentals of Linux.",
+          "image": "../assets/img/courseImg/pythonhack.jpg",
           "rating": 4.5,
           "enrolled": 1500,
           "instructor": "QwickLearn",
@@ -94,9 +146,10 @@
       "category": "Cloud Computing",
       "items": [
         {
+          "id": 13,
           "title": "Introduction to Cloud Computing",
           "description": "Explore the basics of cloud computing and its applications.",
-          "image": "../assets/img/courseImg/cc1.jpeg",
+          "image": "../assets/img/courseImg/cloud.jpeg",
           "rating": 4.5,
           "enrolled": 1500,
           "instructor": "QwickLearn",
@@ -104,9 +157,10 @@
           "enrollLink": "signin.html"
         },
         {
+          "id": 14,
           "title": "AWS Fundamentals",
           "description": "Learn the core services of Amazon Web Services.",
-          "image": "../assets/img/courseImg/cc2.jpeg",
+          "image": "../assets/img/courseImg/aws.jpg",
           "rating": 4.5,
           "enrolled": 1500,
           "instructor": "QwickLearn",
@@ -114,9 +168,10 @@
           "enrollLink": "signin.html"
         },
         {
+          "id":15,
           "title": "Azure Basics",
           "description": "Understand the basics of Microsoft Azure and its services.",
-          "image": "../assets/img/courseImg/cc3.jpeg",
+          "image": "../assets/img/courseImg/azure.jpg",
           "rating": 4.5,
           "enrolled": 1500,
           "instructor": "QwickLearn",
@@ -124,6 +179,7 @@
           "enrollLink": "signin.html"
         },
         {
+          "id": 16,
           "title": "Google Cloud Platform",
           "description": "Get started with Google Cloud Platform and its features.",
           "image": "../assets/img/courseImg/cc4.jpeg",
@@ -139,6 +195,7 @@
       "category": "Python Programming",
       "items": [
         {
+          "id": 17,
           "title": "Python for Beginners",
           "description": "Learn the basics of Python programming from scratch.",
           "image": "../assets/img/courseImg/py1.jpeg",
@@ -149,6 +206,7 @@
           "enrollLink": "signin.html"
         },
         {
+          "id": 18,
           "title": "Advanced Python Techniques",
           "description": "Master advanced Python programming concepts.",
           "image": "../assets/img/courseImg/py2.jpeg",
@@ -159,6 +217,7 @@
           "enrollLink": "signin.html"
         },
         {
+          "id":19,
           "title": "Data Analysis with Python",
           "description": "Use Python for data analysis and visualization.",
           "image": "../assets/img/courseImg/py3.jpeg",
@@ -169,6 +228,7 @@
           "enrollLink": "signin.html"
         },
         {
+          "id": 20,
           "title": "Web Development with Python",
           "description": "Learn how to develop web applications using Python and Django.",
           "image": "../assets/img/courseImg/py4.jpeg",
@@ -184,9 +244,10 @@
       "category": "Designing Tools and Techniques",
       "items": [
         {
+          "id": 21,
           "title": "Graphic Design Basics",
           "description": "Learn the fundamentals of graphic design using popular tools.",
-          "image": "../assets/img/courseImg/gd1.jpeg",
+          "image": "../assets/img/courseImg/gd.webp",
           "rating": 4.5,
           "enrolled": 1500,
           "instructor": "QwickLearn",
@@ -194,9 +255,10 @@
           "enrollLink": "signin.html"
         },
         {
+          "id": 22,
           "title": "UI/UX Design Principles",
           "description": "Understand the principles of UI/UX design for better user experiences.",
-          "image": "../assets/img/courseImg/gd2.jpeg",
+          "image": "../../assets/img/courseImg/uiux.jpeg",
           "rating": 4.5,
           "enrolled": 1500,
           "instructor": "QwickLearn",
@@ -204,9 +266,10 @@
           "enrollLink": "signin.html"
         },
         {
+          "id":23,
           "title": "Adobe Photoshop Essentials",
           "description": "Get started with Adobe Photoshop and learn essential techniques.",
-          "image": "../assets/img/courseImg/gd3.jpeg",
+          "image": "../assets/img/courseImg/adobe.jpg",
           "rating": 4.5,
           "enrolled": 1500,
           "instructor": "QwickLearn",
@@ -214,9 +277,32 @@
           "enrollLink": "signin.html"
         },
         {
+          "id": 24,
           "title": "Illustrator for Beginners",
           "description": "Learn how to create vector graphics using Adobe Illustrator.",
-          "image": "../assets/img/courseImg/gd4.jpeg",
+          "image": "../assets/img/courseImg/figma.jpg",
+          "rating": 4.5,
+          "enrolled": 1500,
+          "instructor": "QwickLearn",
+          "instructorImage": "../assets/img/logo.png",
+          "enrollLink": "signin.html"
+        },
+        {
+          "id": 25,
+          "title": "Illustrator for Beginners",
+          "description": "Learn how to create vector graphics using Adobe Illustrator.",
+          "image": "../assets/img/courseImg/illustrator.jpg",
+          "rating": 4.5,
+          "enrolled": 1500,
+          "instructor": "QwickLearn",
+          "instructorImage": "../assets/img/logo.png",
+          "enrollLink": "signin.html"
+        },
+        {
+          "id": 26,
+          "title": "Illustrator for Beginners",
+          "description": "Learn how to create vector graphics using Adobe Illustrator.",
+          "image": "../assets/img/courseImg/canva.jpg",
           "rating": 4.5,
           "enrolled": 1500,
           "instructor": "QwickLearn",

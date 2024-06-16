@@ -1,5 +1,5 @@
 body{
-  background-image: url(../assets/img/Background.png);
+  background-image: url(../assets/img/loginbg.png);
   
 }
 .h1{
@@ -11,12 +11,11 @@ body{
 
 }
 
-
 .container{
-position: relative;
-
+  position: relative;
 }
 .text{
+  font-family: Georgia, 'Times New Roman', Times, serif;
     padding-top: 10px;
     padding-left: 25px;
     padding-right: 25px;;
@@ -31,7 +30,7 @@ position: relative;
     border: 2px solid  rgba(75, 222, 156, 1);
     shape-outside: margin-box;
 }
-p{ 
+#abttxt{ 
 text-align: center;
 font-size: medium;
 

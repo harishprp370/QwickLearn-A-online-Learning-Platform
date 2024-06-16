@@ -5,12 +5,14 @@ Author : Harish N
 */
 
 /*Header*/
- .mheader {
+
+ .header {
     background-color: #fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: Georgia, 'Times New Roman', Times, serif;
   }
   
-  .navi {
+  .nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -23,7 +25,11 @@ Author : Harish N
     height: 40px;
   }
   
-  /*Search bar*/
+  .navbar a:hover {
+    background-color: #fff;
+    border: 3px;
+  }
+  /*Search bar
   
   .search-bar {
     display: flex;
@@ -42,7 +48,7 @@ Author : Harish N
   }
   
   
-  /*Explore button*/
+  /*Explore button
   
   .dropdown1 {
     float: left;
@@ -61,10 +67,7 @@ Author : Harish N
     margin: 0;
   }
   
-  .navbar a:hover, .dropdown1:hover .dropbtn2 {
-    background-color: #fff;
-    border: 3px;
-  }
+
   
   .dropdown-content3 {
     display: none;
@@ -93,19 +96,20 @@ Author : Harish N
   .dropdown1:hover .dropdown-content3 {
     display: block;
   }
+  */
   
   /**Menu Items */
   
-  .nav-menus {
+  .nav-menu {
     display: flex;
     list-style: none;
   }
   
-  .nav-menus li {
+  .nav-menu li {
     margin-left: 20px;
   }
   
-  .nav-menus li a {
+  .nav-menu li a {
     text-decoration: none;
     color: #333;
     font-weight: 500;
@@ -124,7 +128,6 @@ Author : Harish N
   }
 
 /* Google Font Link */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 *{
   margin: 0;
   padding: 0;
@@ -391,6 +394,46 @@ main {
 
 
   /*Footer Style*/
+  @media (max-width: 768px) {
+    .foo-container {
+      padding-left: 20px;
+      padding-right: 20px;
+      font-size: 10px;
+    }
+  .logoname{
+    height: 1.6 rem;
+    font-size: 5px;
+  }
+    .footer {
+      flex-wrap: wrap;
+    }
+  
+    .footer-section {
+      width: 50%;
+      margin-bottom: 20px;
+    }
+  
+    .footer-section:nth-child(3),
+    .footer-section:nth-child(4) {
+      width: 100%;
+    }
+  
+    .newsletter-form {
+      flex-wrap: wrap;
+    }
+  
+    input[type="email"] {
+      width: 100%;
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .footer-section {
+      width: 100%;
+    }
+  }
 
 .foo-container{
     font-family:Georgia, 'Times New Roman', Times, serif;

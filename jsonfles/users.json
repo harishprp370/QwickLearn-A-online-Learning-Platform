@@ -4,15 +4,9 @@
       "fname": "Deepika",
       "lname": "Bai N",
       "mnum": "1234567890",
-      "email": "deepika@test.com",
-      "password": "deepika123"
-    },
-    {
-      "fname": "Jane",
-      "lname": "Smith",
-      "mnum": "9876543210",
-      "email": "jane@example.com",
-      "password": "securepassword"
+      "email": "deepika@gmail.com",
+      "password": "test@123"
     }
   ]
 }
+ 

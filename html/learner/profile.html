@@ -14,30 +14,18 @@
 <body>
      
 <!-- Header -->
-<header class="mheader">
-  <nav class="navi">
+<header class="header">
+  <nav class="nav">
     <div class="logo"> 
       <img src="../../assets/img/logo.png" alt="Logo">
     </div>
-    <div class="search-bar">
-      <input type="text" placeholder="Want to learn?">
-      <div class="dropdown1" style="z-index: 999;">
-        <button class="dropbtn2">Explore &#9662;</button>
-        <div class="dropdown-content3">
-            <a href="#">Cyber Security</a>
-            <a href="#">Web Development</a>
-            <a href="#">Data Science</a>
-        </div>
-   </div> 
-    </div>
-    <ul class="nav-menus">
+    <ul class="nav-menu">
       <li><a href="../home.html">Home</a></li>
       <li><a href="../about.html">About us</a></li>
       <li><a href="../contactus.html">Contact us</a></li>
       <li><a href="../faq.html">FAQ's</a></li>
       <li><a href="../courses.html">Courses</a></li>
     </ul>
-
   </nav>
 </header>
 
@@ -51,11 +39,6 @@
             <i class='bx bx-menu' id="btn" ></i>
         </div>
         <ul class="nav-list">
-          <li>
-              <i class='bx bx-search' ></i>
-             <input type="text" placeholder="Search...">
-             <span class="tooltip">Search</span>
-          </li>
           <li>
             <a href="dashboard.html">
                 <i class="fas fa-tachometer-alt"></i> 
@@ -104,59 +87,94 @@
 
 
 <section class="home-section">
-  <div class="header">
-    MY PROFILE
+  <div class="profile-header">
+    My Profile
 </div>
-<div class="main-container">
-    <div class="profile-header">
-        <img src="../../assets/img/demo7.png" alt="Profile Picture" class="profile-pic" id="profile-pic">
-        <input type="file" id="upload-input" class="upload-input" accept="image/*" style="display: none;">
-        <button class="upload-btn" onclick="document.getElementById('upload-input').click();">Upload Photo</button>
+
+<div class="profile-container">
+  <div class="profile-header-container">
+    <img id="profile-pic" src="../../assets/img/DeepikaBaiN.png" alt="Profile Picture">
+    <input type="file" id="file-input" accept="image/*" onchange="loadFile(event)">
+    <button class="upload-btn" onclick="document.getElementById('file-input').click()">Upload Photo</button>
+</div>
+    <div class="info-section">
+        <div>
+            <h3>Full Name*</h3>
+            <p>Deepika Bai N</p>
+        </div>
+        <button class="edit-btn" onclick="editField('name')">Edit</button>
     </div>
-    <div class="info-container">
-        <div class="info-section">
-            <div class="info">
-                <label>Your Name</label>
-                <div class="info-content">
-                    <span class="info-value" id="name-value">Deepika Bai N</span>
-                    <button class="edit-btn" onclick="editInfo('name-value')">Edit</button>
-                </div>
-            </div>
-            <div class="info">
-                <label>Email</label>
-                <div class="info-content">
-                    <span class="info-value" id="email-value">Deepika@gmail.com</span>
-                    <button class="edit-btn" onclick="editInfo('email-value')">Edit</button>
-                </div>
-            </div>
-            <div class="info">
-                <label>Phone Number</label>
-                <div class="info-content">
-                    <span class="info-value" id="phone-value">+91 1234567890</span>
-                    <button class="edit-btn" onclick="editInfo('phone-value')">Edit</button>
-                </div>
-            </div>
+    <div class="info-section">
+        <div>
+            <h3>Email</h3>
+            <p>Deepika@test.com</p>
         </div>
-        <div class="about-section">
-            <label>About Deepika</label>
-            <div class="info-content">
-                <span class="info-value" id="about-value">Lorem ipsum dolor sit amet consectetur. Erat auctor a aliquam vel congue luctus. Lea diam cras neque mauris ac arcu elit ipsum dolor sit amet consectetur.</span>
-                <button class="edit-btn" onclick="editInfo('about-value')">Edit</button>
-            </div>
+        <button class="edit-btn" onclick="editField('email')">Edit</button>
+    </div>
+    <div class="info-section">
+        <div>
+            <h3>Phone Number</h3>
+            <p>+91 1234567890</p>
         </div>
+        <button class="edit-btn" onclick="editField('phone')">Edit</button>
+    </div>
+    <div class="info-section">
+        <div>
+            <h3>About Deepika</h3>
+            <p>🎓 Computer Science Student | C | JAVA | Python | OS | Web Technologies
+
+            </p>
+        </div>
+        <button class="edit-btn" onclick="editField('about')">Edit</button>
     </div>
 </div>
-  
+
+<script>
+    function editField(field) {
+        let fieldValue;
+        switch(field) {
+            case 'name':
+                fieldValue = prompt("Enter your name:", "Deepika Bai N");
+                if (fieldValue) {
+                    document.querySelectorAll('.info-section')[0].querySelector('p').textContent = fieldValue;
+                }
+                break;
+            case 'email':
+                fieldValue = prompt("Enter your email:", "Deepika@gmail.com");
+                if (fieldValue) {
+                    document.querySelectorAll('.info-section')[1].querySelector('p').textContent = fieldValue;
+                }
+                break;
+            case 'phone':
+                fieldValue = prompt("Enter your phone number:", "+91 1234567890");
+                if (fieldValue) {
+                    document.querySelectorAll('.info-section')[2].querySelector('p').textContent = fieldValue;
+                }
+                break;
+            case 'about':
+                fieldValue = prompt("Enter about you:", "Lorem ipsum dolor sit amet consectetur. Erat auctor a aliquam vel congue luctus. Leo diam cras neque mauris ac arcu elit ipsum dolor sit amet consectetur.");
+                if (fieldValue) {
+                    document.querySelectorAll('.info-section')[3].querySelector('p').textContent = fieldValue;
+                }
+                break;
+        }
+    }
+    function loadFile(event) {
+      const profilePic = document.getElementById('profile-pic');
+      profilePic.src = URL.createObjectURL(event.target.files[0]);
+      profilePic.onload = () => {
+          URL.revokeObjectURL(profilePic.src); // Free memory
+      }
+  }
+</script>
 </section>
 </main>
-
-
 
 <!-- Footer -->
 <footer style="background-color: #023748; padding: 20px; ">
   <div class="foo-container">
       <div class="logoname">
-          <img src="../assets/img/logo.png" alt="logo">
+          <img src="../../assets/img/logo.png" alt="logo">
           <h2 style="color: white;">Qwicklearn</h2>
       </div>
       <hr>   
@@ -178,18 +196,17 @@
           <div class="footer-section Legal">
               <h1>Legal</h1>
               <ul>
-                  <li><a href="#">Terms of Use</a></li>
-                  <li><a href="#">Refund Policy</a></li>
-                  <li><a href="#">Terms & Conditions</a></li>
-                  <li><a href="#">Privacy Policy</a></li>
+                <li><a href="../legal/Tofuse.html">Terms of Use</a></li>
+                <li><a href="../legal/TandC.html">Terms & Conditions</a></li>
+                <li><a href="../legal/Policy.html">Privacy Policy</a></li>
               </ul>
           </div>
           <div class="footer-section Qlinks">
               <h1>Quick links</h1>
               <ul>
                   
-                  <li><a href="courses.html">Courses</a></li>
-                  <li><a href="signin.html">Forum</a></li>
+                  <li><a href="../courses.html">Courses</a></li>
+                  <li><a href="../signin.html">Forum</a></li>
               </ul>
           </div>
           <div class="footer-section newsletter">

@@ -9,6 +9,7 @@
           "video": "https://www.youtube.com/embed/ad79nYk2keg?si=yWXDInJSMwW6E7xI" ,
           "duration": "5 min"
         },
+        
         {
           "title": "What is artificial Intelligence",
           "video": "https://www.youtube.com/embed/ukzFI9rgwfU?si=PYqGnIaTvWJoUFA3" ,
@@ -43,6 +44,38 @@
           "title": "AI ethics and bias",
           "video": "https://www.youtube.com/embed/aGwYtUzMQUk?si=aOHOtHtTpppMHS6S",
           "duration": "1 min"
+        }],
+        
+        "resources": [
+        {
+          "name": "Resource 1",
+          "url": "https://example.com/resource1.pdf"
+        },
+        {
+          "name": "Resource 2",
+          "url": "https://example.com/resource2.pdf"
+        }
+      ],
+      "quiz": [
+        {
+          "question": "What is the definition of AI?",
+          "options": [
+            "Machine learning",
+            "Deep learning",
+            "Computer vision",
+            "The ability of machines to mimic human intelligence"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "What is the purpose of Natural Language Processing?",
+          "options": [
+            "To enable machines to understand and process human language",
+            "To enable machines to see and recognize objects",
+            "To enable machines to learn from data",
+            "To enable machines to make decisions"
+          ],
+          "answer": 0
         }
         
       ],

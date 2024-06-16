@@ -14,23 +14,12 @@
 </head>
 <body>
   <!-- Header -->
-<header class="mheader">
-  <nav class="navi">
+<header class="header">
+  <nav class="nav">
     <div class="logo"> 
       <img src="../assets/img/logo.png" alt="Logo">
     </div>
-    <div class="search-bar">
-      <input type="text" placeholder="Want to learn?">
-      <div class="dropdown1">
-        <button class="dropbtn2">Explore &#9662;</button>
-        <div class="dropdown-content3">
-            <a href="#">Cyber Security</a>
-            <a href="#">Web Development</a>
-            <a href="#">Data Science</a>
-        </div>
-   </div> 
-    </div>
-    <ul class="nav-menus">
+    <ul class="nav-menu">
       <li><a href="home.html">Home</a></li>
       <li><a href="about.html">About us</a></li>
       <li><a href="contactus.html">Contact us</a></li>
@@ -47,7 +36,7 @@
 <!--Display Course From Course.JSON file-->
 <div class="container">
   
-  <div id="courses-container" class="row"></div>
+  <div id="courses-container container" class="row"></div>
 </div>
 
 
@@ -128,9 +117,8 @@ fetch('../jsonfles/courses.json')
                     <div class="col-md-4">
                         <div class="card h-100">
                             <div class="card-body">
-                                <a href="courseover.html"><img src="${course.image}" alt="Course Image" class="img-fluid">
-                                <h3 class="card-title">${course.title}</h3>
-                                <p class="card-text">${course.description}</p></a>
+                                <img src="${course.image}" alt="Course Image" class="img-fluid h-50">
+                                <a href="#" onclick="redirectToCourseOverview(${course.id})" class="course-link"><h3 class="card-title">${course.title}</h3></a>                                <p class="card-text">${course.description}</p>
                                 <div class="d-flex justify-content-between align-items-center">
                                     <p class="mb-1">${course.rating}<span class="rating">&#9733;&#9733;&#9733;&#9733;&#9734;</span></p>
                                     <span class="enrolled-count">${course.enrolled}</span>
@@ -138,7 +126,7 @@ fetch('../jsonfles/courses.json')
                                 <div class="instructor" style="display: flex; margin-top:10px; width:350px">
                                     <img src="${course.instructorImage}" class="rounded-circle me-2" width="30" height="30" alt="Instructor Photo">
                                     <span>${course.instructor}</span>
-                                    <a href="${course.enrollLink}" class="btn btn-primary" style="margin-left: 50%;" >Enroll</a>
+                                    <a href="${course.enrollLink}" class="btn btn-primary enrollbtn">Enroll</a>
                                 </div> 
                             </div>
                         </div>
@@ -151,6 +139,10 @@ fetch('../jsonfles/courses.json')
         });
     })
     .catch(error => console.error('Error loading course data:', error));
+    function redirectToCourseOverview(courseId) {
+        sessionStorage.setItem('courseId', courseId);
+        window.location.href = 'courseover.html';
+    }
     </script>
 </body>
 

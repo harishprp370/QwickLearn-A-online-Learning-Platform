@@ -1,72 +1,62 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us</title>
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
-    <link rel="stylesheet" href="../css/contact.css">
-    <link rel="stylesheet" href="../css/defaultstyles.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" href="../css/contact.css">
+  <link rel="stylesheet" href="../css/defaultstyles.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
 
 </head>
+
 <body>
-<!-- Header -->
+  <!-- Header -->
 
-<header class="mheader">
-  <nav class="navi">
-    <div class="logo">
-      <img src="../assets/img/logo.png" alt="Logo">
-    </div>
-    <div class="search-bar">
-      <input type="text" placeholder="Want to learn?">
-      <div class="dropdown1">
-        <button class="dropbtn2">Explore &#9662;</button>
-        <div class="dropdown-content3">
-            <a href="cybersecurity.php">Cyber Security</a>
-            <a href="#">Web Development</a>
-            <a href="#">Data Science</a>
-        </div>
-   </div> 
-    </div>
-    <ul class="nav-menus">
-      <li><a href="home.html">Home</a></li>
-      <li><a href="about.html">About us</a></li>
-      <li><a href="contactus.html">Contact us</a></li>
-      <li><a href="faq.html">FAQ's</a></li>
-      <li><a href="courses.html">Courses</a></li>
-    </ul>
-    <div class="auth-button">
-      <button onclick="redirectToSignIn()">Sign up or Sign in</button>
-    </div>
-  </nav>
-</header>
+  <header class="header">
+    <nav class="nav">
+      <div class="logo">
+        <img src="../assets/img/logo.png" alt="Logo">
+      </div>
+      <ul class="nav-menu">
+        <li><a href="home.html">Home</a></li>
+        <li><a href="about.html">About us</a></li>
+        <li><a href="contactus.html">Contact us</a></li>
+        <li><a href="faq.html">FAQ's</a></li>
+        <li><a href="courses.html">Courses</a></li>
+      </ul>
+      <div class="auth-button">
+        <button onclick="redirectToSignIn()">Sign up or Sign in</button>
+      </div>
+    </nav>
+  </header>
 
-<div class="getintouch">
-<div class="col-md-12">
-        <h2 class="text-center">Get In Touch</h2>
-</div>
-<div class="container-contact">
-<h2>Get In Touch</h2>
+  <div class="getintouch">
+    <div class="col-md-12">
+      <h2 class="text-center">Get In Touch</h2>
+    </div>
+    <div class="container-contact">
+      <h2>Get In Touch</h2>
       <span class="big-circle"></span>
       <img src="img/shape.png" class="square" alt="" />
       <div class="form">
         <div class="contact-info">
           <h3 class="title">Let's get in touch</h3>
           <p class="text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
-            dolorum adipisci recusandae praesentium dicta!
+            Need assistance or have questions? The QwikLearn team is here to help! Reach out to us via the contact form
+            below, and we'll respond promptly. Your success is our priority!
           </p>
 
           <div class="info">
-          <div class="information">
+            <div class="information">
               <i class="fas fa-phone"></i>&nbsp&nbsp
               <p>080-123456789</p>
             </div>
-            
+
             <div class="information">
               <i class="fas fa-envelope"></i> &nbsp &nbsp
               <p>supoort.qwicklearn.com</p>
@@ -119,17 +109,17 @@
               <span>Phone</span>
             </div>
             <div class="radio-btn">
-                <input type="radio" name="query" value="General">
-                <label for="query1">General</label>
-                
-                <input type="radio" name="query" value="Course">
-                <label for="query2">Course</label>
-                
-                <input type="radio" name="query" value="Payments">
-                <label for="query3">Payments</label>
-                
-                <input type="radio" name="query" value="Certificate">
-                <label for="query4">Certificate</label>
+              <input type="radio" name="query" value="General">
+              <label for="query1">General</label>
+
+              <input type="radio" name="query" value="Course">
+              <label for="query2">Course</label>
+
+              <input type="radio" name="query" value="Payments">
+              <label for="query3">Payments</label>
+
+              <input type="radio" name="query" value="Certificate">
+              <label for="query4">Certificate</label>
             </div>
             <div class="input-container textarea">
               <textarea name="message" class="input"></textarea>
@@ -141,64 +131,67 @@
         </div>
       </div>
     </div>
-</div>
-
-
-
-<!-- Footer -->
-<footer style="background-color: #023748; padding: 20px; ">
-  <div class="foo-container">
-      <div class="logoname">
-          <img src="../assets/img/logo.png" alt="logo">
-          <h2 style="color: white;">Qwicklearn</h2>
-      </div>
-      <hr>   
-      <div class="footer" style="color: white;">
-          <div class="footer-section reach">
-              <h1>Reach Us</h1>
-              <p><i class="fas fa-phone"></i> +1012 3456 789</p>
-              <p><i class="fas fa-envelope"></i> demo@gmail.com</p>
-              <p><i class="fas fa-map-marker-alt"></i> Bits Hi Tech College, Chitradurga</p>
-          </div>
-          <div class="footer-section company">
-              <h1>Company</h1>
-              <ul>
-                  <li><a href="about.html">About</a></li>
-                  <li><a href="contactus.html">Contact Us</a></li>
-                  <li><a href="faq.html">FAQ's</a></li>
-              </ul>
-          </div>
-          <div class="footer-section Legal">
-              <h1>Legal</h1>
-              <ul>
-                  <li><a href="#">Terms of Use</a></li>
-                  <li><a href="#">Refund Policy</a></li>
-                  <li><a href="#">Terms & Conditions</a></li>
-                  <li><a href="#">Privacy Policy</a></li>
-              </ul>
-          </div>
-          <div class="footer-section Qlinks">
-              <h1>Quick links</h1>
-              <ul>
-                  
-                  <li><a href="courses.html">Courses</a></li>
-                  <li><a href="signin.html">Forum</a></li>
-              </ul>
-          </div>
-          <div class="footer-section newsletter">
-              <h1>Join Our Newsletter</h1>
-              <div class="newsletter-form">
-                  <input type="email" placeholder="Your email address">
-                  <button>Subscribe</button>
-                </div>
-                <p class="newsletter-description">Will send you weekly updates for your better tool management.</p>
-          </div>
-      </div>
-      <center><p style="color: white;">Copyright &copy; 2024 QwickLearn | All rights reserved.</p></center>
   </div>
-</footer>
+
+
+
+  <!-- Footer -->
+  <footer style="background-color: #023748; padding: 20px; ">
+    <div class="foo-container">
+      <div class="logoname">
+        <img src="../assets/img/logo.png" alt="logo">
+        <h2 style="color: white;">Qwicklearn</h2>
+      </div>
+      <hr>
+      <div class="footer" style="color: white;">
+        <div class="footer-section reach">
+          <h1>Reach Us</h1>
+          <p><i class="fas fa-phone"></i> +1012 3456 789</p>
+          <p><i class="fas fa-envelope"></i> demo@gmail.com</p>
+          <p><i class="fas fa-map-marker-alt"></i> Bits Hi Tech College, Chitradurga</p>
+        </div>
+        <div class="footer-section company">
+          <h1>Company</h1>
+          <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+            <li><a href="faq.html">FAQ's</a></li>
+          </ul>
+        </div>
+        <div class="footer-section Legal">
+          <h1>Legal</h1>
+          <ul>
+            <li><a href="#">Terms of Use</a></li>
+            <li><a href="#">Refund Policy</a></li>
+            <li><a href="#">Terms & Conditions</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+        </div>
+        <div class="footer-section Qlinks">
+          <h1>Quick links</h1>
+          <ul>
+
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="signin.html">Forum</a></li>
+          </ul>
+        </div>
+        <div class="footer-section newsletter">
+          <h1>Join Our Newsletter</h1>
+          <div class="newsletter-form">
+            <input type="email" placeholder="Your email address">
+            <button>Subscribe</button>
+          </div>
+          <p class="newsletter-description">Will send you weekly updates for your better tool management.</p>
+        </div>
+      </div>
+      <center>
+        <p style="color: white;">Copyright &copy; 2024 QwickLearn | All rights reserved.</p>
+      </center>
+    </div>
+  </footer>
 
 </body>
+
 </html>
 
 <script src="../js/script.js"></script>
@@ -209,14 +202,14 @@
     let parent = this.parentNode;
     parent.classList.add("focus");
   }
-  
+
   function blurFunc() {
     let parent = this.parentNode;
     if (this.value == "") {
       parent.classList.remove("focus");
     }
   }
-  
+
   inputs.forEach((input) => {
     input.addEventListener("focus", focusFunc);
     input.addEventListener("blur", blurFunc);

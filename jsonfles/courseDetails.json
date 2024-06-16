@@ -1,197 +1,59 @@
-{
-  "courses": 
+[
   {
-    "course1": {
-      "name": "Introduc",
-      "overview": "This course provides an introduction to the basics of web development.",
-      "curriculum": [
-        {
-          "title": "HTML Basics",
-          "duration": "2 weeks"
-        },
-        {
-          "title": "CSS Fundamentals",
-          "duration": "3 weeks"
-        },
-        {
-          "title": "JavaScript Essentials",
-          "duration": "4 weeks"
-        }
-      ],
-      "instructor": {
-        "name": "John Doe",
-        "profile_pic": "john_doe_profile_pic.jpg",
-        "social_links": {
-          "twitter": "https://twitter.com/johndoe",
-          "linkedin": "https://www.linkedin.com/in/johndoe"
-        }
-      },
-      "faq": [
-        {
-          "question": "Can I enroll in this course if I have no prior coding experience?",
-          "answer": "Yes, this course is suitable for beginners."
-        },
-        {
-          "question": "Is this course self-paced?",
-          "answer": "Yes, you can study at your own pace."
-        }
-      ],
-      "reviews": [
-        {
-          "user": "Alice",
-          "comment": "Great course! I learned a lot.",
-          "rating": 5
-        },
-        {
-          "user": "Bob",
-          "comment": "Excellent instructor!",
-          "rating": 4
-        }
-      ]
+    "id": 1,
+    "title": "Figma UI UX Design Tutorial (Basic To Advance)",
+    "description": "Learn Figma UI/UX design from basics to advanced level with hands-on projects.",
+    "duration": "2 Weeks",
+    "level": "All Levels",
+    "imageUrl": "../assets/img/courseImg/cc1.jpeg",
+    "overview": "...",
+    "curriculum": [ "Introduction to UI/UX Design",
+    "Figma Basics",
+    "Wireframing and Prototyping",
+    "Design Principles",
+    "User Research and Usability Testing",
+    "Responsive Design",
+    "Design Systems",
+    "Advanced Techniques and Case Studies"
+],
+    "instructor": "John Doe is a seasoned UI/UX designer with over 10 years of experience in the industry. He has worked for various companies, designing user interfaces and experiences for websites, mobile apps, and software applications.",
+    "faqs": [{
+      "question": "Do I need any prior knowledge of design?",
+      "answer": "No prior knowledge is required. This course is designed for beginners as well as experienced designers."
     },
-    "course2": {
-      "name": "Introduction to Web Development",
-      "overview": "This course provides an introduction to the basics of web development.",
-      "curriculum": [
-        {
-          "title": "HTML Basics",
-          "duration": "2 weeks"
-        },
-        {
-          "title": "CSS Fundamentals",
-          "duration": "3 weeks"
-        },
-        {
-          "title": "JavaScript Essentials",
-          "duration": "4 weeks"
-        }
-      ],
-      "instructor": {
-        "name": "John Doe",
-        "profile_pic": "john_doe_profile_pic.jpg",
-        "social_links": {
-          "twitter": "https://twitter.com/johndoe",
-          "linkedin": "https://www.linkedin.com/in/johndoe"
-        }
-      },
-      "faq": [
-        {
-          "question": "Can I enroll in this course if I have no prior coding experience?",
-          "answer": "Yes, this course is suitable for beginners."
-        },
-        {
-          "question": "Is this course self-paced?",
-          "answer": "Yes, you can study at your own pace."
-        }
-      ],
-      "reviews": [
-        {
-          "user": "Alice",
-          "comment": "Great course! I learned a lot.",
-          "rating": 5
-        },
-        {
-          "user": "Bob",
-          "comment": "Excellent instructor!",
-          "rating": 4
-        }
-      ]
-    },
-    "course3": {
-      "name": "Introduction to Web Development",
-      "overview": "This course provides an introduction to the basics of web development.",
-      "curriculum": [
-        {
-          "title": "HTML Basics",
-          "duration": "2 weeks"
-        },
-        {
-          "title": "CSS Fundamentals",
-          "duration": "3 weeks"
-        },
-        {
-          "title": "JavaScript Essentials",
-          "duration": "4 weeks"
-        }
-      ],
-      "instructor": {
-        "name": "John Doe",
-        "profile_pic": "john_doe_profile_pic.jpg",
-        "social_links": {
-          "twitter": "https://twitter.com/johndoe",
-          "linkedin": "https://www.linkedin.com/in/johndoe"
-        }
-      },
-      "faq": [
-        {
-          "question": "Can I enroll in this course if I have no prior coding experience?",
-          "answer": "Yes, this course is suitable for beginners."
-        },
-        {
-          "question": "Is this course self-paced?",
-          "answer": "Yes, you can study at your own pace."
-        }
-      ],
-      "reviews": [
-        {
-          "user": "Alice",
-          "comment": "Great course! I learned a lot.",
-          "rating": 5
-        },
-        {
-          "user": "Bob",
-          "comment": "Excellent instructor!",
-          "rating": 4
-        }
-      ]
-    },
-    "course4": {
-      "name": "Introduction to Web Development",
-      "overview": "This course provides an introduction to the basics of web development.",
-      "curriculum": [
-        {
-          "title": "HTML Basics",
-          "duration": "2 weeks"
-        },
-        {
-          "title": "CSS Fundamentals",
-          "duration": "3 weeks"
-        },
-        {
-          "title": "JavaScript Essentials",
-          "duration": "4 weeks"
-        }
-      ],
-      "instructor": {
-        "name": "John Doe",
-        "profile_pic": "john_doe_profile_pic.jpg",
-        "social_links": {
-          "twitter": "https://twitter.com/johndoe",
-          "linkedin": "https://www.linkedin.com/in/johndoe"
-        }
-      },
-      "faq": [
-        {
-          "question": "Can I enroll in this course if I have no prior coding experience?",
-          "answer": "Yes, this course is suitable for beginners."
-        },
-        {
-          "question": "Is this course self-paced?",
-          "answer": "Yes, you can study at your own pace."
-        }
-      ],
-      "reviews": [
-        {
-          "user": "Alice",
-          "comment": "Great course! I learned a lot.",
-          "rating": 5
-        },
-        {
-          "user": "Bob",
-          "comment": "Excellent instructor!",
-          "rating": 4
-        }
-      ]
+    {
+      "question": "Will I get a certificate after completing the course?",
+      "answer": "Yes, you will receive a certificate of completion after successfully finishing the course."
     }
+]
+  },
+  {
+    "id": 2,
+    "title": "Web Development Bootcamp",
+    "description": "Learn to build modern websites and web applications from scratch.",
+    "duration": "4 Weeks",
+    "level": "Beginner",
+    "imageUrl": "../assets/img/courseImg/cc2.jpeg",
+    "overview": "...",
+    "curriculum":  [ "Introduction to UI/UX Design",
+    "Figma Basics",
+    "Wireframing and Prototyping",
+    "Design Principles",
+    "User Research and Usability Testing",
+    "Responsive Design",
+    "Design Systems",
+    "Advanced Techniques and Case Studies"
+],
+    "instructor": "John Doe is a seasoned UI/UX designer with over 10 years of experience in the industry. He has worked for various companies, designing user interfaces and experiences for websites, mobile apps, and software applications.",
+    "faqs": [{
+      "question": "Do I need any prior knowledge of design?",
+      "answer": "No prior knowledge is required. This course is designed for beginners as well as experienced designers."
+    },
+    {
+      "question": "Will I get a certificate after completing the course?",
+      "answer": "Yes, you will receive a certificate of completion after successfully finishing the course."
+    }
+]
+  
   }
-}
+]

@@ -1,0 +1,102 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url(../assets/img/loginbg.png);
+    color: #333333;
+  }
+  
+  .container {
+    width:100%;
+    margin: 0 auto;
+    padding: 20px;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  
+  /* Course Details Styles */
+  #courseDetails {
+    background-color: #bbffe3;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 90%;
+  }
+  
+  #courseDetails h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 10px;
+  }
+  
+  #courseDetails p {
+    font-size: 16px;
+    color: #666666;
+    margin-bottom: 10px;
+  }
+  
+  /* Image Styles */
+  .image-container {
+    position: relative;
+    width: 100%;
+  }
+  
+  .image-container img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .btn-primary{
+    background-color: #20B486;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 70%;
+    width: 22%;
+  }
+
+  li{
+    list-style: none;
+    margin-bottom: 10px;
+
+  }
+  /* Tab Navigation Styles */
+  .nav-tabs {
+    border-bottom: none;
+    margin-top: 20px;
+  }
+  
+  .nav-tabs{
+    margin-bottom: 20px;
+    background-color: #83f6cd;
+    border-radius: 10px;
+  }
+  .nav-tabs .nav-link {
+    color: #1b8dff;
+    font-weight: 500;
+    border: none;
+    border-bottom: 2px solid transparent;
+    padding: 10px 20px;
+    margin-right: 20px;
+    font-weight: bolder;
+  }
+  
+  .nav-tabs .nav-link.active {
+    color: #50ceb3;
+    border-bottom: 2px solid #000000;
+    font-weight: bolder;
+    font-size: 18px;
+  }
+  
+  /* Tab Content Styles */
+  .tab-content {
+    background-color: #9cf6eb;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }

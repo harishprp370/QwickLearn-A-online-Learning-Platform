@@ -19,7 +19,7 @@ document.getElementById('signupForm').addEventListener('submit', function(event)
           }
     
     // Create user object
-    const user = {
+    const users = {
       "fname": fname,
       "lname": lname,
       "mnum": mnum,
@@ -32,7 +32,7 @@ document.getElementById('signupForm').addEventListener('submit', function(event)
       .then(response => response.json())
       .then(data => {
         // Add new user to the existing users
-        data.users.push(user);
+        data.users.push(users);
   
         // Update the JSON file with the new data
         fetch('../jsonfles/users.json', {

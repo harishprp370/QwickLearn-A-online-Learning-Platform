@@ -1,120 +1,3 @@
- /*Header*/
- .mheader {
-  background-color: #fff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.navi {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 10px 20px;
-}
-
-.logo img {
-  height: 40px;
-}
-
-/*Search bar*/
-
-.search-bar {
-  display: flex;
-  align-items: center;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  padding: 4px;
-  width: 500px;
-}
-
-.search-bar input {
-  padding: 8px;
-  border: none;
-  font-size: 14px;
-  flex-grow: 1;
-}
-
-
-/*Explore button*/
-
-.dropdown {
-  float: left;
-  overflow: hidden;
-}
-
-.dropdown .dropbtn {
-  font-size: 16px;  
-  color: #008a60;
-  cursor: pointer;
-  background-color: #baffea;
-  border: none;
-  border-radius: 10px;
-  padding: 10px 20px;
-  font-family: inherit;
-  margin: 0;
-}
-
-.navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: #fff;
-  border: 3px;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  float: none;
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-}
-
-.dropdown-content a:hover {
-  background-color: #baffae;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-/**Menu Items */
-
-.nav-menus {
-  display: flex;
-  list-style: none;
-}
-
-.nav-menus li {
-  margin-left: 20px;
-}
-
-.nav-menus li a {
-  text-decoration: none;
-  color: #333;
-  font-weight: 500;
-}
-
-/**Signin button */
-
-.auth-button button {
-  background-color: #20B486;
-  color: #fff;
-  border: none;
-  padding: 8px 16px;
-  border-radius: 4px;
-  font-size: 14px;
-  cursor: pointer;
-}
-
 /*Hero Section*/
 
 .hero {
@@ -122,6 +5,7 @@
     text-align: left;
     color: #000000;
     padding: 60px 0;
+    margin-bottom: 1px;
 }
 .hero img {
     width: 100%;
@@ -171,8 +55,18 @@
       margin-right: 10px;
 
 }
-span{
+.highlight{
   color:#20B486;
+}
+/*Media Queries*/
+@media (max-width:1200px) {
+  .hero-content{
+    margin-top: 100px;
+    left: 40%;
+  }
+  .hero-content h1{
+    font-size:60px;
+  }  
 }
 
 /*About Section*/
@@ -182,6 +76,7 @@ span{
     border-radius: 10px;
     width: 90%;
     margin: 5%;
+    margin-top: 4px;
   }
   
   .about-content h2 {
@@ -219,6 +114,12 @@ span{
     color: #ffffff;
     border: none;
 }
+@media (max-width:768px){
+  .btn-learn-more{
+    margin-left: 40%;
+    margin-bottom: 10px;
+  }
+}
 
 /* Explore Courses */
 
@@ -226,10 +127,23 @@ span{
   padding: 60px 60px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
-  width: 90%;
+  width: 100%;
   height: auto;
-  margin: 5%;
-  
+}
+.pagetitle{
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+.pagetitle h4{
+  color: #0c52a1;
+  stroke: #149279 5px;
+
+}
+.pagetitle h1{
+  color: #000000;
+  font-size: 2rem;
+  font-weight: bold;
+  font-style: inherit;
 }
 .card {
   transition: all 0.3s; /* Add transition for smooth hover effect */
@@ -241,6 +155,7 @@ span{
 
 .card-img-top {
   border-radius: 10px;
+  height: 50%;
 }
 .card-title {
   font-size: 1.2em;
@@ -258,6 +173,8 @@ span{
 }
 .btn-primary{
   margin-left: 30%;
+  background-color: #22B286;
+  width: 100px;
 }
 .scroll-images {
   position: relative;
@@ -271,7 +188,39 @@ span{
   scroll-behavior: smooth;
   -webkit-overflow-scrolling: touch;
 }
+/*Media Query*/
+@media (max-width: 1200px) {
+  .course-con{
+    max-width: 100%;
+    width: 100%;
+  }
+  .pagetitle h4 {
+    font-size: 16px;
+    font-style: oblique;
+    font-weight: bold;
+  }
 
+  .pagetitle h1 {
+    font-size: 2rem;
+  }
+
+  .pagetitle p {
+    font-size: 0.875rem;
+  }
+
+  .card .card-title {
+    font-size: 1rem;
+  }
+
+  .card .card-text {
+    font-size: 0.875rem;
+  }
+
+  .card .btn {
+    padding: 0.5rem 1rem;
+    font-size: 0.875rem;
+  }
+}
 
 /*Our Team*/
 .ourteam{
@@ -353,7 +302,7 @@ span{
 
 
 /*get in Touch*/
-.container-contact {
+.infocls {
   position: relative;
   width: 90%;
   margin: 0 auto;
@@ -361,13 +310,25 @@ span{
   border-radius: 10px;
   min-height: 100vh;
   padding: 2rem;
-  background-color: #eeeaea;
+  background-color: #ffffff;
   overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
+.container-contact {
+  position: relative;
+  margin: 0 auto;
+  border: 3px #149279;
+  border-radius: 10px;
+  min-height: 100vh;
+  padding: 2rem;
+  background-color: #e4e4e4;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .form {
   width: 100%;
   max-width: 820px;
@@ -730,99 +691,4 @@ textarea.input {
   .cbtn {
     padding: 0.45rem 1.2rem;
   }
-}
-
-/*Footer Style*/
-
-.foo-container{
-  font-family:Georgia, 'Times New Roman', Times, serif;
-  padding-left: 50px;
-  padding-right: 50px;
-}
-.logoname {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center; /* To center-align the text */
-}
-
-.logoname img {
-    margin-right: 10px; /* Adjust as needed to add space between image and text */
-    padding-bottom: 15px;
-}
-
-.footer {
-    display: flex;
-    justify-content: space-between;
-}
-
-.footer-section {
-    flex: 1;
-    margin-right: 20px; /* Adjust as needed */
-}
-
-.footer-section:last-child {
-    margin-right: 0;
-}
-
-.footer-section h1 {
-    font-size: 18px;
-    margin-bottom: 10px;
-    padding-bottom: 15px;
-    padding-top: 15px;
-    border-bottom: 3px solid #6c757d;
-}
-
-.footer-section ul {
-    list-style-type: none;
-    padding: 0px;
-    margin: 0;
-
-}
-
-.footer-section ul li {
-    margin-bottom: 10px;
-}
-
-.footer-section ul li a {
-    text-decoration: none;
-    color: inherit;
-}
-
-.footer-section p {
-    margin: 5px 0;
-    margin-bottom: 15px;
-}
-
-/* Container for the email input field and button */
-.newsletter-form {
-    display: flex; /* Use flexbox */
-    align-items: center; /* Align items vertically */
-}
-
-/* Style for the email input field */
-input[type="email"] {
-    background-color: #0E495C;
-    color: white;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    width: 250px; /* Adjust width as needed */
-    margin-right: 10px; /* Add some space between the input and button */
-}
-
-/* Style for the subscribe button */
-button {
-    background-color: #16656A;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease; /* Add a smooth transition effect */
-}
-
-/* Change button color on hover */
-button:hover {
-    background-color: #145055;
 }

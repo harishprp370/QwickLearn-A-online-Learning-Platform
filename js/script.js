@@ -1,18 +1,19 @@
 /*Header script*/
+document.addEventListener('DOMContentLoaded', () => {
+  const textElement = document.querySelector('.heading');
+  const text = textElement.innerHTML;
+  textElement.innerHTML = '';
+  let i = 0;
 
-const exploreBtn = document.querySelector('.explore-btn');
-const dropdownMenu = document.querySelector('.dropdown-menu');
-const dropdownOptions = document.querySelectorAll('.dropdown-option');
+  function type() {
+      if (i < text.length) {
+          textElement.innerHTML += text.charAt(i);
+          i++;
+          setTimeout(type, 100);
+      }
+  }
 
-exploreBtn.addEventListener('click', () => {
-  dropdownMenu.style.display = dropdownMenu.style.display === 'block' ? 'none' : 'block';
-});
-
-dropdownOptions.forEach(option => {
-  option.addEventListener('click', () => {
-    const url = option.dataset.url;
-    window.location.href = url;
-  });
+  type();
 });
 function redirectToSignIn() {
   window.location.href = 'signin.html';

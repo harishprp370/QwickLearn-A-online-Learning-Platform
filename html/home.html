@@ -1,84 +1,76 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Qwick Learn - A online Learning Platform</title>
-    <!-- CSS only -->
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="../css/defaultstyles.css">
-    <link rel="stylesheet" href="../css/home.css">
-    
-    
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Qwick Learn - A online Learning Platform</title>
+  <!-- CSS only -->
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="../css/defaultstyles.css">
+  <link rel="stylesheet" href="../css/home.css">
+
+
 </head>
+
 <body>
 
-<!-- Header -->
-<header class="mheader">
-  <nav class="navi">
-    <div class="logo"> 
-      <img src="../assets/img/logo.png" alt="Logo">
-    </div>
-    <div class="search-bar">
-      <input type="text" placeholder="Want to learn?">
-      <div class="dropdown1">
-        <button class="dropbtn2">Explore &#9662;</button>
-        <div class="dropdown-content3">
-            <a href="#">Cyber Security</a>
-            <a href="#">Web Development</a>
-            <a href="#">Data Science</a>
-        </div>
-   </div> 
-    </div>
-    <ul class="nav-menus">
-      <li><a href="home.html">Home</a></li>
-      <li><a href="about.html">About us</a></li>
-      <li><a href="contactus.html">Contact us</a></li>
-      <li><a href="faq.html">FAQ's</a></li>
-      <li><a href="courses.html">Courses</a></li>
-    </ul>
-    <div class="auth-button">
-      <button onclick="redirectToSignIn()">Sign up or Sign in</button>
-    </div>
-  </nav>
-</header>
+  <!-- Header -->
+  <header class="header">
+    <nav class="nav">
+      <div class="logo">
+        <img src="../assets/img/logo.png" alt="Logo">
+      </div>
+      <ul class="nav-menu">
+        <li><a href="home.html">Home</a></li>
+        <li><a href="about.html">About us</a></li>
+        <li><a href="contactus.html">Contact us</a></li>
+        <li><a href="faq.html">FAQ's</a></li>
+        <li><a href="courses.html">Courses</a></li>
+      </ul>
+      <div class="auth-button">
+        <button onclick="redirectToSignIn()">Sign up or Sign in</button>
+      </div>
+    </nav>
+  </header>
 
-    <!-- Hero Section -->
+  <!-- Hero Section -->
   <section class="hero">
     <div class="hero">
-        <img src="../assets/img/Herobg.png" alt="herobg">
-        <div class="container hero-content">
-            <div class="row">
-                <div class="col-md-12">
-                  <h1>Up Your <span>Skills</span> <br>to <span class="highlight">Advance</span> Your <br><span class="highlight">Career</span> Path
-                        </h1>
-                    <p>Join the world’s largest community of learners and educators.</p>
-                    <a href="signin.html" class="btn btn-get-started">Get Started</a><br>
-                    <div class="icon-row">
-                        <div class="icon-container">
-                              <i class="fas fa-microphone"></i>
-                              <span style="color:#000000;">Public Speaking</span>
-                        </div>
-                        <div class="icon-container">
-                              <i class="fas fa-briefcase"></i>
-                              <span style="color:#000000;">Career-Oriented</span>
-                        </div>
-                        <div class="icon-container">
-                              <i class="fas fa-lightbulb"></i>
-                              <span style="color:#000000;">Creative Thinking</span>
-                      </div>
-                  </div>
-                </div>
-            </div>
-            </div>
-            </div>
-            </section>
+      <img src="../assets/img/Herobg1.png" alt="herobg">
+      <div class="container hero-content">
+        <div class="row">
+          <div class="col-md-12">
 
-    <!--About Us-->
+            <h1 style="margin-top: 120px;">Up Your <span class="highlight">Skills</span> <br>to <span
+                class="highlight">Advance</span> Your <br><span class="highlight">Career</span> Path</h1>
+
+            <p>Join the world’s largest community of learners and educators.</p>
+            <a href="signin.html" class="btn btn-get-started">Get Started</a><br>
+            <div class="icon-row">
+              <div class="icon-container">
+                <i class="fas fa-microphone"></i>
+                <span style="color:#000000;">Public Speaking</span>
+              </div>
+              <div class="icon-container">
+                <i class="fas fa-briefcase"></i>
+                <span style="color:#000000;">Career-Oriented</span>
+              </div>
+              <div class="icon-container">
+                <i class="fas fa-lightbulb"></i>
+                <span style="color:#000000;">Creative Thinking</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--About Us-->
   <section class="about-section" id="about">
     <div class="container">
       <div class="row">
@@ -86,7 +78,12 @@
           <div class="about-content">
             <h2>About Us</h2>
             <h3>QwickLearn Providing The Best Opportunities To The Students Around The Glob.</h3>
-            <p>QuickLearn, is a UI/UX Design Academy in Delhi involved in User Experience and User Interface Training and Consulting. It was started in 2023 and passionate towards User Interface Design/ User Experience Design, Human Computer Interaction Design. Humanoid is gushing towards competence to acquire knowledge and have a wide understanding towards the sphere through the foremost courses in the area of UI/UX Design, by strengthening up your skills, for your golden future</p>
+            <p>QwikLearn is a dynamic online learning platform crafted to create an engaging and interactive educational
+              experience. Our mission is to make quality education accessible to everyone, anywhere. Users can explore a
+              diverse array of courses, featuring video lectures, quizzes, assignments, and vibrant discussion forums.
+              QwikLearn not only enables learners to track their progress but also fosters a community of collaboration
+              through interaction with instructors and peers. Whether you're looking to acquire new skills or deepen
+              your knowledge, QwikLearn is here to support your educational journey every step of the way.</p>
             <a href="about.html" class="btn btn-learn-more">Learn More</a>
           </div>
         </div>
@@ -99,293 +96,330 @@
     </div>
   </section>
 
-  
-<!--Course sections-->
-<div class="course-cont">
-  <div id="carouselExampleControls" class="carousel carousel-dark slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
-     <div class="carousel-item active">
-        <div class="card-wrapper container-sm d-flex  justify-content-around">
-            <div class="card  " style="width: 20rem;">
-                <img src="../assets/img/courseImg/wd1.webp" class="card-img-top" alt="...">
-                 <div class="card-body">
+  <!--Course sections-->
+  <div class="course-cont container">
+    <div class="pagetitle text-start">
+      <h4>Explore Our Courses</h4>
+      <h1>Our Most Popular Courses</h1>
+      <p>Let's join our famous class, the knowledge provided will definitely be useful for you.</p>
+    </div>
+    <div id="carouselExampleControls" class="carousel carousel-dark slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card h-100">
+                  <img src="../assets/img/courseImg/wd1.webp" class="card-img-top" alt="...">
+                  <div class="card-body">
                     <h2 class="card-title">Introduction to Web Development</h2>
                     <p class="card-text">Learn the basics of HTML, CSS, and JavaScript.</p>
                     <p class="mb-1">4.3 <span class="rating">&#9733;&#9733;&#9733;&#9733;&#9734;</span></p>
                     <div class="d-flex align-items-center mb-2">
-                      <img src="../assets/img/harish.png" class="rounded-circle me-2" width="30" height="30" alt="Instructor Photo">
-                      <span>Harish N</span>  
-                      <a href="signin.html" class="btn btn-primary">Enroll</a>  
+                      <img src="../assets/img/logo.png" class="rounded-circle me-2" width="30" height="30"
+                        alt="Instructor Photo">
+                      <span>QwickLearn</span>
+                      <a href="signin.html" class="btn btn-primary ms-auto">Enroll</a>
                     </div>
                   </div>
-            </div>
-            <div class="card  " style="width: 20rem;">
-                <img src="../assets/img/courseImg/wd2.jpeg" class="card-img-top" alt="..." >
-                 <div class="card-body">
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card h-100">
+                  <img src="../assets/img/courseImg/wd2.jpeg" class="card-img-top" alt="...">
+                  <div class="card-body">
                     <h2 class="card-title">Advanced CSS Techniques</h2>
                     <p class="card-text">Master complex CSS concepts and build responsive designs.</p>
                     <p class="mb-1">4.3 <span class="rating">&#9733;&#9733;&#9733;&#9733;&#9734;</span></p>
                     <div class="d-flex align-items-center mb-2">
-                      <img src="../assets/img/harish.png" class="rounded-circle me-2" width="30" height="30" alt="Instructor Photo">
-                      <span>Harish N</span>
-                      <a href="signin.html" class="btn btn-primary">Enroll</a>
-                      </div>
-                        
+                      <img src="../assets/img/logo.png" class="rounded-circle me-2" width="30" height="30"
+                        alt="Instructor Photo">
+                      <span>QwickLearn</span>
+                      <a href="signin.html" class="btn btn-primary ms-auto">Enroll</a>
+                    </div>
                   </div>
-            </div>
-            <div class="card  " style="width: 20rem;">
-                <img src="../assets/img/courseImg/cy1.jpeg" class="card-img-top" alt="...">
-                 <div class="card-body">
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card h-100">
+                  <img src="../assets/img/courseImg/cy1.jpeg" class="card-img-top" alt="...">
+                  <div class="card-body">
                     <h2 class="card-title">Cyber Security Essentials</h2>
                     <p class="card-text">Understand the fundamentals of cyber security and threat prevention.</p>
                     <p class="mb-1">4.3 <span class="rating">&#9733;&#9733;&#9733;&#9733;&#9734;</span></p>
                     <div class="d-flex align-items-center mb-2">
-                      <img src="../assets/img/harish.png" class="rounded-circle me-2" width="30" height="30" alt="Instructor Photo">
-                      <span>Harish N</span>
-                      <a href="signin.html" class="btn btn-primary">Enroll</a>
-                      </div>
+                      <img src="../assets/img/logo.png" class="rounded-circle me-2" width="30" height="30"
+                        alt="Instructor Photo">
+                      <span>QwickLearn</span>
+                      <a href="signin.html" class="btn btn-primary ms-auto">Enroll</a>
+                    </div>
                   </div>
-            </div>   
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
+
         <div class="carousel-item">
-          <div class="card-wrapper container-sm d-flex   justify-content-around">
-            <div class="card  " style="width: 20rem;">
-                <img src="../assets/img/courseImg/gd1.jpeg" class="card-img-top" alt="...">
-                 <div class="card-body">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card h-100">
+                  <img src="../assets/img/courseImg/gd1.jpeg" class="card-img-top" alt="...">
+                  <div class="card-body">
                     <h2 class="card-title">Graphic Design Basics</h2>
                     <p class="card-text">Learn the fundamentals of graphic design using popular tools.</p>
                     <p class="mb-1">4.3 <span class="rating">&#9733;&#9733;&#9733;&#9733;&#9734;</span></p>
                     <div class="d-flex align-items-center mb-2">
-                      <img src="../assets/img/harish.png" class="rounded-circle me-2" width="30" height="30" alt="Instructor Photo">
-                      <span>Harish N</span>
-                      <a href="signin.html" class="btn btn-primary">Enroll</a>   
-                      </div> 
+                      <img src="../assets/img/logo.png" class="rounded-circle me-2" width="30" height="30"
+                        alt="Instructor Photo">
+                      <span>QwickLearn</span>
+                      <a href="signin.html" class="btn btn-primary ms-auto">Enroll</a>
+                    </div>
                   </div>
-            </div>
-            <div class="card  " style="width: 20rem;">
-                <img src="../assets/img/courseImg/cy3.jpeg" class="card-img-top" alt="...">
-                 <div class="card-body">
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card h-100">
+                  <img src="../assets/img/courseImg/cy3.jpeg" class="card-img-top" alt="...">
+                  <div class="card-body">
                     <h2 class="card-title">Ethical Hacking</h2>
                     <p class="card-text">Gain skills in ethical hacking to safeguard systems.</p>
                     <p class="mb-1">4.3 <span class="rating">&#9733;&#9733;&#9733;&#9733;&#9734;</span></p>
                     <div class="d-flex align-items-center mb-2">
-                      <img src="../assets/img/harish.png" class="rounded-circle me-2" width="30" height="30" alt="Instructor Photo">
-                      <span>Harish N</span>
-                      <a href="signin.html" class="btn btn-primary">Enroll</a>   
-                    </div>   
+                      <img src="../assets/img/logo.png" class="rounded-circle me-2" width="30" height="30"
+                        alt="Instructor Photo">
+                      <span>QwickLearn</span>
+                      <a href="signin.html" class="btn btn-primary ms-auto">Enroll</a>
+                    </div>
                   </div>
-            </div>
-            <div class="card  " style="width: 20rem;">
-                <img src="../assets/img/courseImg/cc1.jpeg" class="card-img-top" alt="...">
-                 <div class="card-body">
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card h-100">
+                  <img src="../assets/img/courseImg/cc1.jpeg" class="card-img-top" alt="...">
+                  <div class="card-body">
                     <h2 class="card-title">Introduction to Cloud Computing</h2>
                     <p class="card-text">Explore the basics of cloud computing and its applications.</p>
                     <p class="mb-1">4.3 <span class="rating">&#9733;&#9733;&#9733;&#9733;&#9734;</span></p>
                     <div class="d-flex align-items-center mb-2">
-                      <img src="../assets/img/harish.png" class="rounded-circle me-2" width="30" height="30" alt="Instructor Photo">
-                      <span>Harish N</span>
-                      <a href="signin.html" class="btn btn-primary">Enroll</a>   
-                    </div>   
+                      <img src="../assets/img/logo.png" class="rounded-circle me-2" width="30" height="30"
+                        alt="Instructor Photo">
+                      <span>QwickLearn</span>
+                      <a href="signin.html" class="btn btn-primary ms-auto">Enroll</a>
+                    </div>
                   </div>
+                </div>
+              </div>
             </div>
-</div>
+          </div>
+        </div>
 
-
-</div>
-<div class="carousel-item">
-          <div class="card-wrapper container-sm d-flex   justify-content-around">
-          <div class="card  " style="width: 20rem;">
-                <img src="../assets/img/courseImg/cc2.jpeg" class="card-img-top" alt="...">
-                 <div class="card-body">
+        <div class="carousel-item">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card h-100">
+                  <img src="../assets/img/courseImg/cc2.jpeg" class="card-img-top" alt="...">
+                  <div class="card-body">
                     <h2 class="card-title">AWS Fundamentals</h2>
                     <p class="card-text">Learn the core services of Amazon Web Services.</p>
                     <p class="mb-1">4.3 <span class="rating">&#9733;&#9733;&#9733;&#9733;&#9734;</span></p>
                     <div class="d-flex align-items-center mb-2">
-                      <img src="../assets/img/harish.png" class="rounded-circle me-2" width="30" height="30" alt="Instructor Photo">
-                      <span>Harish N</span>
-                      <a href="signin.html" class="btn btn-primary">Enroll</a>   
-                      </div>
+                      <img src="../assets/img/logo.png" class="rounded-circle me-2" width="30" height="30"
+                        alt="Instructor Photo">
+                      <span>QwickLearn</span>
+                      <a href="signin.html" class="btn btn-primary ms-auto">Enroll</a>
+                    </div>
                   </div>
-            </div>
-            <div class="card  " style="width: 20rem;">
-                <img src="../assets/img/courseImg/py1.jpeg" class="card-img-top" alt="...">
-                 <div class="card-body">
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card h-100">
+                  <img src="../assets/img/courseImg/py1.jpeg" class="card-img-top" alt="...">
+                  <div class="card-body">
                     <h2 class="card-title">Python for Beginners</h2>
                     <p class="card-text">Learn the basics of Python programming from scratch.</p>
                     <p class="mb-1">4.3 <span class="rating">&#9733;&#9733;&#9733;&#9733;&#9734;</span></p>
                     <div class="d-flex align-items-center mb-2">
-                      <img src="../assets/img/harish.png" class="rounded-circle me-2" width="30" height="30" alt="Instructor Photo">
-                      <span>Harish N</span>
-                      <a href="signin.html" class="btn btn-primary">Enroll</a>   
+                      <img src="../assets/img/logo.png" class="rounded-circle me-2" width="30" height="30"
+                        alt="Instructor Photo">
+                      <span>QwickLearn</span>
+                      <a href="signin.html" class="btn btn-primary ms-auto">Enroll</a>
                     </div>
                   </div>
-            </div>
-            <div class="card  " style="width: 20rem;">
-                <a href="courseover.html" style="text-decoration:none;"><img src="../assets/img/courseImg/py3.jpeg" class="card-img-top" alt="...">
-                 <div class="card-body">
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card h-100">
+                  <img src="../assets/img/courseImg/py3.jpeg" class="card-img-top" alt="...">
+                  <div class="card-body">
                     <h2 class="card-title">Data Analysis with Python</h2>
-                    <p class="card-text">Use Python for data analysis and visualization.</p></a>
+                    <p class="card-text">Use Python for data analysis and visualization.</p>
                     <p class="mb-1">4.3 <span class="rating">&#9733;&#9733;&#9733;&#9733;&#9734;</span></p>
                     <div class="d-flex align-items-center mb-2">
-                      <img src="../assets/img/harish.png" class="rounded-circle me-2" width="30" height="30" alt="Instructor Photo">
-                      <span>Harish N</span>
-                      <a href="signin.html" class="btn btn-primary">Enroll</a>   
-                      </div>
+                      <img src="../assets/img/logo.png" class="rounded-circle me-2" width="30" height="30"
+                        alt="Instructor Photo">
+                      <span>QwickLearn</span>
+                      <a href="signin.html" class="btn btn-primary ms-auto">Enroll</a>
+                    </div>
                   </div>
-            </div>
-</div>
-</div>
-<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-<span class="visually-hidden">Previous</span>
-</button>
-<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-<span class="carousel-control-next-icon" aria-hidden="true"></span>
-<span class="visually-hidden">Next</span>
-</button>
-</div>
-</div>
-
-</div>
-
-<!--Our Team-->
-<div class="ourteam">
-  <h2>Meet Our Team</h2>
-  <p>On QwickLearn, instructors from all over the world instruct millions of students. We offer the knowledge and abilities.</p>
-<div class="main">
-        <div class="profile-card">
-            <div class="img">
-                <img src="../assets/img//harish.png" alt="HarishN">
-            </div>
-            <div class="caption">
-                <h3>HARISH N</h3>
-                <p>Full Stack Developer</p>
-                <div class="social-links">
-                    <a href="#"><i class="bi bi-linkedin"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
                 </div>
+              </div>
             </div>
+          </div>
         </div>
-        <div class="profile-card">
-            <div class="img">
-                <img src="../assets/img/DeepikaBaiN.png">
-            </div>
-            <div class="caption">
-                <h3>Deepika Bai N</h3>
-                <p>Front End Developer</p>
-                <div class="social-links">
-                    <a href="#"><i class="fab fa-facebook"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                </div>
-            </div>
-        </div>
-        <div class="profile-card">
-            <div class="img">
-                <img src="../assets/img/akhileshk.jpg" alt="AkhileshK">
-            </div>
-            <div class="caption">
-                <h3>Akhilesh K</h3>
-                <p>Frint End Developer</p>
-                <div class="social-links">
-                    <a href="#"><i class="fab fa-facebook"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                </div>
-            </div>
-            
-        </div>
-        <div class="profile-card">
-            <div class="img">
-                <img src="../assets/img/YogeshT.png">
-            </div>
-            <div class="caption">
-                <h3>Yogesh T</h3>
-                <p>Full Stact Developer</p>
-                <div class="social-links">
-                    <a href="#"><i class="fab fa-facebook"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                </div>
-            </div>
-            
-        </div>
-        <div class="profile-card">
-            <div class="img">
-                <img src="../assets/img/ChandanBR.png" alt="ChandanBR">
-            </div>
-            <div class="caption">
-                <h3>Chandan B R</h3>
-                <p>Full Stact Developer</p>
-                <div class="social-links">
-                    <a href="#"><i class="fab fa-facebook"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                </div>
-            </div>
-        </div>
+      </div>
+      <div>
+        <a href="courses.html" class="btn btn-primary" style="width: fit-content; margin-left:40%; ">Explore More
+          Courses</a>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
-</div>
+  </div>
 
-<div class="getintouch">
-<div class="col-md-12">
-        <h2 class="text-center">Get In Touch</h2>
-</div>
-<div class="container-contact">
-<h2>Get In Touch</h2>
+
+  <!--Our Team-->
+  <div class="ourteam container1">
+    <h2>Meet Our Team</h2>
+    <p>On QwickLearn, instructors from all over the world instruct millions of students. We offer the knowledge and
+      abilities.</p>
+    <div class="row justify-content-center">
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4 mx-4">
+        <div class="profile-card">
+          <div class="img">
+            <img src="../assets/img/harish.png" alt="HarishN">
+          </div>
+          <div class="caption">
+            <h3>HARISH N</h3>
+            <p>Full Stack Developer</p>
+            <div class="social-links">
+              <a href="https://www.linkedin.com/in/h4ckerharish36/"><i class="fab fa-linkedin"></i></a>
+              <a href="https://www.instagram.com/h4ckerharish"><i class="fab fa-instagram"></i></a>
+              <a href="https://github.com/harishprp370/"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4 mx-4">
+        <div class="profile-card">
+          <div class="img">
+            <img src="../assets/img/DeepikaBaiN.png" alt="Deepika Bai N">
+          </div>
+          <div class="caption">
+            <h3>Deepika Bai N</h3>
+            <p>Front End Developer</p>
+            <div class="social-links">
+              <a href="https://www.linkedin.com/in/deepika-bai-n-908281294/"><i class="fab fa-linkedin"></i></a>
+              <a href="https://www.instagram.com/deepika.deeya/"><i class="fab fa-instagram"></i></a>
+              <a href="https://github.com/deepika-Bai"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4 mx-4">
+        <div class="profile-card">
+          <div class="img">
+            <img src="../assets/img/akhileshk.jpg" alt="Akhilesh K">
+          </div>
+          <div class="caption">
+            <h3>Akhilesh K</h3>
+            <p>Front End Developer</p>
+            <div class="social-links">
+              <a href="https://www.linkedin.com/in/akhilesh-k-pcmb/"><i class="fab fa-linkedin"></i></a>
+              <a href="https://www.instagram.com/mr_akhil_wayne/"><i class="fab fa-instagram"></i></a>
+              <a href="https://github.com/akhilprp567"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4 mx-4">
+        <div class="profile-card">
+          <div class="img">
+            <img src="../assets/img/YogeshT.png" alt="Yogesh T">
+          </div>
+          <div class="caption">
+            <h3>Yogesh T</h3>
+            <p>Full Stack Developer</p>
+            <div class="social-links">
+              <a href="https://www.linkedin.com/in/yogesh-t-prp/"><i class="fab fa-linkedin"></i></a>
+              <a href="https://www.instagram.com/rebel__soul_/"><i class="fab fa-instagram"></i></a>
+              <a href="https://github.com/yogeshbca"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4 mx-4">
+        <div class="profile-card">
+          <div class="img">
+            <img src="../assets/img/ChandanBR.png" alt="Chandan B R">
+          </div>
+          <div class="caption">
+            <h3>Chandan B R</h3>
+            <p>Full Stack Developer</p>
+            <div class="social-links">
+              <a href="https://www.linkedin.com/in/chandan-b-r-3a98b6267/"><i class="fab fa-linkedin"></i></a>
+              <a href="https://www.instagram.com/_chandan_br_/"><i class="fab fa-instagram"></i></a>
+              <a href="https://github.com/23brcha"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!--Get In touch-->
+  <div class="getintouch container">
+    <div class="col-md-12">
+      <h2 class="text-center">Get In Touch</h2>
+    </div>
+    <div class="container-contact">
       <span class="big-circle"></span>
       <img src="img/shape.png" class="square" alt="" />
-      <div class="form">
-        <div class="contact-info">
+      <div class="row infocls">
+        <div class="contact-info col-md-6">
           <h3 class="title">Let's get in touch</h3>
           <p class="text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
-            dolorum adipisci recusandae praesentium dicta!
+            Need assistance or have questions? The QwikLearn team is here
+            to help! Reach out to us via the contact form below, and we'll
+            respond promptly. Your success is our priority!
           </p>
-
           <div class="info">
-          <div class="information">
+            <div class="information">
               <i class="fas fa-phone"></i>&nbsp&nbsp
               <p>080-123456789</p>
             </div>
-            
             <div class="information">
-              <i class="fas fa-envelope"></i> &nbsp &nbsp
+              <i class="fas fa-envelope"></i>&nbsp&nbsp
               <p>supoort.qwicklearn.com</p>
             </div>
             <div class="information">
-              <i class="fas fa-map-marker-alt"></i> &nbsp &nbsp
-
+              <i class="fas fa-map-marker-alt"></i>&nbsp&nbsp
               <p>BITS HI TECH College.Chitradurga</p>
             </div>
           </div>
-
           <div class="social-media">
             <p>Connect with us :</p>
             <div class="social-icons">
-              <a href="#">
-                <i class="fab fa-facebook-f"></i>
-              </a>
-              <a href="#">
-                <i class="fab fa-twitter"></i>
-              </a>
-              <a href="#">
-                <i class="fab fa-instagram"></i>
-              </a>
-              <a href="#">
-                <i class="fab fa-linkedin-in"></i>
-              </a>
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
             </div>
           </div>
         </div>
-
-        <div class="contact-form">
-          <span class="circle one"></span>
-          <span class="circle two"></span>
-
-          <form autocomplete="off">
+        <div class="contact-form col-md-6">
+          <form id="contactForm" autocomplete="off">
             <h3 class="title">Contact us</h3>
             <div class="input-container">
               <input type="text" name="name" class="input" />
@@ -403,17 +437,14 @@
               <span>Phone</span>
             </div>
             <div class="radio-btn">
-                <input type="radio" name="query" value="General">
-                <label for="query1">General</label>
-                
-                <input type="radio" name="query" value="Course">
-                <label for="query2">Course</label>
-                
-                <input type="radio" name="query" value="Payments">
-                <label for="query3">Payments</label>
-                
-                <input type="radio" name="query" value="Certificate">
-                <label for="query4">Certificate</label>
+              <input type="radio" name="query" value="General" id="general">
+              <label for="general">General</label>
+              <input type="radio" name="query" value="Course" id="course">
+              <label for="course">Course</label>
+              <input type="radio" name="query" value="Payments" id="payments">
+              <label for="payments">Payments</label>
+              <input type="radio" name="query" value="Certificate" id="certificate">
+              <label for="certificate">Certificate</label>
             </div>
             <div class="input-container textarea">
               <textarea name="message" class="input"></textarea>
@@ -425,96 +456,142 @@
         </div>
       </div>
     </div>
-</div>
+    <div id="popupMessage" class="popup">
+      <p>Submitted Successfully!</p>
+    </div>
+  </div>
+  <style>
+    .popup {
+      display: none;
+      position: fixed;
+      top: 20%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      padding: 20px;
+      background-color: #4caf50;
+      color: white;
+      font-size: 18px;
+      border-radius: 5px;
+      z-index: 1000;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      animation: fadeInOut 2s ease-in-out;
+    }
 
+    @keyframes fadeInOut {
+      0% {
+        opacity: 0;
+      }
 
+      25% {
+        opacity: 1;
+      }
+
+      75% {
+        opacity: 1;
+      }
+
+      100% {
+        opacity: 0;
+      }
+    }
+  </style>
+
+  <!-- Footer -->
+  <footer style="background-color: #023748; padding: 20px; ">
+    <div class="foo-container">
+      <div class="logoname">
+        <img src="../assets/img/logo.png" alt="logo">
+        <h2 style="color: white;">Qwicklearn</h2>
+      </div>
+      <hr>
+      <div class="footer" style="color: white;">
+        <div class="footer-section reach">
+          <h1>Reach Us</h1>
+          <p><i class="fas fa-phone"></i> +1012 3456 789</p>
+          <p><i class="fas fa-envelope"></i> demo@gmail.com</p>
+          <p><i class="fas fa-map-marker-alt"></i> Bits Hi Tech College, Chitradurga</p>
+        </div>
+        <div class="footer-section company">
+          <h1>Company</h1>
+          <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+            <li><a href="faq.html">FAQ's</a></li>
+          </ul>
+        </div>
+        <div class="footer-section Legal">
+          <h1>Legal</h1>
+          <ul>
+            <li><a href="#">Terms of Use</a></li>
+            <li><a href="#">Refund Policy</a></li>
+            <li><a href="#">Terms & Conditions</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+        </div>
+        <div class="footer-section Qlinks">
+          <h1>Quick links</h1>
+          <ul>
+
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="signin.html">Forum</a></li>
+          </ul>
+        </div>
+        <div class="footer-section newsletter">
+          <h1>Join Our Newsletter</h1>
+          <div class="newsletter-form">
+            <input type="email" placeholder="Your email address">
+            <button>Subscribe</button>
+          </div>
+          <p class="newsletter-description">Will send you weekly updates for your better tool management.</p>
+        </div>
+      </div>
+      <center>
+        <p style="color: white;">Copyright &copy; 2024 QwickLearn | All rights reserved.</p>
+      </center>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="../js/script.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"></script>
+
+</html>
 
 <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const inputs = document.querySelectorAll(".input");
+    const contactForm = document.getElementById("contactForm");
+    const popupMessage = document.getElementById("popupMessage");
 
-/*contact us*/
-const inputs = document.querySelectorAll(".input");
+    function focusFunc() {
+      let parent = this.parentNode;
+      parent.classList.add("focus");
+    }
 
-function focusFunc() {
-  let parent = this.parentNode;
-  parent.classList.add("focus");
-}
+    function blurFunc() {
+      let parent = this.parentNode;
+      if (this.value == "") {
+        parent.classList.remove("focus");
+      }
+    }
 
-function blurFunc() {
-  let parent = this.parentNode;
-  if (this.value == "") {
-    parent.classList.remove("focus");
-  }
-}
+    inputs.forEach((input) => {
+      input.addEventListener("focus", focusFunc);
+      input.addEventListener("blur", blurFunc);
+    });
 
-inputs.forEach((input) => {
-  input.addEventListener("focus", focusFunc);
-  input.addEventListener("blur", blurFunc);
-});
-function redirectToSignIn() {
-  window.location.href = 'signin.html';
-}
+    contactForm.addEventListener("submit", function (e) {
+      e.preventDefault();
+      popupMessage.style.display = "block";
+      setTimeout(() => {
+        popupMessage.style.display = "none";
+      }, 2000);
+    });
+  });
 
 </script>
-
-
-
-
-<!-- Footer -->
-<footer style="background-color: #023748; padding: 20px; ">
-  <div class="foo-container">
-      <div class="logoname">
-          <img src="../assets/img/logo.png" alt="logo">
-          <h2 style="color: white;">Qwicklearn</h2>
-      </div>
-      <hr>   
-      <div class="footer" style="color: white;">
-          <div class="footer-section reach">
-              <h1>Reach Us</h1>
-              <p><i class="fas fa-phone"></i> +1012 3456 789</p>
-              <p><i class="fas fa-envelope"></i> demo@gmail.com</p>
-              <p><i class="fas fa-map-marker-alt"></i> Bits Hi Tech College, Chitradurga</p>
-          </div>
-          <div class="footer-section company">
-              <h1>Company</h1>
-              <ul>
-                  <li><a href="about.html">About</a></li>
-                  <li><a href="contactus.html">Contact Us</a></li>
-                  <li><a href="faq.html">FAQ's</a></li>
-              </ul>
-          </div>
-          <div class="footer-section Legal">
-              <h1>Legal</h1>
-              <ul>
-                  <li><a href="#">Terms of Use</a></li>
-                  <li><a href="#">Refund Policy</a></li>
-                  <li><a href="#">Terms & Conditions</a></li>
-                  <li><a href="#">Privacy Policy</a></li>
-              </ul>
-          </div>
-          <div class="footer-section Qlinks">
-              <h1>Quick links</h1>
-              <ul>
-                  
-                  <li><a href="courses.html">Courses</a></li>
-                  <li><a href="signin.html">Forum</a></li>
-              </ul>
-          </div>
-          <div class="footer-section newsletter">
-              <h1>Join Our Newsletter</h1>
-              <div class="newsletter-form">
-                  <input type="email" placeholder="Your email address">
-                  <button>Subscribe</button>
-                </div>
-                <p class="newsletter-description">Will send you weekly updates for your better tool management.</p>
-          </div>
-      </div>
-      <center><p style="color: white;">Copyright &copy; 2024 QwickLearn | All rights reserved.</p></center>
-  </div>
-</footer>
-
-    <!-- Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
-</html>
