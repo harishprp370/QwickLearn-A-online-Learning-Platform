@@ -1,11 +1,952 @@
 [
   {
     "id": 1,
-    "title": "Figma UI UX Design Tutorial (Basic To Advance)",
-    "description": "Learn Figma UI/UX design from basics to advanced level with hands-on projects.",
+    "title": "Introduction to Web Development",
+    "description": "Learn the basics of HTML, CSS, and JavaScript.",
     "duration": "2 Weeks",
     "level": "All Levels",
-    "imageUrl": "../assets/img/courseImg/cc1.jpeg",
+    "imageUrl": "../assets/img/courseImg/webdev2.jpg",
+    "overview": "Welcome to 'Introduction to Web Development'! This course is designed to provide a comprehensive introduction to building web pages and applications using HTML, CSS, and JavaScript. Led by web development expert Jane Smith, you will learn fundamental concepts and techniques essential for creating interactive and responsive websites.",
+    "curriculum": [
+      "Introduction to HTML",
+      "Introduction to CSS and Styling",
+      "Introduction to JavaScript and DOM Manipulation",
+      "Creating Responsive Web Design",
+      "Implementing UI/UX Design Principles",
+      "Wireframing and Prototyping Basics",
+      "Advanced Techniques in Frontend Development",
+      "Case Studies: Real-world Web Development Examples"
+    ],
+    "instructor": "Jane Smith is a frontend developer with a passion for teaching and over 8 years of experience in web development. She has contributed to the development of numerous web applications and enjoys sharing her knowledge with aspiring developers.",
+    "faqs": [
+      {
+        "question": "Do I need any prior knowledge of programming?",
+        "answer": "No prior programming knowledge is required. This course is suitable for beginners."
+      },
+      {
+        "question": "What software/tools do I need for this course?",
+        "answer": "You will need a code editor (e.g., Visual Studio Code, Sublime Text) and a web browser (e.g., Chrome, Firefox) to practice and complete assignments."
+      },
+      {
+        "question": "Will I build a project in this course?",
+        "answer": "Yes, you will build several projects throughout the course to apply the concepts learned, including a responsive website and interactive web applications."
+      },
+      {
+        "question": "Will I receive a certificate upon completing the course?",
+        "answer": "Yes, upon successfully finishing all course requirements, you will receive a certificate of completion."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Advanced CSS Techniques",
+    "description": "Master complex CSS concepts and build responsive designs.",
+    "duration": "4 Weeks",
+    "level": "Beginner",
+    "imageUrl": "../assets/img/courseImg/wd2.jpeg",
+    "overview": "Welcome to 'Advanced CSS Techniques'! This course dives deep into the intricacies of CSS, focusing on advanced styling techniques and responsive design principles. Led by CSS expert Sarah Smith, you will learn how to create flexible layouts, use CSS preprocessors, implement animations and transitions, and optimize performance.",
+    "curriculum": [
+      "Introduction to UI/UX Design",
+      "Understanding CSS Box Model and Flexbox",
+      "CSS Grid Layouts",
+      "Advanced Selectors and Pseudo-classes",
+      "Using CSS Preprocessors (Sass/SCSS)",
+      "Responsive Design and Media Queries",
+      "CSS Animations and Transitions",
+      "Optimizing CSS Performance",
+      "Project: Building a Responsive Website"
+    ],
+    "instructor": "Sarah Smith is a frontend developer specializing in CSS with a passion for creating visually appealing and performant web experiences. With a background in UI/UX design, Sarah brings over 8 years of industry experience to teaching advanced CSS techniques.",
+    "faqs": [
+      {
+        "question": "Do I need any prior knowledge of CSS?",
+        "answer": "Yes, familiarity with basic CSS concepts such as selectors, properties, and box model is recommended before taking this course."
+      },
+      {
+        "question": "Will I build a project in this course?",
+        "answer": "Yes, you will build a responsive website using advanced CSS techniques. This project will allow you to apply the skills learned throughout the course."
+      },
+      {
+        "question": "Is this course suitable for beginners?",
+        "answer": "Yes, this course is designed for beginners who want to deepen their understanding of CSS and build responsive designs."
+      },
+      {
+        "question": "Will I receive a certificate upon completing the course?",
+        "answer": "Yes, upon successfully finishing all course requirements, you will receive a certificate of completion."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "JavaScript Fundamentals",
+    "description": "Master the essentials of JavaScript for building dynamic and interactive web pages.",
+    "duration": "2 Weeks",
+    "level": "All Levels",
+    "imageUrl": "../assets/img/courseImg/js.png",
+    "overview": "Welcome to 'JavaScript Fundamentals'! This course is designed to equip you with the core concepts of JavaScript programming. Led by frontend development expert Emily Wilson, you will learn how to manipulate the DOM, handle events, work with arrays and objects, and understand asynchronous programming using promises.",
+    "curriculum": [
+      "Introduction to JavaScript Basics",
+      "Variables, Data Types, and Operators",
+      "Control Flow: Conditionals and Loops",
+      "Functions and Scope",
+      "Arrays and Objects",
+      "DOM Manipulation and Events",
+      "Asynchronous JavaScript and Promises",
+      "Project: Interactive Web Page"
+    ],
+    "instructor": "Emily Wilson is a frontend development specialist with a passion for teaching JavaScript to beginners and professionals. With over 7 years of experience, Emily has built numerous interactive web applications and is dedicated to making complex concepts easy to understand.",
+    "faqs": [
+      {
+        "question": "Do I need any prior knowledge of programming?",
+        "answer": "No prior programming experience is required. This course is designed for beginners who are new to JavaScript."
+      },
+      {
+        "question": "Will I build a project in this course?",
+        "answer": "Yes, you will build an interactive web page using JavaScript. This project will give you hands-on experience in applying the concepts you learn throughout the course."
+      },
+      {
+        "question": "Is this course suitable for experienced developers?",
+        "answer": "Yes, this course covers fundamental JavaScript concepts that are beneficial for both beginners and experienced developers looking to strengthen their foundational skills."
+      },
+      {
+        "question": "Will I receive a certificate upon completing the course?",
+        "answer": "Yes, upon successfully finishing all course requirements, you will receive a certificate of completion."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "React for Beginners",
+    "description": "Start your journey with React and learn to build interactive user interfaces.",
+    "duration": "2 Weeks",
+    "level": "All Levels",
+    "imageUrl": "../assets/img/courseImg/reactjs2.png",
+    "overview": "Welcome to 'React for Beginners'! This course is designed to introduce you to React, a popular JavaScript library for building user interfaces. Led by frontend development expert Sarah Johnson, you will learn the fundamentals of React, from setting up your environment to creating dynamic and responsive components.",
+    "curriculum": [
+      "Introduction to React and JSX",
+      "Components and Props",
+      "State and Lifecycle",
+      "Handling Events",
+      "Forms and Controlled Components",
+      "React Router",
+      "Hooks and Context API",
+      "Project: Building a Todo List App"
+    ],
+    "instructor": "Sarah Johnson is a frontend development specialist with a passion for creating interactive and intuitive user interfaces. With over 8 years of experience, Sarah has taught React to beginners and professionals alike, helping them master frontend development.",
+    "faqs": [
+      {
+        "question": "Do I need any prior knowledge of JavaScript?",
+        "answer": "Basic knowledge of JavaScript is recommended. This course assumes familiarity with JavaScript fundamentals like variables, functions, and arrays."
+      },
+      {
+        "question": "Will I build a project in this course?",
+        "answer": "Yes, you will build a Todo List application using React. This project will give you hands-on experience in creating components, managing state, and handling user interactions."
+      },
+      {
+        "question": "Is this course suitable for experienced developers?",
+        "answer": "Yes, this course is designed for both beginners and experienced developers looking to learn React or refresh their skills."
+      },
+      {
+        "question": "Will I receive a certificate upon completing the course?",
+        "answer": "Yes, you will receive a certificate of completion after successfully finishing all course requirements."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Introduction to HTML and CSS",
+    "description": "Begin your web development journey by mastering the basics of HTML and CSS to create dynamic and visually appealing webpages.",
+    "duration": "2 Weeks",
+    "level": "All Levels",
+    "imageUrl":"../assets/img/courseImg/htmlcss.png",
+    "overview": "Welcome to 'Introduction to HTML and CSS'! In this course, you will learn essential skills to build modern webpages using HTML for content structure and CSS for styling and layout. Led by frontend development expert Sarah Johnson, you will start with the fundamentals and progress to creating responsive designs and applying advanced techniques.",
+    "curriculum": [
+      "Introduction to HTML5",
+      "HTML Tags and Attributes",
+      "CSS Fundamentals",
+      "CSS Layout Techniques",
+      "Responsive Web Design",
+      "CSS Flexbox and Grid",
+      "Advanced CSS Techniques",
+      "Project: Building a Responsive Website"
+    ],
+    "instructor": "Sarah Johnson is a frontend development specialist with a focus on creating intuitive user interfaces and engaging web experiences. With over 8 years of experience, Sarah has a strong background in teaching HTML and CSS to learners of all levels.",
+    "faqs": [
+      {
+        "question": "Do I need any prior knowledge of web development?",
+        "answer": "No prior knowledge is required. This course is designed for beginners who are new to HTML and CSS, as well as experienced developers looking to refine their skills."
+      },
+      {
+        "question": "What projects will I build in this course?",
+        "answer": "You will build a responsive website project, applying HTML for structure and CSS for styling. This project will showcase your understanding of responsive design principles and layout techniques."
+      },
+      {
+        "question": "Will I receive a certificate upon completing the course?",
+        "answer": "Yes, you will receive a certificate of completion after successfully finishing all course requirements."
+      },
+      {
+        "question": "Is this course suitable for designers interested in frontend development?",
+        "answer": "Absolutely! Designers looking to enhance their skills in building interactive and visually appealing webpages will find this course beneficial."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Master React JS by Building Real World Projects",
+    "description": "Learn how to build and deploy modern web applications with React JS by working on real-world projects.",
+    "duration": "2 Weeks",
+    "level": "All Levels",
+    "imageUrl": "../assets/img/courseImg/project.webp",
+    "overview": "Welcome to 'Master React JS by Building Real World Projects'! This course focuses on mastering React JS through hands-on project-based learning. Led by frontend development expert Sarah Smith, you will start with the basics of React and gradually progress to building interactive web applications. By the end, you will have deployed multiple projects showcasing your skills in React JS.",
+    "curriculum": [
+      "Introduction to React JS",
+      "Setting Up React Environment",
+      "Building Components and Props",
+      "State and Lifecycle Methods",
+      "Handling Events and Forms",
+      "React Router and Navigation",
+      "Context API and Hooks",
+      "Project: Building Real World Applications"
+    ],
+    "instructor": "Sarah Smith is a seasoned frontend developer with a passion for creating engaging user interfaces and scalable web applications. With over 8 years of experience, Sarah has worked with React extensively and contributed to several open-source projects.",
+    "faqs": [
+      {
+        "question": "Do I need any prior knowledge of React JS?",
+        "answer": "No prior knowledge is required. This course is suitable for beginners as well as developers looking to enhance their skills in React JS."
+      },
+      {
+        "question": "What projects will I build in this course?",
+        "answer": "You will build multiple real-world projects using React JS, covering various aspects of frontend development, including state management, routing, and component composition."
+      },
+      {
+        "question": "Will there be guidance on deploying projects?",
+        "answer": "Yes, the course includes guidance on deploying React applications to production environments, ensuring you're ready to showcase your projects."
+      },
+      {
+        "question": "Is this course suitable for experienced developers?",
+        "answer": "Yes, experienced developers can benefit from advanced techniques covered in the curriculum and challenging real-world project scenarios."
+      },
+      {
+        "question": "How will this course help in my career?",
+        "answer": "Mastering React JS through real-world projects enhances your portfolio and prepares you for roles such as frontend developer, React JS developer, or UI engineer."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Cyber Security Essentials",
+    "description": "Learn essential techniques to safeguard digital systems and data from cyber threats.",
+    "duration": "2 Weeks",
+    "level": "All Levels",
+    "imageUrl": "../assets/img/courseImg/cyberSecurity.jpg",
+    "overview": "Welcome to 'Cyber Security Essentials,' where you'll gain foundational knowledge and skills to protect digital systems and data from cyber threats. Led by cybersecurity expert Emily Brown, this course covers preventive measures, security protocols, threat detection, incident response, and best practices in cyber security. Through hands-on labs and case studies, you'll develop the expertise to secure networks, systems, and sensitive information effectively.",
+    "curriculum": [
+      "Introduction to Cyber Security",
+      "Cyber Threats and Attack Vectors",
+      "Security Protocols and Best Practices",
+      "Threat Detection and Incident Response",
+      "Network Security Fundamentals",
+      "Data Protection and Encryption",
+      "Case Studies in Cyber Security"
+    ],
+    "instructor": "Emily Brown is a cybersecurity professional with over 12 years of experience in the industry. She has a strong background in developing and implementing security strategies to mitigate cyber threats and protect organizational assets.",
+    "faqs": [
+      {
+        "question": "Do I need any prior knowledge of cybersecurity?",
+        "answer": "No prior knowledge is required. This course is suitable for beginners and experienced individuals looking to enhance their understanding of cyber security."
+      },
+      {
+        "question": "Will I receive a certificate after completing the course?",
+        "answer": "Yes, upon successfully finishing the course, you will receive a certificate of completion."
+      },
+      {
+        "question": "What practical skills will I gain from this course?",
+        "answer": "By the end of the course, you'll be proficient in implementing security protocols, detecting cyber threats, responding to incidents, and protecting data through encryption."
+      },
+      {
+        "question": "Are there any hands-on labs in the course?",
+        "answer": "Yes, the course includes practical exercises, labs, and case studies to apply cyber security concepts in real-world scenarios."
+      },
+      {
+        "question": "What career opportunities can learning cyber security essentials open?",
+        "answer": "Skills in cyber security are valuable for roles such as cyber security analyst, network security engineer, IT security consultant, and chief information security officer (CISO)."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Network Security Basics",
+    "description": "Learn the fundamentals of securing networks and protecting data.",
+    "duration": "2 Weeks",
+    "level": "All Levels",
+    "imageUrl": "../assets/img/courseImg/network.png",
+    "overview": "Welcome to 'Network Security Basics,' where you will explore the essential principles and techniques for securing networks and safeguarding data. Led by cybersecurity expert Mark Johnson, this course covers topics such as network vulnerabilities, encryption methods, firewalls, intrusion detection systems, and best practices in network security. Through practical examples and case studies, you will gain the knowledge and skills to protect networks from cyber threats effectively.",
+    "curriculum": [
+      "Introduction to Network Security",
+      "Network Vulnerabilities and Threats",
+      "Cryptography and Encryption",
+      "Firewalls and Intrusion Detection Systems",
+      "Secure Network Design Principles",
+      "Best Practices in Network Security",
+      "Case Studies in Network Security"
+    ],
+    "instructor": "Mark Johnson is a seasoned cybersecurity professional with a focus on network security. He has over 15 years of experience working in various roles, including designing and implementing secure network infrastructures for organizations.",
+    "faqs": [
+      {
+        "question": "Do I need any prior knowledge of cybersecurity?",
+        "answer": "Some basic understanding of cybersecurity concepts is recommended. This course is suitable for beginners and those with some experience in networking and cybersecurity."
+      },
+      {
+        "question": "Will I receive a certificate after completing the course?",
+        "answer": "Yes, upon successfully finishing the course, you will receive a certificate of completion."
+      },
+      {
+        "question": "What practical skills will I gain from this course?",
+        "answer": "By the end of the course, you'll be proficient in identifying network vulnerabilities, implementing encryption methods, configuring firewalls, and designing secure network infrastructures."
+      },
+      {
+        "question": "Are there any hands-on labs in the course?",
+        "answer": "Yes, the course includes practical examples, case studies, and hands-on labs to apply network security principles in real-world scenarios."
+      },
+      {
+        "question": "What career opportunities can learning network security basics open?",
+        "answer": "Skills in network security are valuable for roles such as network security analyst, cybersecurity specialist, network administrator, and IT security consultant."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Ethical Hacking",
+    "description": "Gain skills in ethical hacking to safeguard systems.",
+    "duration": "2 Weeks",
+    "level": "All Levels",
+    "imageUrl": "../assets/img/courseImg/ethical.webp",
+    "overview": "Welcome to 'Ethical Hacking,' where you will learn the principles and techniques of ethical hacking to protect systems and networks from malicious attacks. Led by cybersecurity expert Emily White, this course covers penetration testing, network scanning, vulnerability assessment, ethical hacking tools, and best practices in cybersecurity. Through hands-on labs and real-world simulations, you'll develop the skills needed to identify and fix vulnerabilities in systems ethically.",
+    "curriculum": [
+      "Introduction to Ethical Hacking",
+      "Footprinting and Reconnaissance",
+      "Scanning Networks",
+      "Enumeration and System Hacking",
+      "Malware Threats and Countermeasures",
+      "Sniffing and Spoofing",
+      "Social Engineering Attacks",
+      "Wireless Network Security"
+    ],
+    "instructor": "Emily White is a certified cybersecurity professional with extensive experience in ethical hacking and penetration testing. She has conducted security assessments for organizations across various industries, helping them strengthen their defenses against cyber threats.",
+    "faqs": [
+      {
+        "question": "Do I need any prior knowledge of cybersecurity?",
+        "answer": "Some basic understanding of cybersecurity concepts is recommended. This course is suitable for beginners and experienced professionals alike."
+      },
+      {
+        "question": "Will I receive a certificate after completing the course?",
+        "answer": "Yes, upon successful completion of the course, you will receive a certificate of completion."
+      },
+      {
+        "question": "What practical skills will I gain from this course?",
+        "answer": "By the end of the course, you'll be proficient in penetration testing, network scanning, vulnerability assessment, ethical hacking tools, and applying security best practices."
+      },
+      {
+        "question": "Are there any hands-on labs in the course?",
+        "answer": "Yes, the course includes hands-on labs and simulations to practice ethical hacking techniques in a controlled environment."
+      },
+      {
+        "question": "What career opportunities can learning ethical hacking open?",
+        "answer": "Skills in ethical hacking are valuable for roles such as penetration tester, cybersecurity analyst, security consultant, and ethical hacker."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Cyber Threat Analysis",
+    "description": "Learn how to analyze and respond to cyber threats effectively.",
+    "duration": "2 Weeks",
+    "level": "All Levels",
+    "imageUrl": "../assets/img/courseImg/cybersecurity-threats.jpg",
+    "overview": "Welcome to 'Cyber Threat Analysis,' where you will master the skills needed to analyze and respond to cyber threats. Led by cybersecurity expert Sarah Johnson, this course covers essential topics such as threat intelligence, malware analysis, incident response, vulnerability assessment, and security tools. Through practical exercises and real-world case studies, you will develop the skills needed to protect systems and respond to cyber incidents effectively.",
+    "curriculum": [
+      "Introduction to Cyber Threats",
+      "Threat Intelligence Gathering",
+      "Malware Analysis Techniques",
+      "Incident Response Procedures",
+      "Vulnerability Assessment and Management",
+      "Security Tools for Threat Analysis",
+      "Case Studies in Cyber Threats",
+      "Best Practices in Cyber Threat Analysis"
+    ],
+    "instructor": "Sarah Johnson is a seasoned cybersecurity professional with over 15 years of experience in threat analysis, incident response, and cybersecurity strategy. She has worked in both private sector enterprises and government agencies, protecting critical infrastructure and sensitive data from cyber threats.",
+    "faqs": [
+      {
+        "question": "Do I need any prior knowledge of cybersecurity?",
+        "answer": "Some familiarity with cybersecurity concepts is recommended. This course is designed for individuals looking to enhance their skills in cyber threat analysis."
+      },
+      {
+        "question": "Will I receive a certificate after completing the course?",
+        "answer": "Yes, upon successful completion of the course, you will receive a certificate of completion."
+      },
+      {
+        "question": "What practical skills will I gain from this course?",
+        "answer": "By the end of the course, you'll be proficient in threat intelligence gathering, malware analysis, incident response procedures, vulnerability assessment, and using security tools for threat analysis."
+      },
+      {
+        "question": "Are there any hands-on exercises in the course?",
+        "answer": "Yes, there are practical exercises and case studies to help you apply your knowledge in real-world cyber threat scenarios."
+      },
+      {
+        "question": "What career opportunities can learning cyber threat analysis open?",
+        "answer": "Skills in cyber threat analysis are in demand in roles such as cybersecurity analyst, incident responder, threat intelligence analyst, and security consultant."
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Linux Tutorial for Beginners",
+    "description": "Learn the fundamentals of Linux.",
+    "duration": "2 Weeks",
+    "level": "All Levels",
+    "imageUrl": "../assets/img/courseImg/linux.webp",
+    "overview": "Welcome to 'Linux Tutorial for Beginners,' a comprehensive course designed to introduce you to the fundamentals of Linux operating system. Led by Jane Smith, a Linux system administrator with over 10 years of experience, this course covers essential topics including Linux basics, command-line navigation, file management, user permissions, networking, shell scripting, and system administration tasks through hands-on labs and practical exercises.",
+    "curriculum": [
+      "Introduction to Linux Operating System",
+      "Linux File System and Navigation",
+      "Managing Files and Directories in Linux",
+      "Understanding Linux User Permissions",
+      "Networking Basics in Linux",
+      "Introduction to Shell Scripting",
+      "System Administration Tasks in Linux",
+      "Troubleshooting and Tips for Linux"
+    ],
+    "instructor": "Jane Smith is a seasoned Linux system administrator with extensive experience in managing Linux-based servers and systems. She has worked in various industries, ensuring smooth operation and security of Linux environments.",
+    "faqs": [
+      {
+        "question": "Do I need any prior knowledge of Linux?",
+        "answer": "No prior knowledge of Linux is required. This course is designed for beginners who want to learn Linux from scratch."
+      },
+      {
+        "question": "Will I receive a certificate after completing the course?",
+        "answer": "Yes, you will receive a certificate of completion upon successfully finishing the course."
+      },
+      {
+        "question": "What practical skills will I gain from this course?",
+        "answer": "By the end of the course, you'll be proficient in Linux basics, command-line navigation, file management, user permissions, networking, shell scripting, and system administration tasks."
+      },
+      {
+        "question": "Are there any hands-on labs or exercises in the course?",
+        "answer": "Yes, there will be hands-on labs and exercises to help you apply what you learn and gain practical experience with Linux."
+      },
+      {
+        "question": "What career opportunities can learning Linux open?",
+        "answer": "Linux skills are highly valued in IT roles such as system administrator, DevOps engineer, cloud engineer, and cybersecurity specialist."
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Python for Hackers",
+    "description": "Learn the fundamentals of Python programming for ethical hacking and security testing.",
+    "duration": "2 Weeks",
+    "level": "All Levels",
+    "imageUrl": "../assets/img/courseImg/pythonhack.jpg",
+    "overview": "Welcome to 'Python for Hackers,' a specialized course designed to teach you Python programming skills tailored for ethical hacking and security testing. Led by Jane Smith, a cybersecurity expert with extensive experience in penetration testing and ethical hacking, this course covers essential topics including Python basics, network scanning, vulnerability assessment, exploitation techniques, cryptography, and security tools through hands-on labs and practical exercises.",
+    "curriculum": [
+      "Introduction to Python Programming",
+      "Python Scripting for Network Scanning",
+      "Vulnerability Assessment with Python",
+      "Exploitation Techniques and Python",
+      "Cryptography and Python",
+      "Python Security Tools",
+      "Real-World Applications of Python in Hacking",
+      "Ethical Considerations in Hacking"
+    ],
+    "instructor": "Jane Smith is a cybersecurity expert specializing in penetration testing and ethical hacking. With years of practical experience, she has helped organizations identify and address security vulnerabilities using Python and other tools.",
+    "faqs": [
+      {
+        "question": "Do I need any prior knowledge of hacking or cybersecurity?",
+        "answer": "Some familiarity with basic cybersecurity concepts is recommended. This course is designed for beginners in Python programming interested in ethical hacking."
+      },
+      {
+        "question": "Will I receive a certificate after completing the course?",
+        "answer": "Yes, you will receive a certificate of completion upon successfully finishing the course."
+      },
+      {
+        "question": "What practical skills will I gain from this course?",
+        "answer": "By the end of the course, you'll be proficient in Python programming for ethical hacking, capable of network scanning, vulnerability assessment, exploitation, cryptography, and using security tools in real-world scenarios."
+      },
+      {
+        "question": "Are there any hands-on labs or exercises in the course?",
+        "answer": "Yes, there will be extensive hands-on labs and exercises to reinforce your learning and practical skills in Python for hacking."
+      },
+      {
+        "question": "What are the ethical considerations discussed in this course?",
+        "answer": "This course emphasizes ethical hacking practices, focusing on legal and moral aspects of penetration testing and security assessments."
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Introduction to Cloud Computing",
+    "description": "Explore the basics of cloud computing and its applications.",
+    "duration": "2 Weeks",
+    "level": "All Levels",
+    "imageUrl": "../assets/img/courseImg/cloud.jpeg",
+    "overview": "Welcome to 'Introduction to Cloud Computing,' a foundational course designed to introduce you to the fundamentals of cloud computing and its practical applications. Led by Jane Smith, a cloud solutions architect with extensive experience, this course covers essential topics including cloud computing concepts, types of cloud services (IaaS, PaaS, SaaS), cloud deployment models (public, private, hybrid), cloud security, scalability, and cost management through interactive lectures and hands-on exercises.",
+    "curriculum": [
+      "Understanding Cloud Computing Concepts",
+      "Types of Cloud Services (IaaS, PaaS, SaaS)",
+      "Cloud Deployment Models (Public, Private, Hybrid)",
+      "Cloud Security Best Practices",
+      "Scalability and Elasticity in Cloud Computing",
+      "Cloud Cost Management Strategies",
+      "Real-World Applications of Cloud Computing",
+      "Future Trends in Cloud Technology"
+    ],
+    "instructor": "Jane Smith is a seasoned cloud solutions architect specializing in cloud computing technologies. With a deep understanding of cloud architectures and best practices, she has helped numerous organizations adopt and optimize cloud solutions.",
+    "faqs": [
+      {
+        "question": "Do I need any prior knowledge of cloud computing?",
+        "answer": "No prior knowledge is required. This course is designed for beginners as well as those familiar with IT concepts."
+      },
+      {
+        "question": "Will I receive a certificate after completing the course?",
+        "answer": "Yes, you will receive a certificate of completion upon successfully finishing the course."
+      },
+      {
+        "question": "What practical skills will I gain from this course?",
+        "answer": "By the end of the course, you'll understand cloud computing fundamentals, types of cloud services, deployment models, security practices, scalability concepts, cost management strategies, and real-world applications."
+      },
+      {
+        "question": "Are there any hands-on labs or exercises in the course?",
+        "answer": "Yes, there will be hands-on labs and exercises to help you apply what you learn and gain practical experience with cloud computing concepts."
+      },
+      {
+        "question": "How will this course benefit my career?",
+        "answer": "This course will equip you with foundational knowledge and practical skills in cloud computing, which are highly sought after in today's digital economy across various industries."
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "AWS Fundamentals",
+    "description": "Learn the core services of Amazon Web Services.",
+    "duration": "2 Weeks",
+    "level": "All Levels",
+    "imageUrl": "../assets/img/courseImg/aws.jpg",
+    "overview": "Welcome to 'AWS Fundamentals,' a comprehensive course designed to introduce you to the core services of Amazon Web Services (AWS). Led by Jane Smith, a cloud solutions architect with extensive experience in AWS, this course covers essential topics including AWS basics, compute services, storage options, networking, security, databases, and advanced use cases through practical demonstrations and case studies.",
+    "curriculum": [
+      "Introduction to Amazon Web Services (AWS)",
+      "AWS Compute Services (EC2, Lambda)",
+      "AWS Storage Solutions (S3, EBS)",
+      "Networking in AWS (VPC)",
+      "AWS Security and Identity Management",
+      "AWS Databases (RDS, DynamoDB)",
+      "Deployment and Management in AWS",
+      "Advanced Use Cases and Case Studies"
+    ],
+    "instructor": "Jane Smith is a seasoned cloud solutions architect specializing in Amazon Web Services (AWS). With years of hands-on experience, she has helped organizations optimize and scale their infrastructure using AWS.",
+    "faqs": [
+      {
+        "question": "Do I need any prior knowledge of cloud computing or AWS?",
+        "answer": "No prior knowledge is required. This course is designed for beginners as well as those familiar with cloud technologies."
+      },
+      {
+        "question": "Will I receive a certificate after completing the course?",
+        "answer": "Yes, you will receive a certificate of completion upon successfully finishing the course."
+      },
+      {
+        "question": "What practical skills will I gain from this course?",
+        "answer": "By the end of the course, you'll be able to provision AWS resources, deploy applications, manage data storage, configure networking, implement security best practices, and handle advanced use cases in AWS."
+      },
+      {
+        "question": "Are there any hands-on labs or exercises in the course?",
+        "answer": "Yes, there will be hands-on labs and exercises to help you apply what you learn and gain practical experience with AWS."
+      },
+      {
+        "question": "Is there a free tier or trial available for practicing AWS?",
+        "answer": "Yes, AWS offers a free tier and trial period for new users, which you can utilize for practice during and after the course."
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Azure Basics",
+    "description": "Understand the basics of Microsoft Azure and its services.",
+    "duration": "2 Weeks",
+    "level": "All Levels",
+    "imageUrl": "../assets/img/courseImg/azure.jpg",
+    "overview": "Welcome to 'Azure Basics,' a foundational course designed to introduce you to Microsoft Azure and its core services. Led by Jane Smith, a cloud solutions architect with extensive experience in Azure, this course covers essential topics including Azure fundamentals, virtual machines, cloud storage, networking, security, databases, and advanced scenarios through practical demonstrations and case studies.",
+    "curriculum": [
+      "Introduction to Microsoft Azure",
+      "Azure Virtual Machines and Compute",
+      "Azure Storage Solutions",
+      "Networking in Azure",
+      "Azure Security and Identity Management",
+      "Azure Databases and Data Services",
+      "Deployment Strategies in Azure",
+      "Advanced Scenarios and Case Studies"
+    ],
+    "instructor": "Jane Smith is a seasoned cloud solutions architect specializing in Microsoft Azure. With years of experience, she has helped numerous organizations leverage Azure for scalable and secure cloud solutions.",
+    "faqs": [
+      {
+        "question": "Do I need any prior knowledge of cloud computing or Microsoft Azure?",
+        "answer": "No prior knowledge is required. This course is designed for beginners as well as those familiar with cloud technologies."
+      },
+      {
+        "question": "Will I receive a certificate after completing the course?",
+        "answer": "Yes, you will receive a certificate of completion upon successfully finishing the course."
+      },
+      {
+        "question": "What practical skills will I gain from this course?",
+        "answer": "By the end of the course, you'll be able to deploy virtual machines, manage Azure storage, configure networking, implement Azure security practices, work with Azure databases, and handle advanced scenarios in Azure."
+      },
+      {
+        "question": "Are there any hands-on labs or exercises in the course?",
+        "answer": "Yes, there will be hands-on labs and exercises to help you apply what you learn and gain practical experience with Microsoft Azure."
+      },
+      {
+        "question": "Is there a free trial or sandbox environment available for practicing Azure?",
+        "answer": "Yes, Microsoft Azure offers a free tier and sandbox environment for practice, which you can use during and after the course."
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Google Cloud Platform",
+    "description": "Get started with Google Cloud Platform and its features.",
+    "duration": "2 Weeks",
+    "level": "All Levels",
+    "imageUrl": "../assets/img/courseImg/cc4.jpeg",
+    "overview": "Welcome to 'Google Cloud Platform,' a comprehensive course designed to introduce you to the core features and services of Google Cloud. Led by Jane Smith, a cloud solutions architect with extensive experience, this course covers essential topics including Google Cloud fundamentals, compute engine, storage options, networking, security, data services, and advanced use cases through practical examples and case studies.",
+    "curriculum": [
+      "Introduction to Google Cloud Platform",
+      "Compute Engine and Virtual Machines",
+      "Cloud Storage Solutions",
+      "Networking in Google Cloud",
+      "Security and Identity Management",
+      "Data Services and Analytics",
+      "Deployment Strategies",
+      "Advanced Use Cases and Case Studies"
+    ],
+    "instructor": "Jane Smith is a seasoned cloud solutions architect with hands-on experience in designing and implementing Google Cloud solutions for enterprises. She has a proven track record of helping businesses leverage cloud technologies for scalability and efficiency.",
+    "faqs": [
+      {
+        "question": "Do I need any prior knowledge of cloud computing or Google Cloud Platform?",
+        "answer": "No prior knowledge is required. This course is designed for beginners as well as those familiar with cloud technologies."
+      },
+      {
+        "question": "Will I receive a certificate after completing the course?",
+        "answer": "Yes, you will receive a certificate of completion upon successfully finishing the course."
+      },
+      {
+        "question": "What practical skills will I gain from this course?",
+        "answer": "By the end of the course, you'll be able to deploy applications, manage cloud resources, implement security practices, and utilize data services on Google Cloud Platform."
+      },
+      {
+        "question": "Are there any hands-on labs or exercises in the course?",
+        "answer": "Yes, there will be hands-on labs and exercises to help you apply what you learn and gain practical experience."
+      },
+      {
+        "question": "Is there a recommended cloud platform for practicing Google Cloud?",
+        "answer": "Google Cloud Platform offers a free tier for practice, but any cloud platform with similar services can be used for learning purposes."
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Python for Beginners",
+    "description": "Learn the basics of Python programming from scratch.",
+    "duration": "2 Weeks",
+    "level": "All Levels",
+    "imageUrl": "../assets/img/courseImg/py1.jpeg",
+    "overview": "Welcome to 'Python for Beginners,' a comprehensive course designed to teach you the fundamentals of Python programming from scratch. Led by Jane Smith, a seasoned software engineer with over 15 years of experience, this course covers basic Python syntax, data types, control structures, functions, introduction to object-oriented programming, and essential topics in UI/UX design, Figma basics, wireframing, prototyping, design principles, user research, usability testing, responsive design, design systems, and advanced techniques through real-world case studies.",
+    "curriculum": [
+      "Basic Python Syntax",
+      "Data Types",
+      "Control Structures",
+      "Functions",
+      "Introduction to Object-Oriented Programming"
+    ],
+    "instructor": "Jane Smith is a seasoned software engineer with over 15 years of experience in the industry. She has worked for various tech companies, developing software solutions and mentoring junior developers.",
+    "faqs": [
+      {
+        "question": "Do I need any prior knowledge of programming?",
+        "answer": "No prior programming knowledge is required. This course is designed for absolute beginners."
+      },
+      {
+        "question": "Will I receive a certificate after completing the course?",
+        "answer": "Yes, you will receive a certificate of completion upon successfully finishing the course."
+      },
+      {
+        "question": "What topics will be covered in the course?",
+        "answer": "The course will cover basic Python syntax, data types, control structures, functions, and introduction to object-oriented programming."
+      },
+      {
+        "question": "Are there any assignments or quizzes?",
+        "answer": "Yes, there will be assignments and quizzes to help reinforce your learning and practice Python programming."
+      },
+      {
+        "question": "Is there a recommended IDE for practicing Python?",
+        "answer": "While any Python IDE can be used, we recommend using PyCharm or VS Code for a better coding experience."
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Advanced Python Techniques",
+    "description": "Master advanced Python programming concepts.",
+    "duration": "2 Weeks",
+    "level": "All Levels",
+    "imageUrl": "../assets/img/courseImg/py2.jpeg",
+    "overview": "Welcome to 'Advanced Python Techniques,' a comprehensive course aimed at mastering advanced Python programming concepts. Led by Jane Smith, a seasoned software engineer with over 15 years of experience, this course covers advanced topics including decorators, generators, context managers, concurrency, advanced data structures, and practical applications through real-world case studies.",
+    "curriculum": [
+      "Decorators",
+      "Generators",
+      "Context Managers",
+      "Concurrency",
+      "Advanced Data Structures",
+      "Advanced Techniques and Case Studies"
+    ],
+    "instructor": "Jane Smith is a seasoned software engineer with over 15 years of experience in the industry. She has worked for various tech companies, developing software solutions and mentoring junior developers.",
+    "faqs": [
+      {
+        "question": "Do I need any prior knowledge of Python?",
+        "answer": "Yes, this course assumes a solid understanding of basic Python programming concepts. It is designed for intermediate to advanced learners."
+      },
+      {
+        "question": "Will I receive a certificate after completing the course?",
+        "answer": "Yes, you will receive a certificate of completion upon successfully finishing the course."
+      },
+      {
+        "question": "What specific advanced topics will be covered?",
+        "answer": "The course will cover advanced Python topics such as decorators, generators, context managers, concurrency, and advanced data structures."
+      },
+      {
+        "question": "Will there be coding exercises and assignments?",
+        "answer": "Yes, you'll have hands-on coding exercises and assignments to apply advanced Python techniques."
+      },
+      {
+        "question": "Is there a recommended textbook or additional reading?",
+        "answer": "While there's no required textbook, supplementary reading materials and resources will be provided for further exploration."
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Data Analysis with Python",
+    "description": "Use Python for data analysis and visualization.",
+    "duration": "2 Weeks",
+    "level": "All Levels",
+    "imageUrl": "../assets/img/courseImg/py3.jpeg",
+    "overview": "Welcome to 'Data Analysis with Python,' a comprehensive course designed to teach you how to use Python for data analysis and visualization. Led by John Doe, a seasoned data analyst with over 10 years of experience, this course covers essential topics including Python programming fundamentals, data manipulation with Pandas, data visualization with Matplotlib and Seaborn, exploratory data analysis (EDA), statistical analysis, and practical insights through real-world case studies.",
+    "curriculum": [
+      "Python Programming Fundamentals",
+      "Data Manipulation with Pandas",
+      "Data Visualization with Matplotlib and Seaborn",
+      "Exploratory Data Analysis (EDA)",
+      "Statistical Analysis",
+      "Advanced Techniques and Case Studies"
+    ],
+    "instructor": "John Doe is a seasoned data analyst with over 10 years of experience in Python programming and data analysis. He specializes in using Python for statistical modeling, machine learning, and data visualization.",
+    "faqs": [
+      {
+        "question": "Do I need any prior knowledge of Python or data analysis?",
+        "answer": "No prior knowledge is required. This course is designed for beginners as well as experienced data analysts."
+      },
+      {
+        "question": "Will I receive a certificate after completing the course?",
+        "answer": "Yes, you will receive a certificate of completion upon successfully finishing the course."
+      },
+      {
+        "question": "What tools and libraries will be used in the course?",
+        "answer": "The course primarily uses Python programming language along with popular libraries like Pandas, Matplotlib, and Seaborn for data analysis and visualization."
+      },
+      {
+        "question": "Are there any prerequisites for this course?",
+        "answer": "Basic understanding of Python programming and data concepts would be beneficial, but not required."
+      },
+      {
+        "question": "Will there be practical projects to work on?",
+        "answer": "Yes, you'll have hands-on projects to analyze and visualize data using Python."
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Web Development with Python",
+    "description": "Learn how to develop web applications using Python and Django.",
+    "duration": "2 Weeks",
+    "level": "All Levels",
+    "imageUrl": "../assets/img/courseImg/py4.jpeg",
+    "overview": "Welcome to 'Web Development with Python,' a comprehensive course designed to teach you how to develop web applications using Python and Django. Led by Jane Smith, a seasoned developer with over 10 years of experience, this course covers essential topics including Python programming fundamentals, Django web framework, database integration, RESTful APIs, user authentication, and deployment strategies through practical exercises and real-world case studies.",
+    "curriculum": [
+      "Python Programming Fundamentals",
+      "Introduction to Django Framework",
+      "Database Integration with Django",
+      "Building RESTful APIs with Django",
+      "User Authentication and Authorization",
+      "Deployment Strategies for Python Applications",
+      "Advanced Techniques and Case Studies"
+    ],
+    "instructor": "Jane Smith is a seasoned developer with over 10 years of experience in web application development. She has expertise in Python programming and Django framework, focusing on building scalable and secure web solutions.",
+    "faqs": [
+      {
+        "question": "Do I need any prior knowledge of Python or web development?",
+        "answer": "No prior knowledge is required. This course is designed for beginners as well as experienced developers."
+      },
+      {
+        "question": "Will I receive a certificate after completing the course?",
+        "answer": "Yes, you will receive a certificate of completion upon successfully finishing the course."
+      },
+      {
+        "question": "What tools and frameworks will be used in the course?",
+        "answer": "The course primarily uses Python programming language and Django framework for web development exercises."
+      },
+      {
+        "question": "Are there any prerequisites for this course?",
+        "answer": "Basic understanding of programming concepts and web technologies would be beneficial, but not required."
+      },
+      {
+        "question": "Will there be practical projects to work on?",
+        "answer": "Yes, you'll have hands-on projects to build and deploy web applications using Python and Django."
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "title": "Graphic Design Basics",
+    "description": "Learn the fundamentals of graphic design using popular tools.",
+    "duration": "2 Weeks",
+    "level": "All Levels",
+    "imageUrl": "../assets/img/courseImg/gd.webp",
+    "overview": "Welcome to 'Graphic Design Basics,' a comprehensive course designed to teach you the fundamental principles of graphic design using popular tools. Led by Jane Smith, a seasoned graphic designer with over 10 years of experience, this course covers essential topics including introduction to graphic design principles, color theory, typography, layout design, image editing, and illustration using industry-standard tools like Adobe Photoshop and Illustrator. Through practical exercises and real-world case studies, you will gain the skills to create compelling visual designs for digital and print media.",
+    "curriculum": [
+      "Introduction to Graphic Design Principles",
+      "Color Theory and Application",
+      "Typography Essentials",
+      "Layout Design Fundamentals",
+      "Image Editing Techniques with Adobe Photoshop",
+      "Illustration Techniques with Adobe Illustrator",
+      "Advanced Graphic Design Techniques",
+      "Real-world Case Studies and Projects"
+    ],
+    "instructor": "Jane Smith is a seasoned graphic designer with over 10 years of experience in the industry. She has worked for various companies, creating visual identities, branding materials, and digital assets.",
+    "faqs": [
+      {
+        "question": "Do I need any prior knowledge of graphic design or specific tools?",
+        "answer": "No prior knowledge is required. This course is designed for beginners as well as experienced designers."
+      },
+      {
+        "question": "Will I receive a certificate after completing the course?",
+        "answer": "Yes, you will receive a certificate of completion upon successfully finishing the course."
+      },
+      {
+        "question": "What software tools will be used in the course?",
+        "answer": "The course primarily uses industry-standard tools like Adobe Photoshop and Illustrator for graphic design exercises."
+      },
+      {
+        "question": "Are there any assignments or projects in the course?",
+        "answer": "Yes, you'll have hands-on assignments and projects to apply what you've learned and build your portfolio."
+      },
+      {
+        "question": "Is there a recommended textbook or reading materials?",
+        "answer": "While there's no required textbook, supplementary reading materials and resources will be provided for further learning."
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "title": "UI/UX Design Principles",
+    "description": "Understand the principles of UI/UX design for better user experiences.",
+    "duration": "2 Weeks",
+    "level": "All Levels",
+    "imageUrl": "../../assets/img/courseImg/uiux.jpeg",
+    "overview": "Welcome to 'UI/UX Design Principles,' a comprehensive course aimed at providing you with a deep understanding of UI/UX design principles for creating superior user experiences. Led by John Doe, a seasoned UI/UX designer with over 10 years of industry experience, this course covers essential topics including Figma basics, wireframing, prototyping, design systems, responsive design, and advanced techniques through real-world case studies.",
+    "curriculum": [
+      "Introduction to UI/UX Design",
+      "Figma Basics",
+      "Wireframing and Prototyping",
+      "Design Principles",
+      "User Research and Usability Testing",
+      "Responsive Design",
+      "Design Systems",
+      "Advanced Techniques and Case Studies"
+    ],
+    "instructor": "John Doe is a seasoned UI/UX designer with over 10 years of experience in the industry. He has worked for various companies, designing user interfaces and experiences for websites, mobile apps, and software applications.",
+    "faqs": [
+      {
+        "question": "Do I need any prior knowledge of UI/UX design?",
+        "answer": "No prior knowledge is required. This course is designed for beginners as well as experienced designers."
+      },
+      {
+        "question": "Will I receive a certificate after completing the course?",
+        "answer": "Yes, you will receive a certificate of completion upon successfully finishing the course."
+      },
+      {
+        "question": "How practical is the course content?",
+        "answer": "The course includes hands-on exercises and projects to apply theory into practice, ensuring you gain practical skills."
+      },
+      {
+        "question": "What tools will be used in the course?",
+        "answer": "The course primarily uses Figma for UI/UX design exercises. Familiarity with Figma will be beneficial, but not required."
+      },
+      {
+        "question": "Is there a community or forum for course participants?",
+        "answer": "Yes, there is a dedicated community forum where you can interact with fellow participants, ask questions, and share insights."
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Adobe Photoshop Essentials",
+    "description": "Get started with Adobe Photoshop and learn essential techniques.",
+    "duration": "2 Weeks",
+    "level": "All Levels",
+    "imageUrl": "../assets/img/courseImg/adobe.jpg",
+    "overview": "Welcome to 'Adobe Photoshop Essentials,' a comprehensive course designed to introduce you to the essential techniques of Adobe Photoshop. Led by John Doe, a seasoned UI/UX designer with over a decade of experience, this course covers fundamental design principles, Figma basics, wireframing, prototyping, responsive design, design systems, and advanced techniques applicable to Photoshop.",
+    "curriculum": [
+      "Introduction to Adobe Photoshop",
+      "Understanding Tools and Interface",
+      "Basic Photo Editing and Retouching",
+      "Working with Layers and Masks",
+      "Color Correction and Adjustment Layers",
+      "Typography and Text Effects",
+      "Digital Illustration Techniques",
+      "Advanced Image Manipulation and Compositing"
+    ],
+    "instructor": "John Doe is a seasoned UI/UX designer with over 10 years of experience in the industry. He has worked for various companies, designing user interfaces and experiences for websites, mobile apps, and software applications.",
+    "faqs": [
+      {
+        "question": "Do I need any prior knowledge of Adobe Photoshop?",
+        "answer": "No prior knowledge is required. This course is designed for beginners as well as experienced designers."
+      },
+      {
+        "question": "Is Adobe Photoshop included with the course?",
+        "answer": "No, Adobe Photoshop software is not included. You'll need to have access to Adobe Photoshop to follow along with the course."
+      },
+      {
+        "question": "Will I receive any course materials or resources?",
+        "answer": "Yes, you will receive downloadable resources such as project files and practice exercises used in the course."
+      },
+      {
+        "question": "How can I get help if I have questions during the course?",
+        "answer": "You can ask questions and seek clarification through our dedicated course discussion forum."
+      },
+      {
+        "question": "What can I do after completing this course?",
+        "answer": "After completing this course, you'll have the skills to edit photos, create digital illustrations, and enhance images using Adobe Photoshop."
+      },
+      {
+        "question": "Will there be assignments or projects to complete?",
+        "answer": "Yes, you'll have hands-on assignments and projects to practice and apply what you've learned throughout the course."
+      }
+    ]
+  },  
+  {
+    "id": 24,
+    "title": "Free Figma Crash Cource.",
+    "description": "Start your design career or enhance your skills with our free Figma tutorial for beginners. Master its features, prototype interactive websites, and more.",
+    "duration": "2 Weeks",
+    "level": "All Levels",
+    "imageUrl": "../assets/img/courseImg/figma.jpg",
     "overview": "...",
     "curriculum": [ "Introduction to UI/UX Design",
     "Figma Basics",
@@ -28,32 +969,87 @@
 ]
   },
   {
-    "id": 2,
-    "title": "Web Development Bootcamp",
-    "description": "Learn to build modern websites and web applications from scratch.",
-    "duration": "4 Weeks",
-    "level": "Beginner",
-    "imageUrl": "../assets/img/courseImg/cc2.jpeg",
-    "overview": "...",
-    "curriculum":  [ "Introduction to UI/UX Design",
-    "Figma Basics",
-    "Wireframing and Prototyping",
-    "Design Principles",
-    "User Research and Usability Testing",
-    "Responsive Design",
-    "Design Systems",
-    "Advanced Techniques and Case Studies"
-],
-    "instructor": "John Doe is a seasoned UI/UX designer with over 10 years of experience in the industry. He has worked for various companies, designing user interfaces and experiences for websites, mobile apps, and software applications.",
-    "faqs": [{
-      "question": "Do I need any prior knowledge of design?",
-      "answer": "No prior knowledge is required. This course is designed for beginners as well as experienced designers."
-    },
-    {
-      "question": "Will I get a certificate after completing the course?",
-      "answer": "Yes, you will receive a certificate of completion after successfully finishing the course."
-    }
-]
-  
-  }
-]
+    "id": 25,
+    "title": "Canva For Beginners",
+    "description": "Learn how to design with Canva. Thousands of tutorials on how to design like a pro, explore typography, design trends, color and more!",
+    "duration": "2 Weeks",
+    "level": "All Levels",
+    "imageUrl": "../assets/img/courseImg/illustrator.jpg",
+    "overview": "Welcome to 'Canva For Beginners,' a comprehensive course designed to introduce you to the world of graphic design using Canva. Led by John Doe, a seasoned graphic designer with over 10 years of experience, this course covers essential topics such as getting started with Canva, exploring templates, working with text and images, creating social media graphics, designing presentations, using color theory, and understanding typography. Whether you're new to design or looking to enhance your skills, this course is perfect for you.",
+    "curriculum": [
+      "Getting Started with Canva",
+      "Exploring Canva Templates",
+      "Working with Text and Images",
+      "Creating Social Media Graphics",
+      "Designing Presentations",
+      "Color Theory in Design",
+      "Typography Basics",
+      "Advanced Techniques and Tips"
+    ],
+    "instructor": "John Doe is a seasoned graphic designer with over 10 years of experience in the industry. He has worked for various companies, designing user interfaces and experiences for websites, mobile apps, and software applications. John specializes in using Canva for creating stunning graphics and designs.",
+    "faqs": [
+      {
+        "question": "Do I need any prior knowledge of design?",
+        "answer": "No prior knowledge is required. This course is designed for beginners as well as experienced designers."
+      },
+      {
+        "question": "Will I get a certificate after completing the course?",
+        "answer": "Yes, you will receive a certificate of completion after successfully finishing the course."
+      },
+      {
+        "question": "Is Canva included with the course?",
+        "answer": "No, Canva is not included. You'll need to have access to Canva to follow along with the course."
+      },
+      {
+        "question": "Are there any assignments or projects?",
+        "answer": "Yes, there will be hands-on assignments and projects to help you apply what you've learned."
+      },
+      {
+        "question": "Can I use the free version of Canva for this course?",
+        "answer": "Yes, the free version of Canva has all the features needed for this course. However, a Pro account will provide additional resources and tools."
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "title": "Illustrator for Beginners",
+    "description": "Learn how to create vector graphics using Adobe Illustrator.",
+    "duration": "2 Weeks",
+    "level": "All Levels",
+    "imageUrl": "../assets/img/courseImg/canva.jpg",
+    "overview": "Welcome to 'Illustrator for Beginners,' a comprehensive course designed to introduce you to the world of vector graphics through Adobe Illustrator. Led by Jane Smith, an experienced graphic designer specializing in Illustrator, this course covers essential topics such as the Illustrator interface, basic tools, creating shapes, working with colors and gradients, using layers and artboards, typography, and exporting your work. Whether you're new to design or looking to refine your skills, this course is tailored for you.",
+    "curriculum": [
+      "Introduction to Adobe Illustrator",
+      "Basic Tools and Techniques",
+      "Creating Shapes and Illustrations",
+      "Working with Colors and Gradients",
+      "Using Layers and Artboards",
+      "Typography in Illustrator",
+      "Advanced Techniques and Tips",
+      "Exporting and Sharing Your Work"
+    ],
+    "instructor": "Jane Smith is an experienced graphic designer specializing in Adobe Illustrator. With a career spanning over 15 years, Jane has worked on various projects ranging from digital illustrations to complex vector graphics. She brings her expertise and passion for design to help learners master Illustrator.",
+    "faqs": [
+      {
+        "question": "Is Adobe Illustrator included with the course?",
+        "answer": "No, Adobe Illustrator is not included. You'll need to have access to Adobe Illustrator software to follow along with the course."
+      },
+      {
+        "question": "Do I need any prior knowledge of design or Adobe Illustrator?",
+        "answer": "No prior knowledge is required. This course is designed for beginners as well as experienced designers."
+      },
+      {
+        "question": "Will I receive any course materials or resources?",
+        "answer": "Yes, you will receive downloadable resources such as project files and templates used in the course."
+      },
+      {
+        "question": "How can I get help if I have questions during the course?",
+        "answer": "You can ask questions and seek clarification through our dedicated course discussion forum."
+      },
+      {
+        "question": "What can I do after completing this course?",
+        "answer": "After completing this course, you'll have the skills to create vector graphics, design interfaces, and prototype user experiences using Adobe Illustrator."
+      }
+    ]
+  }  
+]  
