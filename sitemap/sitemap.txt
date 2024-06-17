@@ -1,0 +1,22 @@
+QWICKLEARN - A Online Learning Platform
+├── Home
+├── About
+├── Contact
+├── Courses
+│   └── Course Overview
+├── FAQ
+├── Signing/Signup Page
+│   └── Learner Pages
+│       ├── Dashboard
+│       │   ├── My Learning
+│       │   │   ├── Lessons Page
+│       │   │   │   ├── Overview
+│       │   │   │   ├── Notes
+│       │   │   │   ├── Resources
+│       │   │   │   └── Quiz
+│       │   ├── Achievements
+│       │   │   └── Get Certificate
+│       │   ├── Discussion Forum
+│       │   │   └── Topic Based Discussion
+│       │   ├── Feedback
+│       │   └── Profile
