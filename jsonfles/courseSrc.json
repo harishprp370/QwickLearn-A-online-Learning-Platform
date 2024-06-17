@@ -48,23 +48,23 @@
         "resources": [
           {
             "name": "Introduction to AI",
-            "url": "https://example.com/resource1.pdf"
+            "url": "../../assets/pdf/ai/Introduction-To-AI.pdf"
           },
           {
             "name": "Machine Learning Basics",
-            "url": "https://example.com/resource2.pdf"
+            "url": "../../assets/pdf/ai/machine_learning.pdf"
           },
           {
             "name": "Deep Learning Overview",
-            "url": "https://example.com/resource3.pdf"
+            "url": "../../assets/pdf/ai/deep_learning.pdf"
           },
           {
             "name": "Natural Language Processing Guide",
-            "url": "https://example.com/resource4.pdf"
+            "url": "../../assets/pdf/ai/nlp.pdf"
           },
           {
             "name": "AI Ethics and Bias Article",
-            "url": "https://example.com/resource5.pdf"
+            "url": "../../assets/pdf/ai/ethics and bias notes.pdf"
           }
         ],
         "quiz": [
@@ -169,23 +169,23 @@
           "resources": [
             {
               "name": "HTML Basics Guide",
-              "url": "https://example.com/html_basics.pdf"
+              "url": "../../assets/pdf/web_technology/HTML.pdf"
             },
             {
               "name": "CSS Styling Guide",
-              "url": "https://example.com/css_styling.pdf"
+              "url": "../../assets/pdf/web_technology/CSS.pdf"
             },
             {
               "name": "Responsive Design Tutorial",
-              "url": "https://example.com/responsive_design.pdf"
+              "url": "../../assets/pdf/web_technology/responsive_design.pdf"
             },
             {
               "name": "Flexbox and Grid Cheat Sheet",
-              "url": "https://example.com/flexbox_grid_cheat_sheet.pdf"
+              "url": "../../assets/pdf/web_technology/Flexbox-and-CSS-Grid-Properties-Cheat-Sheet.pdf"
             },
             {
               "name": "CSS Frameworks Overview",
-              "url": "https://example.com/css_frameworks.pdf"
+              "url": "../../assets/pdf/web_technology/W3.CSS.pdf"
             }
           ],
           "quiz": [
@@ -290,23 +290,15 @@
             "resources": [
               {
                 "name": "Figma Beginner's Guide",
-                "url": "https://example.com/figma_beginners_guide.pdf"
+                "url": "../../assets/pdf/figma/figma-tutorial.pdf"
               },
               {
                 "name": "UI Design Principles eBook",
-                "url": "https://example.com/ui_design_principles_ebook.pdf"
-              },
-              {
-                "name": "Prototyping in Figma",
-                "url": "https://example.com/prototyping_in_figma.pdf"
+                "url": "../../assets/pdf/figma/ui.pdf"
               },
               {
                 "name": "Component Design Handbook",
-                "url": "https://example.com/component_design_handbook.pdf"
-              },
-              {
-                "name": "Collaborative Design Tips",
-                "url": "https://example.com/collaborative_design_tips.pdf"
+                "url": "../../assets/pdf/figma/component design.pdf"
               }
             ],
             "quiz": [
@@ -406,19 +398,19 @@
               "resources": [
                 {
                   "name": "Cybersecurity Basics Guide",
-                  "url": "https://example.com/cybersecurity_basics_guide.pdf"
+                  "url": "../../assets/pdf/cyber_security/cybersecuirty.pdf"
                 },
                 {
                   "name": "Network Security Handbook",
-                  "url": "https://example.com/network_security_handbook.pdf"
+                  "url": "../../assets/pdf/cyber_security/network_security.pdf"
                 },
                 {
                   "name": "Malware Prevention Strategies",
-                  "url": "https://example.com/malware_prevention_strategies.pdf"
+                  "url": "../../assets/pdf/cyber_security/malware.pdf"
                 },
                 {
                   "name": "Encryption Techniques Overview",
-                  "url": "https://example.com/encryption_techniques_overview.pdf"
+                  "url": "../../assets/pdf/cyber_security/encription.pdf"
                 }
               ],
               "quiz": [

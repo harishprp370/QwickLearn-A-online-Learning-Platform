@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Qwick Learn - Student lessons</title>
     <link rel="stylesheet" href="../../css/learner/lessons.css">
+
+
     <style>
-        .btn{
+        .btn {
             background-color: #4CAF50;
             color: #fff;
             padding: 10px 20px;
@@ -15,75 +18,82 @@
             cursor: pointer;
 
         }
-        li{
-            list-style: none;
 
+        li {
+            list-style: none;
+            margin-bottom: 5px;
+            font-size: 16px;
         }
     </style>
 </head>
+
 <body>
-         
-  <!--Main Content-->
-  <div class="container">
-    <nav class="breadcrumb">
-        <a href="mylearning.html">Home</a> >
-        <span id="course-name">Course Name</span>
-    </nav>
-    <div class="content">
-        <div class="main-content">
-            <div class="video-section">
-                <iframe id="video-frame" class="video-placeholder" frameborder="0"></iframe>
+
+    <!--Main Content-->
+    <div class="container">
+        <nav class="breadcrumb">
+            <a href="mylearning.html">Home</a> >
+            <span id="course-name">Course Name</span>
+        </nav>
+        <div class="content">
+            <div class="main-content">
+                <div class="video-section">
+                    <iframe id="video-frame" class="video-placeholder" frameborder="0"></iframe>
+                </div>
+                <div class="tabs">
+                    <button class="tablink" onclick="openTab(event, 'Overview')">Overview</button>
+                    <button class="tablink" onclick="openTab(event, 'Notes')">Notes</button>
+                    <button class="tablink" onclick="openTab(event, 'Resources')">Resources</button>
+                    <button class="tablink" onclick="openTab(event, 'Quiz')">Quiz</button>
+                </div>
+                <div class="tabcontent" id="Overview">
+                    <p id="overview-content">Overview content goes here.</p>
+                </div>
+                <div class="tabcontent" id="Notes">
+                    <textarea id="notes-text" rows="10" cols="100"
+                        placeholder="Write your notes here..."></textarea><br>
+                    <button onclick="downloadNotes()">Download Notes</button>
+                </div>
+                <div class="tabcontent" id="Resources">
+                    <ul id="resources-list"></ul>
+                    <iframe id="pdf-frame" style="width: 100%; height: 500px; border: none;"></iframe>
+                </div>
+
+
+                <div class="tabcontent" id="Quiz">
+                    <form id="quiz-form">
+                        <div id="quiz-content"></div>
+                        <button type="button" id="submit-quiz" class="btn">Submit Quiz</button>
+                    </form>
+                </div>
+                <button id="certificate-button" style="display: none;" class="btn">Get Certificate</button>
             </div>
-            <div class="tabs">
-                <button class="tablink" onclick="openTab(event, 'Overview')">Overview</button>
-                <button class="tablink" onclick="openTab(event, 'Notes')">Notes</button>
-                <button class="tablink" onclick="openTab(event, 'Resources')">Resources</button>
-                <button class="tablink" onclick="openTab(event, 'Quiz')">Quiz</button>
-            </div>
-            <div class="tabcontent" id="Overview">
-                <p id="overview-content">Overview content goes here.</p>
-            </div>
-            <div class="tabcontent" id="Notes">
-                <textarea id="notes-text" rows="10" cols="100" placeholder="Write your notes here..."></textarea><br>
-                <button onclick="downloadNotes()">Download Notes</button>
-            </div>
-            <div class="tabcontent" id="Resources">
-                <ul id="resources-list"></ul>
-            </div>
-            <div class="tabcontent" id="Quiz">
-                <form id="quiz-form">
-                    <div id="quiz-content"></div>
-                    <button type="button" id="submit-quiz" class="btn">Submit Quiz</button>
-                </form>
-            </div>
-            <button id="certificate-button" style="display: none;" class="btn">Get Certificate</button>
-        </div>
-        <div class="sidebar">
-            <div class="topic-list">
-                <p>LIST OF TOPICS</p>
-                <ul id="topic-list">
-                    <!-- Topics will be loaded here dynamically -->
-                </ul>
+            <div class="sidebar">
+                <div class="topic-list">
+                    <p>LIST OF TOPICS</p>
+                    <ul id="topic-list">
+                        <!-- Topics will be loaded here dynamically -->
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
-</div>
 
     <script>
-        document.addEventListener("DOMContentLoaded", function() {
+        document.addEventListener("DOMContentLoaded", function () {
             const urlParams = new URLSearchParams(window.location.search);
             const courseId = urlParams.get('course');
-        
+
             fetch('../../jsonfles/courseSrc.json')
                 .then(response => response.json())
                 .then(data => {
                     const course = data.courses[courseId];
                     if (course) {
                         document.getElementById("course-name").textContent = course.name;
-        
+
                         // Load Overview
                         document.getElementById("overview-content").textContent = course.overview;
-        
+
                         // Load Topics
                         const topicList = document.getElementById("topic-list");
                         course.topics.forEach(topic => {
@@ -91,32 +101,37 @@
                             const a = document.createElement("a");
                             a.href = "#";
                             a.textContent = topic.title;
-                            a.onclick = function() {
+                            a.onclick = function () {
                                 loadVideo(topic.video);
                             };
                             li.appendChild(a);
                             topicList.appendChild(li);
                         });
-        
+
                         // Load Resources
                         const resourcesList = document.getElementById("resources-list");
+                        const pdfFrame = document.getElementById("pdf-frame");
+
                         course.resources.forEach(resource => {
                             const li = document.createElement("li");
                             const a = document.createElement("a");
                             a.href = resource.url;
                             a.textContent = resource.name;
-                            a.setAttribute('download', '');
+                            a.addEventListener('click', function (event) {
+                                event.preventDefault();
+                                pdfFrame.src = resource.url;
+                            });
                             li.appendChild(a);
                             resourcesList.appendChild(li);
                         });
-        
+
                         // Load Quiz
                         const quizContent = document.getElementById("quiz-content");
                         course.quiz.forEach((quizItem, index) => {
                             const questionEl = document.createElement("p");
                             questionEl.textContent = `${index + 1}. ${quizItem.question}`;
                             quizContent.appendChild(questionEl);
-        
+
                             const optionsEl = document.createElement("ul");
                             quizItem.options.forEach((option, optionIndex) => {
                                 const optionEl = document.createElement("li");
@@ -132,40 +147,40 @@
                             });
                             quizContent.appendChild(optionsEl);
                         });
-        
+
                         if (course.topics.every(topic => topic.completed)) {
                             document.getElementById("certificate-button").style.display = 'block';
                         }
                     }
                 })
                 .catch(error => console.error('Error loading video data:', error));
-        
+
             function loadVideo(videoUrl) {
                 const videoFrame = document.getElementById('video-frame');
                 videoFrame.src = videoUrl;
             }
-        
-            window.openTab = function(evt, tabName) {
+
+            window.openTab = function (evt, tabName) {
                 var i, tabcontent, tablinks;
-            
+
                 // Get all elements with class="tabcontent" and hide them
                 tabcontent = document.getElementsByClassName("tabcontent");
                 for (i = 0; i < tabcontent.length; i++) {
                     tabcontent[i].style.display = "none";
                 }
-            
+
                 // Get all elements with class="tablink" and remove the class "active"
                 tablinks = document.getElementsByClassName("tablink");
                 for (i = 0; i < tablinks.length; i++) {
                     tablinks[i].classList.remove("active");
                 }
-            
+
                 // Show the current tab, and add an "active" class to the button that opened the tab
                 document.getElementById(tabName).style.display = "block";
                 evt.currentTarget.classList.add("active");
             }
-            
-            window.downloadNotes = function() {
+
+            window.downloadNotes = function () {
                 const notes = document.getElementById('notes-text').value;
                 const blob = new Blob([notes], { type: 'text/plain' });
                 const url = URL.createObjectURL(blob);
@@ -177,12 +192,12 @@
                 document.body.removeChild(a);
                 URL.revokeObjectURL(url);
             };
-        
-            document.getElementById("submit-quiz").addEventListener("click", function() {
+
+            document.getElementById("submit-quiz").addEventListener("click", function () {
                 const quizForm = document.getElementById("quiz-form");
                 const formData = new FormData(quizForm);
                 let allCorrect = true;
-        
+
                 fetch('../../jsonfles/courseSrc.json')
                     .then(response => response.json())
                     .then(data => {
@@ -193,7 +208,7 @@
                                 allCorrect = false;
                             }
                         });
-        
+
                         if (allCorrect) {
                             document.getElementById("certificate-button").style.display = 'block';
                         } else {
@@ -202,8 +217,8 @@
                     })
                     .catch(error => console.error('Error validating quiz answers:', error));
             });
-        
-            document.getElementById("certificate-button").addEventListener("click", function() {
+
+            document.getElementById("certificate-button").addEventListener("click", function () {
                 const userName = prompt("Please enter your name:");
                 if (!userName) {
                     alert("Name is required to generate the certificate.");
@@ -211,7 +226,7 @@
                 }
                 const courseName = document.getElementById("course-name").innerText;
                 const date = new Date().toLocaleDateString();
-        
+
                 const certificateTemplate = `
                     <div style="width: 80%; margin: 50px auto; padding: 20px; border: 2px solid #333; border-radius: 10px; text-align: center; position: relative; background: linear-gradient(0deg, rgba(255,232,182,1) 0%, rgba(190,208,202,1) 100%);">
                         <img src="../../assets/img/logo.png" alt="QwickLearn Logo" style="display: block; margin: 0 auto 10px; width: 100px;">
@@ -229,14 +244,16 @@
                         </div>
                     </div>
                 `;
-        
+
                 const newWindow = window.open();
                 newWindow.document.write(certificateTemplate);
                 newWindow.document.close();
                 newWindow.print();
             });
         });
-        
+
     </script>
+    <script src="https://mozilla.github.io/pdf.js/build/pdf.js"></script>
 </body>
+
 </html>
