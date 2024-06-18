@@ -38,7 +38,7 @@ fetch('../jsonfles/coursedetails.json')
         .then(data => {
           const reviews = data.comments;
           const reviewsTab = document.getElementById('reviews');
-          reviewsTab.innerHTML = `<ul>${reviews.map(review => `<li>${review.user.username}<br>${review.body}</li>`).join('')}</ul>`;
+          reviewsTab.innerHTML = `<ul>${reviews.map(review => `<li>Name: ${review.user.fullName}<br>Comment: ${review.body} <br>Likes: ${review.likes}</li>`).join('')}</ul>`;
         })
         .catch(error => console.error(error));
     }

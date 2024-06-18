@@ -1,7 +1,13 @@
 body{
-  background-image: url(../assets/img/loginbg.png);
+  background-image: url(../assets/img/Background.png);
   
 }
+
+.text-center{
+  margin-top: 1rem;
+
+}
+
 .h1{
     text-align: center;
     text-shadow: 6pc;
@@ -11,11 +17,12 @@ body{
 
 }
 
+
 .container{
-  position: relative;
+position: relative;
+
 }
 .text{
-  font-family: Georgia, 'Times New Roman', Times, serif;
     padding-top: 10px;
     padding-left: 25px;
     padding-right: 25px;;
@@ -29,11 +36,8 @@ body{
     border-radius: 2ch;
     border: 2px solid  rgba(75, 222, 156, 1);
     shape-outside: margin-box;
-}
-#abttxt{ 
-text-align: center;
-font-size: medium;
-
+    font-size: 1.3rem;
+    text-align: center;
 }
 
 .img1{
@@ -76,10 +80,10 @@ font-size: medium;
   margin-top: 5rem;
 }
 
-img{
+#img{
   transition: all 0.2s;
 }
-img:hover{
+#img:hover{
   transform: scale(1.1);
 }
 
@@ -164,9 +168,6 @@ img:hover{
 .social-links a:hover{
   color: #0c52a1;
 }
-
-
-
 /*demo*/
 .half-half-image-text{
   padding: 70px 0px;
